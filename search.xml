@@ -1150,7 +1150,7 @@
 <blockquote>
 <p>重点说明：</p>
 <p>网页端的网站在登录时通常需要输入账户的私钥才行， 但是我们不能保证网络环境的安全性，为了保护我们的账户，在使用网页端体验Nostr的过程中，请先下载浏览器插件Flamingo </p>
-<iframe class="embed" src="https://chrome.google.com/webstore/detail/flamingo-%E2%80%93-nostr-extensio/alkiaengfedemppafkallgifcmkldohe" contenteditable="false"></iframe>
+<p><a href="https://chrome.google.com/webstore/detail/flamingo-%E2%80%93-nostr-extensio/alkiaengfedemppafkallgifcmkldohe">https://chrome.google.com/webstore/detail/flamingo-%E2%80%93-nostr-extensio/alkiaengfedemppafkallgifcmkldohe</a></p>
 </blockquote>
 <p>用私钥登录Flamingo后，使用所有Nostr协议相关的网站时，只需要授权登录即可。</p>
 <p>好了，今天讲了Nostr协议应用的实际用法，下一集讲一些帮助我们更好的在Nostr网络中玩耍的东西。再会哈：）</p>
