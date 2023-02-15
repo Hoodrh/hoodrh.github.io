@@ -133,7 +133,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">24</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">25</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -143,7 +143,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">16</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">17</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -196,6 +196,143 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2023/J2N1TX/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="胡达尔汗">
+      <meta itemprop="description" content="我 在 建 构 自 我">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="胡达尔汗">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/J2N1TX/" class="post-title-link" itemprop="url">去中心化协议Nostr系列02</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-02-15 20:44:51 / 修改时间：20:48:45" itemprop="dateCreated datePublished" datetime="2023-02-15T20:44:51+08:00">2023-02-15</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%95%86%E4%B8%9A/" itemprop="url" rel="index"><span itemprop="name">商业</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/" itemprop="url" rel="index"><span itemprop="name">产品</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/" itemprop="url" rel="index"><span itemprop="name">Nostr</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>由于对Nostr协议感兴趣，搜索全网后发现相关中文文章很少，所以萌生了写一个系列的想法，在上一篇讲了一下去中心化协议Nostr的来历，这一篇直接上手，让大家可以用起来。</p>
+</blockquote>
+<p>Nostr作为一种协议，是一种比应用程序更加底层的存在，我们选择使用它的优势就在于：只需要一个账户，就可以使用该协议有关的所有应用，账户数据在所有应用上都是同步的。这样的账号系统在很大程度上保护了个人言论自由和个人财产权。</p>
+<p>传统的微信等系统中用户仅有账号使用权，不具备账号所有权，平台可以封禁甚至没收你辛苦经营的账号，个人权益不被保护和尊重。而在Nostr协议构成的网络中，任何一个应用或平台都没有对个人账户进行没收的权限，它们可以在A平台封禁你，但是你可以在B平台正常使用你的账号，在A平台期间积累的数据都没有丢失。</p>
+<h3 id="除此之外，为什么我们需要-Nostr"><a href="#除此之外，为什么我们需要-Nostr" class="headerlink" title="除此之外，为什么我们需要 Nostr"></a>除此之外，为什么我们需要 Nostr</h3><p>社交媒体已发展成为信息在世界范围内流动的重要方式。不幸的是，我们当前的社交媒体系统已损坏：</p>
+<ol>
+<li>用你的注意力来卖广告 </li>
+<li>使用奇怪的技术让你上瘾（参考第 1 点） </li>
+<li>根据您无法检查或更改的秘密算法，决定向您展示哪些内容 </li>
+<li>完全控制谁可以参与以及谁被审查 </li>
+<li>被垃圾邮件和机器人淹没</li>
+</ol>
+<h2 id="Nostr应用小知道"><a href="#Nostr应用小知道" class="headerlink" title="Nostr应用小知道"></a>Nostr应用小知道</h2><p>简单说明了我们为什么要用Nostr网络之后，就让我们上手用起来吧，目前的应用主要分为三个端口：</p>
+<ol>
+<li><p>IOS 端的Daums</p>
+</li>
+<li><p>Android端的Amethyst（个人推荐用这款，其他几款用起来实在不好）</p>
+</li>
+<li><p>web浏览器端的网站NostrGram.co、iris.to、snort.social</p>
+<iframe class="embed" src="https://snort.social/" contenteditable="false"></iframe>
+
+<iframe class="embed" src="https://iris.to/" contenteditable="false"></iframe>
+
+<iframe class="embed" src="https://nostrgram.co/#global:allEvents" contenteditable="false"></iframe></li>
+</ol>
+<h3 id="1-IOS-端的Damus"><a href="#1-IOS-端的Damus" class="headerlink" title="1. IOS 端的Damus"></a>1. IOS 端的Damus</h3><p>可以说Nostr协议可以获得如今这般的大范围传播，Damus是出了不少力的，目前整个Nostr协议上用户活跃程度、发帖数量等数据来看，Damus都是表现最好的。</p>
+<p>但由于我手里没有IOS的设备，所以上手介绍文章就不写Damus了，相关操作大家可以看Android端的介绍，两个应用在关键功能和数据操作上基本是一致的，苹果用户按照下面的安卓指南操作即可。</p>
+<h3 id="2-Android端的Amethyst"><a href="#2-Android端的Amethyst" class="headerlink" title="2. Android端的Amethyst"></a>2. Android端的Amethyst</h3><p>获取：可以直接在Google play 搜索“Amethyst”下载应用。</p>
+<p>下载完成后，打开应用，首次使用Nostr协议的app，选择生成新账号-输入你想要的账户名-确认，你点击之后协议会直接生成一个账户并显示公钥和私钥，把它们保存在安全的地方。</p>
+<blockquote>
+<p>重点：把私钥和公钥保存在安全的地方！！！</p>
+<p>私钥一旦丢失，私钥对应的账户将无法寻回</p>
+</blockquote>
+<p>然后你就进入应用了。</p>
+<p>在应用的首页你可以看到底部的四大功能栏，和其他社交软件差不多，你可以自行摸索和发文尝试，相信没有什么难度，就不在这里赘述了。重点讲一下首页左上方的profile部分，也就是你看到的左上角头像部分，我们将对这个部分的个人数据进行认识并设置，这将有助于我们更好的在Nostr网络上玩耍。</p>
+<p><img src="https://images.mirror-media.xyz/publication-images/rkDWQL17ueDEqSzYXGNMv.png?height=614&width=294" alt="img"></p>
+<p>点击头像之后左侧会出来半个页面，我们继续点击一下头像或者点击“👤Profile”就会进入个人首页。（其实左侧那半页有点多余，个人觉得点击头像后直接跳转个人首页即可）</p>
+<p>在个人首页，你可以看到你发布在Nostr网络上的内容、你关注的人、关注你的人、你连接的中继器（Relay）、私信、分享账号、个人信息设置等功能。其中，点击“分享”或“…”之后都可以复制自己的公钥，其他人可以通过公钥来找到你。</p>
+<p><img src="https://images.mirror-media.xyz/publication-images/CL1o377pIJlMFvDigYiOU.png?height=610&width=296" alt="img"></p>
+<p>点击分享功能右侧的“编辑”功能，弹窗出现个人信息编辑页，接下来让我们逐一来说明。</p>
+<p><img src="https://images.mirror-media.xyz/publication-images/71yzsn110eQzZTk0Jpm4s.png?height=622&width=294" alt="img"></p>
+<ol>
+<li>Display name ：显示在应用上的名字</li>
+<li>username：账户的名字，两个名字可以一致</li>
+<li>About me：自我介绍，使劲夸赞自己呗 : )</li>
+<li>Avatar URL：头像的图片，输入该头像图片对应的链接就行</li>
+<li>Banner URL：个人主页背景图，输入该背景图对应的链接</li>
+<li>Website URL：个人网页站点的域名，有就写一个嘛（没有也无所谓</li>
+<li>NIP-05：相当于域名，公钥那么长一串不好记也不好传播，可以用NIP05的名字来查找Nostr网络上的用户（具体生成方法后面的文章中会讲</li>
+<li>8和9都是闪电网络的账户地址，用来完成交易或打赏的，有需要的注册个闪电网络的钱包，将个人钱包地址粘贴上即可</li>
+</ol>
+<p>当填写完需要的信息之后，我们可以点击弹窗右上角的“Post”，相关信息就会被上传到Nostr协议上，个人信息得到更新。</p>
+<p>到这里基本上就了解了Nostr协议的应用使用方法，多玩多操作就行。</p>
+<h3 id="3-web浏览器端的网站NostrGram-co、iris-to、snort-social"><a href="#3-web浏览器端的网站NostrGram-co、iris-to、snort-social" class="headerlink" title="3. web浏览器端的网站NostrGram.co、iris.to、snort.social"></a>3. web浏览器端的网站NostrGram.co、iris.to、snort.social</h3><p>网页端的Nostr网络其实蛮多的，但是有些不能用，目前推荐这三款就够用了。</p>
+<blockquote>
+<p>重点说明：</p>
+<p>网页端的网站在登录时通常需要输入账户的私钥才行， 但是我们不能保证网络环境的安全性，为了保护我们的账户，在使用网页端体验Nostr的过程中，请先下载浏览器插件Flamingo </p>
+<iframe class="embed" src="https://chrome.google.com/webstore/detail/flamingo-%E2%80%93-nostr-extensio/alkiaengfedemppafkallgifcmkldohe" contenteditable="false"></iframe>
+</blockquote>
+<p>用私钥登录Flamingo后，使用所有Nostr协议相关的网站时，只需要授权登录即可。</p>
+<p>好了，今天讲了Nostr协议应用的实际用法，下一集讲一些帮助我们更好的在Nostr网络中玩耍的东西。再会哈：）</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -932,91 +1069,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2022/1P0DG13/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="胡达尔汗">
-      <meta itemprop="description" content="我 在 建 构 自 我">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="胡达尔汗">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/1P0DG13/" class="post-title-link" itemprop="url">【NO.007-论个人投资常识】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2022-01-19 14:16:13" itemprop="dateCreated datePublished" datetime="2022-01-19T14:16:13+08:00">2022-01-19</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-07-09 10:35:13" itemprop="dateModified" datetime="2022-07-09T10:35:13+08:00">2022-07-09</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%8A%95%E8%B5%84/" itemprop="url" rel="index"><span itemprop="name">投资</span></a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%8A%95%E8%B5%84/%E6%8A%95%E8%B5%84%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index"><span itemprop="name">投资基础</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>根据东方财富网数据，截止2021年11月，全国有股票账户1亿9600万，而这些账户只是国内参与投资的总人数中的一部分，还有大量的人通过银行、在线支付平台等参与投资活动，其数量是拥有股票账户人数的数倍。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/1P0DG13/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1088,7 +1140,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-count">17</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1101,7 +1153,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">24</span>
+        <span class="site-state-item-count">25</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
