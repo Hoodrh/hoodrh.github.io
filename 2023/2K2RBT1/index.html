@@ -20,21 +20,23 @@
     var CONFIG = {"hostname":"hoodrh.top","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="就目前的情况来说，如果一个中国人拥有一台智能机，那么TA很大很大可能在网上买过东西，而且越来越多的人被引导着加入到了消费大军之中，越来越多的人在短视频平台上驻留、然后下单，即使最后发现很多东西买回家之后都没有用过。">
+  <meta name="description" content="因为在中文区没有搜到较为详细的对于Nostr协议网络的文章，所以准备自己写一个系列。这是本系列文章的第四篇，讲一下Nostr网络中域名Nip-05的配置方法及NIP标准。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【NO.009-面对消费主义】">
-<meta property="og:url" content="https://hoodrh.top/2022/2FA98AY/index.html">
+<meta property="og:title" content="去中心化协议Nostr-系列004">
+<meta property="og:url" content="https://hoodrh.top/2023/2K2RBT1/index.html">
 <meta property="og:site_name" content="胡达尔汗">
-<meta property="og:description" content="就目前的情况来说，如果一个中国人拥有一台智能机，那么TA很大很大可能在网上买过东西，而且越来越多的人被引导着加入到了消费大军之中，越来越多的人在短视频平台上驻留、然后下单，即使最后发现很多东西买回家之后都没有用过。">
+<meta property="og:description" content="因为在中文区没有搜到较为详细的对于Nostr协议网络的文章，所以准备自己写一个系列。这是本系列文章的第四篇，讲一下Nostr网络中域名Nip-05的配置方法及NIP标准。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-03-24T09:43:57.000Z">
-<meta property="article:modified_time" content="2022-07-09T02:35:40.358Z">
+<meta property="og:image" content="https://images.mirror-media.xyz/publication-images/0rZ9zT6bu7hPH2_lxXhtc.png?height=190&width=928">
+<meta property="article:published_time" content="2023-02-21T16:01:18.000Z">
+<meta property="article:modified_time" content="2023-02-21T16:03:49.748Z">
 <meta property="article:author" content="胡达尔汗">
-<meta property="article:tag" content="成长观">
-<meta property="article:tag" content="思考">
+<meta property="article:tag" content="去中心化">
+<meta property="article:tag" content="社交协议">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://images.mirror-media.xyz/publication-images/0rZ9zT6bu7hPH2_lxXhtc.png?height=190&width=928">
 
-<link rel="canonical" href="https://hoodrh.top/2022/2FA98AY/">
+<link rel="canonical" href="https://hoodrh.top/2023/2K2RBT1/">
 
 
 <script id="page-configurations">
@@ -47,7 +49,7 @@
   };
 </script>
 <script src="/lib/fireworks.js"></script>
-  <title>【NO.009-面对消费主义】 | 胡达尔汗</title>
+  <title>去中心化协议Nostr-系列004 | 胡达尔汗</title>
   
 
 
@@ -205,7 +207,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2022/2FA98AY/">
+    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2023/2K2RBT1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -218,7 +220,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          【NO.009-面对消费主义】
+          去中心化协议Nostr-系列004
         </h1>
 
         <div class="post-meta">
@@ -227,27 +229,25 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2022-03-24 17:43:57" itemprop="dateCreated datePublished" datetime="2022-03-24T17:43:57+08:00">2022-03-24</time>
+              <time title="创建时间：2023-02-22 00:01:18 / 修改时间：00:03:49" itemprop="dateCreated datePublished" datetime="2023-02-22T00:01:18+08:00">2023-02-22</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-07-09 10:35:40" itemprop="dateModified" datetime="2022-07-09T10:35:40+08:00">2022-07-09</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%BA%BA%E6%96%87/" itemprop="url" rel="index"><span itemprop="name">人文</span></a>
+                  <a href="/categories/%E5%95%86%E4%B8%9A/" itemprop="url" rel="index"><span itemprop="name">商业</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E4%BA%BA%E6%96%87/%E8%A7%81%E8%A7%A3/" itemprop="url" rel="index"><span itemprop="name">见解</span></a>
+                  <a href="/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/" itemprop="url" rel="index"><span itemprop="name">产品</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/" itemprop="url" rel="index"><span itemprop="name">Nostr</span></a>
                 </span>
             </span>
 
@@ -269,40 +269,60 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>就目前的情况来说，如果一个中国人拥有一台智能机，那么TA很大很大可能在网上买过东西，而且越来越多的人被引导着加入到了消费大军之中，越来越多的人在短视频平台上驻留、然后下单，即使最后发现很多东西买回家之后都没有用过。<span id="more"></span></p>
-<p>那究竟是出于什么原因，让无数人投身于购物热潮却不自知，这一切的背后是消费者的问题？生产者的问题？亦或工具提供商的问题？在当今这样一个消费主义盛行的年代，我们先来看一下上面情况出现的深层原因。</p>
-<h3 id="消费时代"><a href="#消费时代" class="headerlink" title="消费时代"></a>消费时代</h3><p>生产和消费是社会构成的基础部分，生产让社会资源流动起来，也让人参与到生产过程中，既满足了生活生产需要的劳动力，又让人的存在有了现世的意义；而消费是让生产物质得以流转和被消耗，一方面促进了下一步生产的实现，一方面也让生产者继续加入到生产中来，毕竟你的消费成本是由你在生产过程中付出的成本来抵消的。这样，在生产和消费的过程中，社会得到了发展，个人也加入到社会的运转之中，提供社会发展所需要的价值，更准确的来说，个人是整个社会机器运行的燃料。</p>
-<p>长期以来，个人与社会机器的地位是不平等的，个人与个人的关系也存在差异，有些人掌握更多的社会资源和关系，可以在社会生产和消费过程中占有更加优势的地位，所以长期来看的话会发现，生产和消费是一种平衡关系，但是这种平衡之中也存在区分，少部分人占有大多数的权益，剩下的大多数人则无止境的为社会运转提供燃料。</p>
-<p>如今，这种分野越来越严重，越来越多的简单岗位被机器取代，而这些机器被少数人掌握，导致越来越多的底层普通民众参与生产的资格都越来越少，而他们是需要消费的，前面我们说过：参与生产才能获得进行消费的本钱，然而现在越来越多的人参与生产的权利都“被丧失”了，处境变得越来越恶化，这是一方面，我们今天先不谈；今天要说的是另一方面，即使在社会分野越来越严重的情况下，各大平台商还在利用平台的威力，让普通民众的处境更加艰难。各种购物平台易于传播、边际成本极低，让越来越多的人加入其中，接着他们做的事是什么呢？通过各种手段激发用户的“欲望”，不管是打折、直播、大礼包、减价，用各种手段和营销方法，让你产生各种欲望，然后为各种欲望消费，把你辛辛苦苦挣来的钱从你的口袋里掏走，而这就是当下消费主义最可怕的地方所在。</p>
-<p>面对这种情况，我们唯一能做的或许就是往现象的深处再走一走，接下来让我们分析一下社会消费主义盛行的原因。</p>
-<h3 id="消费主义盛行原因"><a href="#消费主义盛行原因" class="headerlink" title="消费主义盛行原因"></a>消费主义盛行原因</h3><p>我们知道作为一个社会成员，投入生产是必然的，消费当然也是顺理成章的事，但我们讨论消费主义盛行时，问题在于社会将民众引向了一条更加偏僻的道路，平台、资本等过度制造消费欲望，让更多普通人不自觉的走上消费道路，从而被资本收割。</p>
-<p>这里我们从三个方面对问题进行细分探讨，分别是政府、资本、个人，三个部分其实是缠绕生长的，不能把谁完全剥离出去，政府和资本由个人组成，但是这些个人和更大多数的个人又完全不一样，所以这里的讨论，个人更多指代普遍性的大众。</p>
-<h4 id="政府"><a href="#政府" class="headerlink" title="政府"></a>政府</h4><p>政府层面上来说，维持消费和生产的平衡是它的功能，有时候消费大于生产导致供不应求，就需要政府参与调控，防止进一步的通货膨胀；而当生产大于消费时，整个社会的交易减缓，政府需要调动社会消费需求。</p>
-<p>在调控这个平衡的过程中，一些具体的细节或许难度更大，比如面对商业平台，如何管控、政策的制定和监管的合理化都非常复杂且意义重大，既不能妨碍企业的正常发展，又不能让企业过度引导民众导致民众过度消费，这中间有很多具体的操作需要相关的专家去完善，在对相关领域的监管、审批、规范等方面做出详细的政策和规范，现在来看这方面还存在很多工作需要做。</p>
-<h4 id="资本"><a href="#资本" class="headerlink" title="资本"></a>资本</h4><p>资本并不存在好坏，而我们对其的评价来自于它做了什么样的事情，资本无疑是需要有好的收益的，但是不能为了收益做有损社会发展的事情，好的资本不光要赚取收益，还需要用自身的力量，推动社会进步和发展。</p>
-<p>如今，更多的平台在资本的支持下，疯狂扩张，通过宣传、营销，不断的制造更多“消费欲望”，让更多普通人不自觉的进行消费，对于平台和资本来说有了更好的财报数据，但是他们的用户则快被榨干了，这对于整个社会是不利好的。</p>
-<h4 id="个人"><a href="#个人" class="headerlink" title="个人"></a>个人</h4><p>普罗大众的思考能力是有限的，这种思考更多指对于事物深层原因和规律的思考，我们更多人就像水中的鱼，每天只能感受到自己在不同地方游动，但是根本意识不到水的存在。所以一方面，我们对于自己的理解和认知是极为有限的，也就是说我们根本不了解自身，在消费过程中我们究竟需要什么都不确定，很容易被盲目消费；另一方面，我们对于所处社会环境的认知有限，我们几乎是被环境带着走，所以很容易被资本引导着进行过度消费和冲动消费，进一步导致了个人生活情况的恶化。</p>
-<p>我们作为社会人，无法放弃消费生活，那我们如何面对消费主义呢？</p>
-<h3 id="如何面对消费主义"><a href="#如何面对消费主义" class="headerlink" title="如何面对消费主义"></a>如何面对消费主义</h3><p>首先要合理的看待消费，消费是正常生活的一部分，合理的消费是我们所需要的，那么面对消费主义时我们就更加的坦然了，不是逃避，而是直面。</p>
-<p>这里有一个关键点：消费为生活服务，我们消费一个物品，最终是为了获得生活的快乐和人生的幸福，如果你的消费给你带来了痛苦，那你有必要思考一下它究竟是不是你真正需要的东西了。</p>
-<p>在消费前，我觉得我们可以设置一些原则，违反消费原则的消费行为就需要三思而后行了，当然这些原则并不是一成不变的，可以根据你的不同人生阶段进行调整，但是不能随便更改，一旦制定了就去遵循，尤其不能在消费时更改，比如我的原则就是：</p>
-<p>1.在自己现有能力内消费：当下你的能力如果不能支持你的消费，那你就要警惕了，尤其防止预支未来、借外债等</p>
-<p>2.这个东西是缺了不行吗？如果不是必需品，那就可以不消费</p>
-<h3 id="直面消费主义"><a href="#直面消费主义" class="headerlink" title="直面消费主义"></a>直面消费主义</h3><p>在这篇文章中，我们谈论了消费主义时代的现状，然后从政府、资本、个人三个维度简要分析了消费主义盛行的原因，最后我们说了个人如何面对消费主义的一些思考。</p>
-<p>对消费主义，我们无法逃避也无需逃避，唯有直面，那我们能做的就是更加合理的消费，让消费为我们的幸福服务。要做到这一点，就需要我们关注以下两点：</p>
-<p>1.<strong>了解自己，发展自己</strong>：我们要更多的阅读、实践、探索、思考，不断的了解自己，不断的让自己变得更加丰富，所有的消费皆来自欲望，当我们足够了解自己、有更加丰满的灵魂时，我们就可以掌控自己，而不是被消费主义操纵；</p>
-<p>2.<strong>保持对身处环境的思考：</strong>我相信人是环境的产物，我们无法脱离环境而存在，那我们想要更好的生活，想要更幸福的人生，就需要保持对于自身所在环境的思考，保持对商业、政治、人文环境的警惕和好奇，只有这样我们才能做到“春江水暖鸭先知”，掌握更多自主权。</p>
-<p>从长远来看，人生短暂且渺小，追求幸福才是最重要的吧！</p>
-<blockquote>
-<p>你还可以在这些地方找到我</p>
-<p>Mirror：<a target="_blank" rel="noopener" href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
-<p>Twitter: <a target="_blank" rel="noopener" href="https://twitter.com/hooodrh">Hoodrh</a></p>
+        <blockquote>
+<p>因为在中文区没有搜到较为详细的对于Nostr协议网络的文章，所以准备自己写一个系列。这是本系列文章的第四篇，讲一下Nostr网络中域名Nip-05的配置方法及NIP标准。<span id="more"></span></p>
 </blockquote>
-<blockquote>
-<p><strong>已读清单</strong></p>
-<p><em>书</em>：<br>《详谈-饶晓志》李翔<br>《详谈-沈鹏》李翔<br>《详谈-杨浩涌》李翔<br>《区块链-从数字货币到信用社会》韩锋<br>《分布式账本技术：超越区块链》万向实验室<br>《区块链-新经济蓝图及导读》万向实验室<br>《互联网产品经理修炼手册》王建宇<br>《业力管理》<br>《不要完美，要完成》<br>《原型设计-打造成功产品的实用方法及实践》 Kathryn McElroy<br>《产品经理修炼之道》费杰<br>《中国人超会吃》王恺、戴小蛮<br>《瞬间之美-Web界面设计如何让用户心动》Robert Hoekman<br>《公式之美》量子学派</p>
-<p><em>课程</em>：<br>混沌大学《模型课-分形创新》《模型课-牛顿机械论》</p>
-</blockquote>
+<p>在<a target="_blank" rel="noopener" href="https://mirror.xyz/hoodrh.eth/To9zIrUwS7Je29ZrCJJ4WE3g25GnPXkPW3N6EFRgsDs">第二篇</a>中我们讲了一下新手入门Nostr网络时如何使用社交应用，为了让大家先用起来，在实际的操作中去感受nostr网络上的气氛，同时也降低大家的准入门槛，所以对NIP-05只是提了一下（个人主页信息设置那里），今天就专门来讲一下NIP-05是什么以及如何设置，在此基础上也会对NIP标准进行简单的介绍。</p>
+<h2 id="NIP-05"><a href="#NIP-05" class="headerlink" title="NIP-05"></a>NIP-05</h2><h3 id="NIP-05是什么？"><a href="#NIP-05是什么？" class="headerlink" title="NIP-05是什么？"></a>NIP-05是什么？</h3><p><strong>简单点来说</strong>，NIP-05就是给每个用户设置的相比于公钥更容易识别的ID名。</p>
+<p>我们知道在Nostr网络中每个用户的ID是一长串不规则的文字，也就是公钥。如果我要在Nostr网络中寻找用户A，必须搜索A的公钥才能找到Ta。但是公钥太长了，不方便保存和传播，同时也不便于人类对其进行辨识，于是便出现了解决方案-用一个更为人类可读的名字绑定在公钥上。</p>
+<p><strong>专业点说</strong>，NIP-05 使 Nostr 用户能够将自己的公钥映射到基于 DNS 的互联网标识符。验证机制类似于 Google 要求您使用 DNS 记录验证您对域的所有权的方式。 验证的主要好处是它允许通过人类可读的名称来识别 Nostr 用户，而不是通过长而难以记住的公钥。这使经过验证的 Nostr 用户能够轻松地与他人分享他们的身份。</p>
+<h3 id="NIP-05设置方法"><a href="#NIP-05设置方法" class="headerlink" title="NIP-05设置方法"></a>NIP-05设置方法</h3><p>为了拥有一个NIP-05的域名，我们可以通过两种方式来获得它。</p>
+<ol>
+<li>在应用端，找到NIP-05的设置框（一般位于个人主页的编辑页面），然后购买官方提供的域名（没买过）。</li>
+<li>如果你有自己的域名，那你可以把它验证后绑定到Nostr网络。下面主要是对这种方式的介绍。</li>
+</ol>
+<p>比如我的域名是<a target="_blank" rel="noopener" href="https://www.hoodrh.top/">www.hoodrh.top</a>，我的个人站点是用hexo建立的，所以我会在hexo 的</p>
+<p>_config.yml文件中的***include***下添加“well-known/**”，然后在source文件下建立文件夹“well-known”（官方说建立“.well-known”但是Mac系统的点文件是留给系统的），然后在“well-known”文件夹下建立一个“nostr.json”文件即可。JS文件的内容为：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;names&quot;: &#123;</span><br><span class="line">    &quot;hoodrh&quot;: //你自己的nostr网络username</span><br><span class="line">&quot;npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c&quot; //你的公钥ID</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后将文件保存并上传hexo即可。然后我就得到了NIP-05的地址：<a href="mailto:&#104;&#x6f;&#x6f;&#100;&#x72;&#x68;&#x40;&#119;&#119;&#119;&#46;&#x68;&#111;&#111;&#x64;&#114;&#104;&#46;&#x74;&#x6f;&#x70;">&#104;&#x6f;&#x6f;&#100;&#x72;&#x68;&#x40;&#119;&#119;&#119;&#46;&#x68;&#111;&#111;&#x64;&#114;&#104;&#46;&#x74;&#x6f;&#x70;</a>，也就是“usernam@自己的域名”。</p>
+<p><img src="https://images.mirror-media.xyz/publication-images/0rZ9zT6bu7hPH2_lxXhtc.png?height=190&width=928" alt="img"></p>
+<h3 id="可以不设置NIP-05吗？"><a href="#可以不设置NIP-05吗？" class="headerlink" title="可以不设置NIP-05吗？"></a>可以不设置NIP-05吗？</h3><p>当然可以，如果你没有自己的域名，又不想买，那就完全没必要去设置它。目前来看设置NIP-05的作用就是显示一个认证的标识而已。基本上日常关注好友之类的操作，完全可以通过复制公钥来实现。相信随着各种应用端搜索技术的增强，也可以支持搜索username来查找用户了。（我就要紫标认证✅！</p>
+<h2 id="NIP标准"><a href="#NIP标准" class="headerlink" title="NIP标准"></a>NIP标准</h2><h3 id="什么是NIP标准"><a href="#什么是NIP标准" class="headerlink" title="什么是NIP标准"></a>什么是NIP标准</h3><p>NIP是一系列的协议接口标准，统一规定了各种常用功能使用时的接口元素和细节，这样有利于整个网络上不同应用之间建立通道，从而让一个用户发送的内容可以在nostr网络上的所有应用之间都被识别和传播。</p>
+<h3 id="NIP详细分类介绍"><a href="#NIP详细分类介绍" class="headerlink" title="NIP详细分类介绍"></a>NIP详细分类介绍</h3><p>这里大概讲一下不同NIP标准所支持的 nostr 功能，更技术性的说明在<a target="_blank" rel="noopener" href="https://github.com/nostr-protocol/nips">这里查看</a> </p>
+<ol>
+<li>NIP-01 - 基本协议流程描述，是用于客户端和中继之间通信的协议。它涉及事件的交换，事件是包含各种信息的对象，例如唯一 ID、时间戳和标签。</li>
+<li>NIP-02 - 联系人列表和昵称 </li>
+<li>NIP-03 - 事件的 OpenTimestamps 证明 [未计划] </li>
+<li>NIP-04 - 加密私信 </li>
+<li>NIP-05 - 将 Nostr 密钥映射到基于 DNS 的互联网标识符 </li>
+<li>NIP-06 - 从助记种子短语推导基本密钥 </li>
+<li>NIP-07 - 网络浏览器的 window.nostr 功能 [不适用] </li>
+<li>NIP-08 - 处理提及 </li>
+<li>NIP-09 - 事件删除 [部分] </li>
+<li>NIP-10 - 客户端在文本事件中使用 e 和 p 标签的约定 </li>
+<li>NIP-11 - 中继信息文件 </li>
+<li>NIP-12 - 通用标签查询 </li>
+<li>NIP-13 - 工作量证明 </li>
+<li>NIP-14 - 文本事件中的主题标签 </li>
+<li>NIP-15 - 存储事件结束通知 </li>
+<li>NIP-16 - 事件处理 </li>
+<li>NIP-19 - bech32 编码的实体 </li>
+<li>NIP-20 - 命令结果 </li>
+<li>NIP-21 - nostr：URL 方案 </li>
+<li>NIP-22 - 事件 created_at 限制 </li>
+<li>NIP-25 - 反应 </li>
+<li>NIP-26 - 委托事件签名 </li>
+<li>NIP-28 - 公开聊天 </li>
+<li>NIP-33 - 参数化可替换事件 </li>
+<li>NIP-36 - 敏感内容 </li>
+<li>NIP-40 - 过期时间戳 </li>
+<li>NIP-42 - 客户端到中继的身份验证 </li>
+<li>NIP-50 - 关键字过滤器 </li>
+<li>NIP-56 - 报告 </li>
+<li>NIP-65 - 中继列表元数据</li>
+</ol>
+<p>好了，今天就到这里，明天再见。祝你在Nostr网络中玩得愉快。</p>
 
     </div>
 
@@ -318,7 +338,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://hoodrh.top/2022/2FA98AY/" title="【NO.009-面对消费主义】">https://hoodrh.top/2022/2FA98AY/</a>
+    <a href="https://hoodrh.top/2023/2K2RBT1/" title="去中心化协议Nostr-系列004">https://hoodrh.top/2023/2K2RBT1/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -329,8 +349,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E6%88%90%E9%95%BF%E8%A7%82/" rel="tag"># 成长观</a>
-              <a href="/tags/%E6%80%9D%E8%80%83/" rel="tag"># 思考</a>
+              <a href="/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/" rel="tag"># 去中心化</a>
+              <a href="/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/" rel="tag"># 社交协议</a>
           </div>
 
         
@@ -339,13 +359,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2022/2WASTMA/" rel="prev" title="【NO.008-非黑不是白 | 对二元论的思考】">
-      <i class="fa fa-chevron-left"></i> 【NO.008-非黑不是白 | 对二元论的思考】
+    <a href="/2023/XVKY9F/" rel="prev" title="Nostr协议的未来发展规划">
+      <i class="fa fa-chevron-left"></i> Nostr协议的未来发展规划
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/1YKBMGE/" rel="next" title="【NO.010-未来的神启，在过去】">
-      【NO.010-未来的神启，在过去】 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -404,7 +421,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B6%88%E8%B4%B9%E6%97%B6%E4%BB%A3"><span class="nav-text">消费时代</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89%E7%9B%9B%E8%A1%8C%E5%8E%9F%E5%9B%A0"><span class="nav-text">消费主义盛行原因</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%94%BF%E5%BA%9C"><span class="nav-text">政府</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B5%84%E6%9C%AC"><span class="nav-text">资本</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA"><span class="nav-text">个人</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E9%9D%A2%E5%AF%B9%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89"><span class="nav-text">如何面对消费主义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B4%E9%9D%A2%E6%B6%88%E8%B4%B9%E4%B8%BB%E4%B9%89"><span class="nav-text">直面消费主义</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#NIP-05"><span class="nav-text">NIP-05</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#NIP-05%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-text">NIP-05是什么？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#NIP-05%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95"><span class="nav-text">NIP-05设置方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%AF%E4%BB%A5%E4%B8%8D%E8%AE%BE%E7%BD%AENIP-05%E5%90%97%EF%BC%9F"><span class="nav-text">可以不设置NIP-05吗？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NIP%E6%A0%87%E5%87%86"><span class="nav-text">NIP标准</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFNIP%E6%A0%87%E5%87%86"><span class="nav-text">什么是NIP标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#NIP%E8%AF%A6%E7%BB%86%E5%88%86%E7%B1%BB%E4%BB%8B%E7%BB%8D"><span class="nav-text">NIP详细分类介绍</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
