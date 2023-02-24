@@ -763,7 +763,7 @@
 <p>_config.yml文件中的***include***下添加“well-known/**”，然后在source文件下建立文件夹“well-known”（官方说建立“.well-known”但是Mac系统的点文件是留给系统的），然后在“well-known”文件夹下建立一个“nostr.json”文件即可。JS文件的内容为：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;names&quot;: &#123;</span><br><span class="line">    &quot;hoodrh&quot;: //你自己的nostr网络username</span><br><span class="line">&quot;npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c&quot; //你的公钥ID</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>然后将文件保存并上传hexo即可。然后我就得到了NIP-05的地址：<a href="mailto:&#104;&#x6f;&#x6f;&#x64;&#114;&#104;&#64;&#x77;&#x77;&#119;&#x2e;&#x68;&#111;&#x6f;&#100;&#x72;&#x68;&#46;&#116;&#x6f;&#112;">&#104;&#x6f;&#x6f;&#x64;&#114;&#104;&#64;&#x77;&#x77;&#119;&#x2e;&#x68;&#111;&#x6f;&#100;&#x72;&#x68;&#46;&#116;&#x6f;&#112;</a>，也就是“usernam@自己的域名”。</p>
+<p>然后将文件保存并上传hexo即可。然后我就得到了NIP-05的地址：<a href="mailto:&#104;&#111;&#x6f;&#100;&#x72;&#104;&#64;&#119;&#119;&#x77;&#x2e;&#104;&#x6f;&#x6f;&#x64;&#x72;&#104;&#46;&#116;&#x6f;&#112;">&#104;&#111;&#x6f;&#100;&#x72;&#104;&#64;&#119;&#119;&#x77;&#x2e;&#104;&#x6f;&#x6f;&#x64;&#x72;&#104;&#46;&#116;&#x6f;&#112;</a>，也就是“usernam@自己的域名”。</p>
 <p><img src="https://images.mirror-media.xyz/publication-images/0rZ9zT6bu7hPH2_lxXhtc.png?height=190&width=928" alt="img"></p>
 <h3 id="可以不设置NIP-05吗？"><a href="#可以不设置NIP-05吗？" class="headerlink" title="可以不设置NIP-05吗？"></a>可以不设置NIP-05吗？</h3><p>当然可以，如果你没有自己的域名，又不想买，那就完全没必要去设置它。目前来看设置NIP-05的作用就是显示一个认证的标识而已。基本上日常关注好友之类的操作，完全可以通过复制公钥来实现。相信随着各种应用端搜索技术的增强，也可以支持搜索username来查找用户了。（我就要紫标认证✅！</p>
 <h2 id="NIP标准"><a href="#NIP标准" class="headerlink" title="NIP标准"></a>NIP标准</h2><h3 id="什么是NIP标准"><a href="#什么是NIP标准" class="headerlink" title="什么是NIP标准"></a>什么是NIP标准</h3><p>NIP是一系列的协议接口标准，统一规定了各种常用功能使用时的接口元素和细节，这样有利于整个网络上不同应用之间建立通道，从而让一个用户发送的内容可以在nostr网络上的所有应用之间都被识别和传播。</p>
@@ -801,6 +801,64 @@
 <li>NIP-65 - 中继列表元数据</li>
 </ol>
 <p>好了，今天就到这里，明天再见。祝你在Nostr网络中玩得愉快。</p>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>Nostr</category>
+      </categories>
+      <tags>
+        <tag>去中心化</tag>
+        <tag>社交协议</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>去中心化协议Nostr-系列05</title>
+    <url>/2023/3QQH8HR/</url>
+    <content><![CDATA[<blockquote>
+<p>这是一个围绕Nostr协议展开的系列文章，旨在通过这个系列介绍Nostr协议并让更多人进入去中心化的世界。在这一篇中将介绍Nostr网络中非常重要的功能：ZAP <span id="more"></span></p>
+</blockquote>
+<p>在之前的几篇当中，我们已经掌握了Nostr网络的基本用法，每天也会有事没事发发帖子，同时也去刷刷别人的帖子。如果你有留意的话，就会发现经常有人提到一些词：zap、lightning、发票之类的。而这些词就是我们今天的主题，我们将围绕它们来探索Nostr网络上经济活动是如何进行的。</p>
+<p>简单点说，我们可以在Nostr网络上通过闪电网络（Lightning）给别人发送一定数量的sat，这个行为相当于打赏，你的打赏就是zap。而zap的数量是sat，它是比特币网络上为了实现快速交易而发展出来的二层设施-闪电网络lightning 的价格单位（1美元=5000sat）。</p>
+<p>那么让我们来了解一下zap的方法，也就是你给别人打赏。</p>
+<h2 id="zap的操作方法"><a href="#zap的操作方法" class="headerlink" title="zap的操作方法"></a>zap的操作方法</h2><ol>
+<li>首先，要有一个支持闪电网络Lightning的比特币钱包。我自己下载了很多钱包来用，感觉对新用户最友好的是“Wallet of Satoshi”，但对于更专业的用户和资金安全有更高要求的用户来说，可能还有其他选择。（文章的尾部会列出一些支持闪电网络的钱包</li>
+<li>然后你创建钱包后，就会自动生成一个地址。在“Wallet of Satoshi”中操作路径是：点击“接收”-点击顶部Lightning Address，复制该地址后填到Nostr客户端的个人资料页的“Lightning Address”栏并保存就可以。</li>
+</ol>
+<p><img src="https://images.mirror-media.xyz/publication-images/bnZOX6BPz7LVaLknQkcpH.png?height=350&width=384" alt="获取LN Address"></p>
+<ol>
+<li>到这一步，你就可以看到自己的个人主页有一个闪电标识⚡️的地址链接，别人点击该处就可以向你zap，当然你也可以点击别人主页的闪电地址向他发送zap。</li>
+</ol>
+<p><img src="https://images.mirror-media.xyz/publication-images/HC0F9h1w77-K_Wj2y-DOf.png?height=372&width=352" alt="发送zap"></p>
+<p>PS.如果你想向他人发送zap，但是自己的钱包没有余额的话，你可以将比特币转到目前的闪电网络地址。（至于如何转钱，怎么买比特币。这又是另外一个故事了，可以搜索相关教程</p>
+<p>上面多次提到闪电网络（Lightning），那我们就来了解一下它究竟是什么</p>
+<h2 id="Lightning小说明"><a href="#Lightning小说明" class="headerlink" title="Lightning小说明"></a>Lightning小说明</h2><h3 id="如何出生的"><a href="#如何出生的" class="headerlink" title="如何出生的~"></a>如何出生的~</h3><p>在比特币被Satoshi Nakamoto(中本聪)发明之后，因为其出块速度的限制导致每分钟可以实现的转账数量有限，为了让比特币有更多交易的可能性，比特币开发者皮耶特·威勒（Pieter Wuille）提出了一个创新性的另类解决方案，即所谓的“隔离见证”（Segregated Witness，或缩写成SegWit），它只需要通过软分叉就能实现。它不会让区块大小限制翻倍，但能够让交易数据的效率更高，这意味着可以让1MB区块的信息量翻倍。更重要的是，隔离见证修复了一些长久存在的代码问题，使得比特币更容易实现一个重要的创新功能，即闪电网络（Lightning Network）。</p>
+<p> 闪电网络技术是由撒迪厄斯·迪瑞亚（Thaddeus Dryja）和约瑟夫·潘（Joseph Poon）创造的，人们认为它以后可能会跟维萨卡的每秒65000笔交易的指标抗衡。它让人们可以共同签署智能合约，基于付款人签发的一个比特币交易中议定的数额，创建出有时间锁的双向支付通道。然后，他们就可以在预先设定的限额内互相划拨资金。同时，通过由第二通道构成的连锁系统，他们可以将资金划给第三方，从而创造出一个能够追溯且<strong>无须在比特币区块链上确认</strong>的支付网络。因此，这个模式里<strong>无须付给矿工费用</strong>，其在<strong>一定时间段内所能处理的交易数量也没有限制</strong>。智能合约让用户无法欺诈，而<strong>比特币区块链只在结算层使用</strong>，负责在一个通道开启或关闭时将交易净额记录下来。比特币区块链会作为最终证明的来源，确保所有“链外”的闪电网络交易是真实的。</p>
+<h3 id="闪电网络的优点"><a href="#闪电网络的优点" class="headerlink" title="闪电网络的优点"></a>闪电网络的优点</h3><p>闪电网络本质上是一个支付渠道网络，发件人的付款可以通过该渠道到达任何其他受益人。 他们不是将每笔付款记录为链上交易以在区块中进行保护，而是跟踪支付渠道每一侧的余额。双方只需要在这种关系结束时在链上进行最终结算，并且他们想要“关闭”通道，这将解锁他们一方在链上支付通道的余额。 闪电支付为我们提供了一些隐私保护，因为支付没有单独记录在交易的链上，只有最终结算是。</p>
+<p>它的建立是为了解决比特币在日常支付中围绕交易速度、成本和隐私问题的批评。闪电网络是比特币的轻量级版本，在架构上略有不同，但仍然是老比特币。</p>
+<h3 id="另外还有"><a href="#另外还有" class="headerlink" title="另外还有~"></a>另外还有~</h3><p>想必闪电网络的价格单位Sat(聪)，也是为了向Satoshi Nakamoto(中本聪)致敬的。去中心化的文化就是这么一次次的得以在不同人身上生长，彼此互相影响和启发。从密码朋克组织，到比特币被设计出来，到今天的去中心化社交协议Nostr，我们相信去中心化有它存在的必要和意义，也希望更多美好的事物被创造，期待我们每一个人都继续前行，继续创作。</p>
+<p><strong>发票</strong>：对了，“请给我你的发票”，可能有人对你这么说，其实就是闪电网络的收款地址，你可以直接给对方你的收款地址，也可以设置一个收款额之后将地址给TA。</p>
+<h2 id="更多资源"><a href="#更多资源" class="headerlink" title="更多资源"></a>更多资源</h2><p>如果你想在linghtning上构建自己的服务或产品，可以参考这个LNURL库 <a href="https://github.com/lnurl/luds">https://github.com/lnurl/luds</a></p>
+<p> 这是对闪电网络进行详细介绍的一个专栏，如果对闪电网络的运行原理感兴趣，我推荐您阅读它 <a href="https://bolt.fun/guide/">https://bolt.fun/guide/</a></p>
+<h3 id="其他支持闪电网络的钱包汇总"><a href="#其他支持闪电网络的钱包汇总" class="headerlink" title="其他支持闪电网络的钱包汇总"></a>其他支持闪电网络的钱包汇总</h3><h4 id="一、如果你通过web端连接网络💻"><a href="#一、如果你通过web端连接网络💻" class="headerlink" title="一、如果你通过web端连接网络💻"></a>一、如果你通过web端连接网络💻</h4><p>阿尔比🐝 Alby 是一个存在于您的网络浏览器中的比特币钱包扩展程序，让您可以访问闪电般快速的支付和身份验证。Alby 使用 WebLN 在网络应用程序和用户的闪电节点之间安全地进行通信，允许制造商通过单击来验证他们的配置文件。</p>
+<p>🔗 <a href="https://getalby.com/">https://getalby.com/</a></p>
+<h4 id="二、从您的手机钱包连接📱"><a href="#二、从您的手机钱包连接📱" class="headerlink" title="二、从您的手机钱包连接📱"></a>二、从您的手机钱包连接📱</h4><ol>
+<li>Breez 是一款移动闪电钱包，可在 iOS 和 Android 上使用。🔗 <a href="https://breez.technology/">https://breez.technology/</a></li>
+<li>可以在 iOS 和 Android 上使用。🔗 <a href="https://phoenix.acinq.co/">https://phoenix.acinq.co/</a></li>
+<li>Zeus 允许您从您的移动设备连接和控制您的闪电节点，使其更适合高级用户。适用于 iOS 和安卓系统。🔗 <a href="https://zeusln.app/">https://zeusln.app/</a></li>
+<li>可在 iOS 和 Android 上使用。🔗 <a href="https://blixtwallet.github.io/">https://blixtwallet.github.io/</a></li>
+<li>适用于 iOS 和安卓系统。🔗 <a href="https://bluewallet.io/">https://bluewallet.io/</a></li>
+</ol>
+<p>好了，今天的内容就到这里，下一期我们再见🌱🌸 </p>
+<p>| <strong>春天来了，多出门走走，去自然里</strong>。</p>
+<blockquote>
+<p>你还可以在这些地方找到我：</p>
+<p>Mirror：<a href="https://mirror.xyz/hoodrh.eth">Hoodrh</a></p>
+<p>Twitter：<a href="https://twitter.com/hooodrh">Hoodrh</a></p>
+<p>数字领地：<a href="https://hoodrh.top/">www.hoodrh.top</a></p>
+<p>Nostr：@hoodrh(公钥：</p>
+<p>npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>商业</category>
