@@ -1006,13 +1006,13 @@
       </tags>
   </entry>
   <entry>
-    <title>去中心化协议Nostr系列006</title>
-    <url>/2023/X707TR/</url>
+    <title>去中心化协议Nostr系列06</title>
+    <url>/2023/HMEGT4/</url>
     <content><![CDATA[<blockquote>
 <p>这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。</p>
 </blockquote>
-<p><em>💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。</em></p>
-<p>Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、Rust、Go、Java、Python、Kotlin、JavaScript、TypeScript 和 Clojure 的实现。这些中继实现使用 SQLite 或 PostgreSQL 作为它们的数据库。<span id="more"></span></p>
+<p><em>💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。</em> <span id="more"></span></p>
+<p>Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、Rust、Go、Java、Python、Kotlin、JavaScript、TypeScript 和 Clojure 的实现。这些中继实现使用 SQLite 或 PostgreSQL 作为它们的数据库。</p>
 <h2 id="Nostr协议的基础元素"><a href="#Nostr协议的基础元素" class="headerlink" title="Nostr协议的基础元素"></a>Nostr协议的基础元素</h2><p>在Nostr协议组成的网络中，我们可以简化出一个最小元素的模型，基本元素包括：用户、客户端client、中继器Relay。三个元素之间的关系可以表示为：</p>
 <ol>
 <li><p>用户使用client，发布和查看内容（event形式传输），需要签名时在客户端完成签名。</p>
@@ -1080,7 +1080,7 @@
 <p>当然，也有一些问题需要我们留意，比如很多项目功能相似度高，浪费了生态发展的更多可能性。</p>
 <p>总得来说，开发者是nostr网络发展的根本，有好的应用才能支撑更丰富的功能的实现，而目前的开发者激励是缺失的，开发者都在用爱发点。每一个开发者在开发之前可能要试着去思考如何实现商业化，这不仅有利于自己应用更长远的发展，当更多开发者思考商业模式的时候，整个生态的商业可能性才能被开发出来，这将推动整个生态商业市场的繁荣，进而推动nostr网络的发展和普及。</p>
 <blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：</p>
+<p>***你还可以在这些地方找到我***：</p>
 <p>即刻：hoodrh</p>
 <p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
 <p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
@@ -1089,7 +1089,8 @@
 <hr>
 <p>如果你喜欢这里，可以通过闪电网络打赏我 ：）</p>
 <p><lightning-widget name="Hoodrh" accent="#20c997" to="trimharp79@walletofsatoshi.com" image="https://hoodrh.top/images/avatar.png" amounts="50,500,5000"></lightning-widget></p>
-<script src="https://embed.twentyuno.net/js/app.js"></script>
+<script src="https://embed.twentyuno.net/js/app.js"> </script>
+
 ]]></content>
       <categories>
         <category>商业</category>

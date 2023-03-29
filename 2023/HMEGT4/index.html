@@ -20,23 +20,23 @@
     var CONFIG = {"hostname":"hoodrh.top","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。  💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。 Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、">
+  <meta name="description" content="这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。  💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="去中心化协议Nostr系列006">
-<meta property="og:url" content="https://hoodrh.top/2023/X707TR/index.html">
+<meta property="og:title" content="去中心化协议Nostr系列06">
+<meta property="og:url" content="https://hoodrh.top/2023/HMEGT4/index.html">
 <meta property="og:site_name" content="胡达尔汗">
-<meta property="og:description" content="这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。  💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。 Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、">
+<meta property="og:description" content="这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。  💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://images.mirror-media.xyz/publication-images/xpPgOicCONCEQY2GKWOEC.png?height=1042&width=968">
-<meta property="article:published_time" content="2023-03-29T14:09:25.000Z">
-<meta property="article:modified_time" content="2023-03-29T14:22:53.334Z">
+<meta property="article:published_time" content="2023-03-29T14:23:50.000Z">
+<meta property="article:modified_time" content="2023-03-29T14:26:41.996Z">
 <meta property="article:author" content="胡达尔汗">
 <meta property="article:tag" content="去中心化">
 <meta property="article:tag" content="社交协议">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://images.mirror-media.xyz/publication-images/xpPgOicCONCEQY2GKWOEC.png?height=1042&width=968">
 
-<link rel="canonical" href="https://hoodrh.top/2023/X707TR/">
+<link rel="canonical" href="https://hoodrh.top/2023/HMEGT4/">
 
 
 <script id="page-configurations">
@@ -49,7 +49,7 @@
   };
 </script>
 <script src="/lib/fireworks.js"></script>
-  <title>去中心化协议Nostr系列006 | 胡达尔汗</title>
+  <title>去中心化协议Nostr系列06 | 胡达尔汗</title>
   
 
 
@@ -207,7 +207,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2023/X707TR/">
+    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2023/HMEGT4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -220,7 +220,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          去中心化协议Nostr系列006
+          去中心化协议Nostr系列06
         </h1>
 
         <div class="post-meta">
@@ -231,7 +231,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-03-29 22:09:25 / 修改时间：22:22:53" itemprop="dateCreated datePublished" datetime="2023-03-29T22:09:25+08:00">2023-03-29</time>
+              <time title="创建时间：2023-03-29 22:23:50 / 修改时间：22:26:41" itemprop="dateCreated datePublished" datetime="2023-03-29T22:23:50+08:00">2023-03-29</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -272,8 +272,8 @@
         <blockquote>
 <p>这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。</p>
 </blockquote>
-<p><em>💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。</em></p>
-<p>Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、Rust、Go、Java、Python、Kotlin、JavaScript、TypeScript 和 Clojure 的实现。这些中继实现使用 SQLite 或 PostgreSQL 作为它们的数据库。<span id="more"></span></p>
+<p><em>💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。</em> <span id="more"></span></p>
+<p>Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、Rust、Go、Java、Python、Kotlin、JavaScript、TypeScript 和 Clojure 的实现。这些中继实现使用 SQLite 或 PostgreSQL 作为它们的数据库。</p>
 <h2 id="Nostr协议的基础元素"><a href="#Nostr协议的基础元素" class="headerlink" title="Nostr协议的基础元素"></a>Nostr协议的基础元素</h2><p>在Nostr协议组成的网络中，我们可以简化出一个最小元素的模型，基本元素包括：用户、客户端client、中继器Relay。三个元素之间的关系可以表示为：</p>
 <ol>
 <li><p>用户使用client，发布和查看内容（event形式传输），需要签名时在客户端完成签名。</p>
@@ -341,7 +341,7 @@
 <p>当然，也有一些问题需要我们留意，比如很多项目功能相似度高，浪费了生态发展的更多可能性。</p>
 <p>总得来说，开发者是nostr网络发展的根本，有好的应用才能支撑更丰富的功能的实现，而目前的开发者激励是缺失的，开发者都在用爱发点。每一个开发者在开发之前可能要试着去思考如何实现商业化，这不仅有利于自己应用更长远的发展，当更多开发者思考商业模式的时候，整个生态的商业可能性才能被开发出来，这将推动整个生态商业市场的繁荣，进而推动nostr网络的发展和普及。</p>
 <blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：</p>
+<p>***你还可以在这些地方找到我***：</p>
 <p>即刻：hoodrh</p>
 <p>Mirror：<a target="_blank" rel="noopener" href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
 <p>Twitter: <a target="_blank" rel="noopener" href="https://twitter.com/hooodrh">Hoodrh</a></p>
@@ -350,7 +350,8 @@
 <hr>
 <p>如果你喜欢这里，可以通过闪电网络打赏我 ：）</p>
 <p><lightning-widget name="Hoodrh" accent="#20c997" to="trimharp79@walletofsatoshi.com" image="https://hoodrh.top/images/avatar.png" amounts="50,500,5000"></lightning-widget></p>
-<script src="https://embed.twentyuno.net/js/app.js"></script>
+<script src="https://embed.twentyuno.net/js/app.js"> </script>
+
 
     </div>
 
@@ -366,7 +367,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://hoodrh.top/2023/X707TR/" title="去中心化协议Nostr系列006">https://hoodrh.top/2023/X707TR/</a>
+    <a href="https://hoodrh.top/2023/HMEGT4/" title="去中心化协议Nostr系列06">https://hoodrh.top/2023/HMEGT4/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
