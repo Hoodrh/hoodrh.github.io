@@ -20,21 +20,23 @@
     var CONFIG = {"hostname":"hoodrh.top","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="最近在思考一个问题：我认知的事物是事物本身吗？扩大这个话题可以得到很多相似的问题，终究指向的是-我能看到世界的本相吗？ 人类在认识世界的方面进行过无数的探索，也得到过很多的成果，我的这个问题在几千年内被无数的人思考过，但是这并不妨碍我再思考一遍，毫无疑问我们会从以往的人身上学到无数的经验，但是对于每个个体来说习得别人的经验只是开始，我们需要自己去探索这个经验然后产生自己的认识，至此那些经验才真正和">
+  <meta name="description" content="这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。  💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。 Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【NO.002-我们从来不能看到世界的本相】">
-<meta property="og:url" content="https://hoodrh.top/2021/1EZQA4M/index.html">
+<meta property="og:title" content="去中心化协议Nostr系列006">
+<meta property="og:url" content="https://hoodrh.top/2023/X707TR/index.html">
 <meta property="og:site_name" content="胡达尔汗">
-<meta property="og:description" content="最近在思考一个问题：我认知的事物是事物本身吗？扩大这个话题可以得到很多相似的问题，终究指向的是-我能看到世界的本相吗？ 人类在认识世界的方面进行过无数的探索，也得到过很多的成果，我的这个问题在几千年内被无数的人思考过，但是这并不妨碍我再思考一遍，毫无疑问我们会从以往的人身上学到无数的经验，但是对于每个个体来说习得别人的经验只是开始，我们需要自己去探索这个经验然后产生自己的认识，至此那些经验才真正和">
+<meta property="og:description" content="这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。  💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。 Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-08-04T14:58:06.000Z">
-<meta property="article:modified_time" content="2023-02-25T12:07:58.194Z">
+<meta property="og:image" content="https://images.mirror-media.xyz/publication-images/xpPgOicCONCEQY2GKWOEC.png?height=1042&width=968">
+<meta property="article:published_time" content="2023-03-29T14:09:25.000Z">
+<meta property="article:modified_time" content="2023-03-29T14:14:58.626Z">
 <meta property="article:author" content="胡达尔汗">
-<meta property="article:tag" content="认知">
-<meta property="article:tag" content="意识">
+<meta property="article:tag" content="去中心化">
+<meta property="article:tag" content="社交协议">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://images.mirror-media.xyz/publication-images/xpPgOicCONCEQY2GKWOEC.png?height=1042&width=968">
 
-<link rel="canonical" href="https://hoodrh.top/2021/1EZQA4M/">
+<link rel="canonical" href="https://hoodrh.top/2023/X707TR/">
 
 
 <script id="page-configurations">
@@ -47,7 +49,7 @@
   };
 </script>
 <script src="/lib/fireworks.js"></script>
-  <title>【NO.002-我们从来不能看到世界的本相】 | 胡达尔汗</title>
+  <title>去中心化协议Nostr系列006 | 胡达尔汗</title>
   
 
 
@@ -205,7 +207,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2021/1EZQA4M/">
+    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2023/X707TR/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -218,7 +220,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          【NO.002-我们从来不能看到世界的本相】
+          去中心化协议Nostr系列006
         </h1>
 
         <div class="post-meta">
@@ -227,27 +229,25 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-08-04 22:58:06" itemprop="dateCreated datePublished" datetime="2021-08-04T22:58:06+08:00">2021-08-04</time>
+              <time title="创建时间：2023-03-29 22:09:25 / 修改时间：22:14:58" itemprop="dateCreated datePublished" datetime="2023-03-29T22:09:25+08:00">2023-03-29</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-02-25 20:07:58" itemprop="dateModified" datetime="2023-02-25T20:07:58+08:00">2023-02-25</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%99%BA%E8%AF%86%E7%B3%BB%E7%BB%9F/" itemprop="url" rel="index"><span itemprop="name">智识系统</span></a>
+                  <a href="/categories/%E5%95%86%E4%B8%9A/" itemprop="url" rel="index"><span itemprop="name">商业</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%99%BA%E8%AF%86%E7%B3%BB%E7%BB%9F/%E8%AE%A4%E7%9F%A5/" itemprop="url" rel="index"><span itemprop="name">认知</span></a>
+                  <a href="/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/" itemprop="url" rel="index"><span itemprop="name">产品</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/" itemprop="url" rel="index"><span itemprop="name">Nostr</span></a>
                 </span>
             </span>
 
@@ -269,47 +269,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>最近在思考一个问题：我认知的事物是事物本身吗？扩大这个话题可以得到很多相似的问题，终究指向的是-我能看到世界的本相吗？</p>
-<p>人类在认识世界的方面进行过无数的探索，也得到过很多的成果，我的这个问题在几千年内被无数的人思考过，但是这并不妨碍我再思考一遍，毫无疑问我们会从以往的人身上学到无数的经验，但是对于每个个体来说习得别人的经验只是开始，我们需要自己去探索这个经验然后产生自己的认识，至此那些经验才真正和每个实在的个体产生了链接。</p>
-<span id="more"></span>
-
-<p>正如有人曾经说过，我们每个人都是前人思想的注脚，这并不是一种悲观，而是说明我们是在继承了前人思想的基础上不断发展和前进的，在学习已有的知识的基础上结合自己的理解内化这些知识，从这一刻起我们学到的知识就会摆脱物质化的属性，而是成为我们思想系统的一部分，随着不断的内化各种知识，它们彼此之间也会激发、碰撞出新的思想，这些所有如生命体一般在我们生命体内部流动着的知识形成的整体，我称之为：智慧。</p>
-<p>在进一步试图理解智慧这个意识层面的存在之前，可能需要先弄清楚智慧形成之前的一些问题:</p>
-<h2 id="主观和客观"><a href="#主观和客观" class="headerlink" title="主观和客观"></a>主观和客观</h2><p>我们接触到的所有信息来自两个方面：从外界、从内心，接受信息的途径早在几千年前佛陀就已经告诉了我们：眼、耳、鼻、舌、身、意，我们都是在通过这些途径获取到了刺激从而产生了对于外界的认知，但是我们通过这些途径真的获得了外界存在物的信息吗，我们有没有被自身赖以生存的生物反应给欺骗呢，我们如何验证这些认知是真实存在的呢？或者更进一步的说，我们最后产生的对于物体的认知它存在吗？</p>
-<p>我目前的思考是，可以从两个层次对这个问题做以说明，首先看我们获取物体信息的过程是否提供了客观的信息给我们；其次，要弄清楚的是我们的大脑处理完这些信息之后得到的结果是否可靠。</p>
-<h3 id="获取外界信息"><a href="#获取外界信息" class="headerlink" title="获取外界信息"></a>获取外界信息</h3><p>在生物进化的过程中，为了适应不断变化的环境，生物突变演化出了许多功能部位，通过这些部位和器官，生物体可以即时获取生存区域内的信息，从而做出应激反应，让自己在竞争和变化中存活下来。</p>
-<p>由于这些器官让生物生存下来，所以生物体对于这些获取重要器官的依赖度极高。对于获取信息的器官的依赖帮助我们的先祖躲避了各种外界的伤害，也避免了对于各种子虚乌有的过度崇拜，他们开始形成一种所谓的“检验真理的标准”：眼见为实。这种方式在过去的时代确实很有用，但是在我看来这种方式获取信息有两个比较明显的缺陷：</p>
-<p>1.首先是我们的眼睛和耳朵等器官并不能获取外界物体的所有信息。这里就拿眼睛来举个例子，我们知道所有物体都是由原子组合而成的能量聚集体，但是眼睛是无法识别所看到的物体的能量状况的，为了生存下来，我们的眼睛进化出了可以对物体能量进行描述的标量：比如大小、颜色、质地等方面，到这里我们再分析就可以知道眼睛看到的东西往往不是物体的真实存在的真实情况，而是简化后的部分信息。不过更令人沮丧的是，就连我们得到的这些简化后的信息也是不完整的：</p>
-<p>（1）颜色方面，我们的眼睛只可以分辨出红到紫这些波段的颜色，紫外和红外部分我们都无法识别；</p>
-<p>（2）大小测量方面，眼睛是无法得到有用的测量数据的，往往得依靠标准物对比，同时眼睛特别容易受到光线变化的影响造成视觉误差；</p>
-<p>2.其次，这种认知方式只关注与当下，也就是所谓的此时此刻此地，不具备延伸性。我们获取的信息只是当下可验证的，不具备在时间和空间上的延伸性，事物的存在以及影响是在连续的时空中体现出其特征和价值的，而这种只关注当下验证的方式如切片一般对事物进行处理，最后我们得到的是一段几乎没有多少价值的信息。</p>
-<p>随着人受到思想启蒙，很多知识并不是具体存在和实体呈现的，而是一种意识层面的存在，在时代的不断前进和发展中，我们获得地事物的基本特征已经不足以让我们对事物产生深刻的理解，需要对器官获得的信息进行加工处理，这个工作主要有大脑完成。</p>
-<h3 id="大脑处理信息"><a href="#大脑处理信息" class="headerlink" title="大脑处理信息"></a>大脑处理信息</h3><p>大脑对于外界信息的认知是一种主观认知，也就是说我们对于外界的事物的信息认知是器官获取到的信息被我们自身的认知模型处理后得到的结果，对于所有人来说我们从外界获取到的信息几乎没有太大差距，但是由于每个人大脑中的认知模型不同，不同的人面对同样的外物最后却得出了千差万别的结果。其实问题就出在大脑处理信息时，会直接调用已有的认知模型对从外界输入的信息进行剪裁，有什么认知模型便会得到足以印证模型的结果。</p>
-<p>到这一步我们足以发现不光我们无法获取到外物的全部信息，就连已经获得的那部分信息我们也无法很好的进行处理。我们得到的对于外界的所有认知都是我们自身认知的体现，也就是说我们永远无法获得客观的信息，所有信息都是主观的。那么社会上所说的对于某件事的客观分析是什么呢？其实是分析者的主观分析罢了，不过这些主观的内容是群体性的认知，所以我愿意称之为有局限的客观。</p>
-<h2 id="理性和感性"><a href="#理性和感性" class="headerlink" title="理性和感性"></a>理性和感性</h2><p>既然我们无法获得对于事物全面的认识，也无法获得客观的认知，那么我们是不是只能陷入无知的尴尬境地？</p>
-<p>当然不是的，世界的奇妙性恰恰在于它的戏剧性。我们既然不能从外面获得更多，那我们能做的就只有从自己身上着手，争取从有限的信息中得到更多有用的认知，将更多点状分布的信息组织起来，让它们形成一个网络，在这里信息会被持续的加工，从而产生出一些指导性的、足以跨越时空的关键信息，我将这个网络理解为生物体的感性和理性。</p>
-<h3 id="一阶感性"><a href="#一阶感性" class="headerlink" title="一阶感性"></a>一阶感性</h3><p>在生物进化的过程中，生物体就生发出了最原始的情绪系统，通过情绪系统感知外界并作出反应，这个阶段我将其称之为一阶感性。在一阶感性中，主要是生物体自身基因中含有的因子在起作用，其存在的目的主要是为了保护自己从而求得生存，因此这个阶段的感性并不考虑真假。</p>
-<h3 id="理性"><a href="#理性" class="headerlink" title="理性"></a>理性</h3><p>随着人类的发展以及时代的进步，原本定居在一地的人开始流动起来，再加上生产生活方式的改变等各种因素，造成了越来越多的信息被生产出来，光靠眼见为实等方式早已不能让我们的先祖从纷繁复杂的信息中找到关键信息，为了更好的生存下去，人类开始寻找不同信息之间的关系，并通过在大脑中对比、推演、归纳这些信息，从而得到有用的信息，这个过程我称之为理性。在理性阶段，通过逻辑思维分析和推演事物之间的关联，得到的关键信息有一个巨大的优势，那就是它更加具有一定程度上的代表性，足以打破时间和空间的桎梏，到此为止，我们终于可以不只是关注眼前，也可以通过在理性处理已知信息的基础上，给未来可能发生的事给出可能的解决方案。</p>
-<h3 id="二阶感性"><a href="#二阶感性" class="headerlink" title="二阶感性"></a>二阶感性</h3><p>不过，理性的局限性也是显而易见的，那就是我们依靠从以往的信息中分析、推理得到的知识去认识未来的事物时，如果未来出现的事物在以前没有出现过，那么之前理性分析得到的认知体系将失效。面对这种情况，大脑在无数次的失败当中进化出了二阶感性，一种在理性不断积累的基础上涌现出来的高阶感性，一种敏锐的直觉。</p>
-<p>在这个阶段，我们对于事物的认知和感受的信息来源于器官从外界获取的信息，通过大脑进行理性的分析和加工，然后在二阶感性的角度上看到更多信息。从系统论的角度来看的话，二阶感性相当于在系统中提升了一个层级，可以对原有的内容有更多维的认识和感知，而这些感知也正是带领我们面对未来的不确定事物，找到解决方案的关键存在，这个过程在现在企业中叫做“跨越非连续性”。</p>
-<p>理性和感性并不是彼此割裂的，而是互相缠绕共生的一种存在状态，只不过有的人只有一阶感性，有的人多了理性，有的人又多了二阶感性，这种加工信息的认知网络的生长并不是天生的，就连一阶感性来说更多也是后天可塑造的，那么我们就回到了最初的话题，智慧。</p>
-<h2 id="为智慧生成的环境做哪些准备？"><a href="#为智慧生成的环境做哪些准备？" class="headerlink" title="为智慧生成的环境做哪些准备？"></a>为智慧生成的环境做哪些准备？</h2><p>我们不断的接触各种外物，学习更多的知识强化自我，但是只是学习那些散乱的信息点并没有多大作用，只有在学习过程中不断打磨提高自己的一阶感性和理性的层级，之后到达一定阶段涌现出二阶感性，我将一阶感性、理性、二阶感性共同形成的一种动态平衡的存在称为智慧。</p>
-<p>就目前阶段我的认知而言，我觉得培养智慧的方法主要有以下几点：</p>
-<p>1.学习知识点是引子，重点是生成知识处理网络并不断迭代。很多人貌似知道很多知识点，或许在过去的时代来说这种人是很厉害的，但是现代信息技术无比发达，搜索引擎马上可以查到的那些信息点都不需要记住，而是要在学习这些信息的过程中搭建自己处理各种信息的系统，最简单的方法就是多问几个问什么；</p>
-<p>2.获取信息的方式不是重点，开放系统才重要。不管你是读书、参加座谈、写作、上课······，这些方法都是获取信息而已，重要的是保持自我知识系统的开放性，不要设置局限，在知识层面来说各门各类细分下去差距巨大，但是在信息框架层面来说差距有限，在智慧层面来说都是一样的。这个区别在宗教修行中的例子或许更具说明作用，修行有十万八千法门，修成后到达同一片净土。</p>
-<p>智识生长是一个不断修正，迭代进化的过程，很多情况下我们这个阶段坚信的事在下个阶段早已是完全不同的面貌，但是不要忘了，是上一个阶段的存在才奠基了下一个阶段的存在，这不是因果，而是迭代、盘旋上升。</p>
-<p>生命是我们拥有的最宝贵，也是唯一一个不变的存在，其余的都可以通过我们自己的改变而有所改变，首先我们要坚信我们可以改变一些东西，然后就是培养智慧。<strong>如果认知是一盘棋，有些人想着怎么赢，有些人想一直在棋盘上，而有些人在不断扩大棋盘的边界</strong>。</p>
-<blockquote>
-<p><strong>近期知识清单：</strong></p>
-<p>《清华产品管理课》王慧文</p>
-<p>《去海拉尔》王咸</p>
-<p>《跃迁》古典</p>
-<p>《工作法图解》</p>
-<p>《清单革命》</p>
-<p>《社交着装读本》</p>
+        <blockquote>
+<p>这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。</p>
 </blockquote>
+<p><em>💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。</em></p>
+<p>Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、Rust、Go、Java、Python、Kotlin、JavaScript、TypeScript 和 Clojure 的实现。这些中继实现使用 SQLite 或 PostgreSQL 作为它们的数据库。<span id="more"></span></p>
+<h2 id="Nostr协议的基础元素"><a href="#Nostr协议的基础元素" class="headerlink" title="Nostr协议的基础元素"></a>Nostr协议的基础元素</h2><p>在Nostr协议组成的网络中，我们可以简化出一个最小元素的模型，基本元素包括：用户、客户端client、中继器Relay。三个元素之间的关系可以表示为：</p>
+<ol>
+<li><p>用户使用client，发布和查看内容（event形式传输），需要签名时在客户端完成签名。</p>
+</li>
+<li><p>client将内容发送给Relay传输出去，同时接受Relay传输过来的内容，Relay仅完成对消息的转发。</p>
+<p>我们会发现，client不与client直接发生交流，Relay也不与Relay发生交流。</p>
+</li>
+</ol>
+<p><img src="https://images.mirror-media.xyz/publication-images/xpPgOicCONCEQY2GKWOEC.png?height=1042&width=968" alt="img"></p>
+<p>如上图所示，用户1使用client1 、client2发送消息，用户1使用client1订阅了Relay1和Relay2，所以client1发送出去的消息会被Relay1和Relay2同时往外广播；用户2如果作为消息接收者，TA可以通过client1和client2来接收消息，因为用户2用client1订阅了Relay1和Relay2，所以TA可以通过client1查看来自Relay1和Relay2广播的消息，而用户2在client2只订阅了Relay2所以client2只能接收到Relay2广播的消息。</p>
+<p>到这里我们可以发现一个现象，那就是中继Relay只负责将client发送的消息传输出去，并不会对消息做任何改动，消息（编辑、处理、显示）、用户操作（关注、拉黑、取关、zap）都是在client上完成的，这也就是Nostr协议非常重要的一个发展原则：“<strong>笨中继，智能客户端</strong>”。</p>
+<p>你客户端运行的速度取决于你连接的中继器，因此你可以连接更多中继器以保证使用Nostr网络时有流畅的体验，当更多中继转发我们客户端发送的内容时，客户端使用体验更好。 当你连接的所有中继都断开时，你将找不到你账户发布的所有内容，除非你再次连接这些中继。如果你想确保自己的数据一直保存，你也可以运营自己的中继器，这是指南 <a target="_blank" rel="noopener" href="https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under">https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under</a></p>
+<h2 id="Nostr协议的优点及应用场景"><a href="#Nostr协议的优点及应用场景" class="headerlink" title="Nostr协议的优点及应用场景"></a>Nostr协议的优点及应用场景</h2><h3 id="Nostr协议的优点："><a href="#Nostr协议的优点：" class="headerlink" title="Nostr协议的优点："></a>Nostr协议的优点：</h3><p>在这样的发展原则下，就会带来以下几点的优点：</p>
+<ol>
+<li><p>实现言论自由</p>
+<p>中继可以阻止用户在那里发布任何内容，但这对他们没有影响，因为他们仍然可以发布到其他中继。由于用户是通过公钥识别的，因此当他们被禁止时，他们不会失去他们的身份和他们的追随者基础。 不需要用户手动输入新的中继地址（虽然这也应该被支持），每当你关注的人发布服务器推荐时，客户端应该自动将其添加到它将查询的中继列表中。 如果有人正在使用一个中继发布他们的数据但想迁移到另一个中继，他们可以发布一个服务器推荐到之前的中继中去； </p>
+<p>如果某人被多次中继禁止，以至于他们无法广播他们的服务器推荐，他们仍然可以通过其他方式让一些亲密的朋友知道他们现在正在哪个中继发布。然后，这些密友可以连接该新服务器查看好友发布的内容，慢慢地，被禁用户的老粉丝群将开始从新中继重新找到他们的帖子。 当继电器停止操作时，上述所有内容也有效。</p>
+<p>在这样的系统中，我们只要保存好自己的私钥和公钥，就不用担心会被内容平台封锁账号，我们的发言权将重新回归到自己手中。</p>
+</li>
+<li><p>抗审查</p>
+<p>每个用户都可以将他们的更新发布到任意数量的中继。 中继可以向用户收取费用（目前该费用的协商不在协议范围内）以在那里发布，这确保了审查抵抗.</p>
+</li>
+<li><p>防止垃圾邮件</p>
+<p>如果垃圾邮件是中继的一个问题，它可能需要支付发布费用或一些其他形式的身份验证，例如电子邮件地址或电话，并将这些在内部与公钥相关联，然后发布到该中继——或其他反垃圾邮件技术，如 hashcash 或验证码。如果中继被用作垃圾邮件载体，它很容易被客户端取消列出，客户端可以继续从其他中继获取内容更新。</p>
+</li>
+<li><p>更优雅的数据存储</p>
+<p>为了让网络保持健康，不需要数百个活跃的中继。事实上，考虑到在现有中继开始出现异常时可以轻松创建新中继并通过网络传播这一事实，它只需少数几个就可以正常工作。因此，所需的数据存储量通常比 Mastodon 或类似软件要少。 或者考虑一个不同的结果：其中存在数百个由业余爱好者运行的利基中继，每个中继都有一小群用户更新的内容。该体系结构也可以扩展：数据从用户发送到单个服务器，然后从该服务器直接发送到将使用该数据的用户。它不必由其他任何人存储。在这种情况下，任何一台服务器处理来自其他服务器的更新都不是很大的负担，拥有业余服务器也不是问题。</p>
+</li>
+<li><p>传输视频等内容</p>
+<p>中继很容易拒绝大型内容，或者在接受和托管大型内容时收费。当信息和激励措施明确时，市场会产生专门的视频服务商来实现视频等文件的传输中继，这将促进新的商业服务的形成。</p>
+</li>
+<li><p>用户掌握自己的信息流</p>
+<p>每个客户端都可以决定如何最好地向用户显示帖子，因此用户始终可以选择以自己想要的方式查看内容——从使用 AI 来决定看到的更新顺序 或者 按时间顺序排序内容。</p>
+</li>
+</ol>
+<h3 id="Nostr协议的应用场景："><a href="#Nostr协议的应用场景：" class="headerlink" title="Nostr协议的应用场景："></a>Nostr协议的应用场景：</h3><p>Nostr 的设计理念是有一天它可以取代 Twitter 作为一个平台，但除此之外，它还可以用于以下应用场景：</p>
+<ol>
+<li>直接和即时消息 </li>
+<li>公共聊天室 </li>
+<li>新闻频道 </li>
+<li>论坛 </li>
+<li>网站 </li>
+<li>代码库 </li>
+<li>虚拟社区 </li>
+<li>游戏（西洋跳棋、国际象棋） </li>
+<li>实时协作 </li>
+<li>优步克隆 </li>
+<li>RSS阅读器 </li>
+<li>投币 </li>
+<li>自动化和家庭自动化 </li>
+<li>表决 </li>
+<li>从其他社交网络到 Nostr 的桥梁（电子邮件、Twitter、Mastodon 等）</li>
+<li>更多功能，期待大家一起去探索</li>
+</ol>
+<h2 id="中继的分类"><a href="#中继的分类" class="headerlink" title="中继的分类"></a>中继的分类</h2><p>任何人都可以开发并运营一个自己的中继，目前已经有人运营中继来实现盈利。对于中继的分类，并没有官方的说明，市面上的中继大致上可以分为三类：</p>
+<ol>
+<li>普通中继：任何人都可以在上面发布内容，相当于一个公共广场，没有对发布的内容进行任何过滤，所以整体信息质量低，内容参差不齐；</li>
+<li>付费中继：有一定的进入门槛，需要付费或者一定的注册流程，会实现一定的内容过滤，但是并不意味着没有垃圾内容。</li>
+<li>封闭中继：只有指定的用户才可以加入其中，是一个内部小圈子专用。比如组织、公司、俱乐部自用中继</li>
+</ol>
+<p>当然，对于更多人来说第一种和第二种中继足以满足我们的需要，你可以在这里查看现有的中继器 <a target="_blank" rel="noopener" href="https://nostr.watch/relays/find">https://nostr.watch/relays/find</a></p>
+<h2 id="关于Nostr的一些思考"><a href="#关于Nostr的一些思考" class="headerlink" title="关于Nostr的一些思考"></a>关于Nostr的一些思考</h2><h3 id="经济系统"><a href="#经济系统" class="headerlink" title="经济系统"></a>经济系统</h3><p>Nostr协议网络从一开始就引入了lightning闪电网络，让整个nostr网络原生就带有一种经济“基因”，那么接下来的工作就是探索可以实现经济交流的业务场景，然后对应该场景开发相应的功能。</p>
+<p>就目前client普遍有的功能来说，一个可以发展出经济系统的功能就是zap，当任何人表达自己的喜欢时，不是用“like”而是用“ZAP”，发送一定数额的sat来支持你喜欢的内容时，创作者经济将会获得成长的可能，当更多人自然的打赏自己欣赏的内容时，打赏文化将在nostr网络中传播，创作者受到激励将输出更高质量的内容，商业飞轮将转动起来。</p>
+<h3 id="生态建设"><a href="#生态建设" class="headerlink" title="生态建设"></a>生态建设</h3><p>Nostr并不是一个应用，它是一个通信协议，就像是地下河一样，我们可以在它之上种各种各样的植物（搭建属于自己的应用来实现各种各样的功能）从而发展一片森林。我们可以想象基于nostr协议将发展出丰富的应用生态。据我在nostr开发者群组的观察以及对GitHub上nostr相关项目的调研发现，开发者的热情还是很高的，他们在快速的开发和迭代新的应用及功能，如果这些开发持续下去的话，nostr生态必然在不久的将来迎来一波爆发。</p>
+<p>当然，也有一些问题需要我们留意，比如很多项目功能相似度高，浪费了生态发展的更多可能性。</p>
+<p>总得来说，开发者是nostr网络发展的根本，有好的应用才能支撑更丰富的功能的实现，而目前的开发者激励是缺失的，开发者都在用爱发点。每一个开发者在开发之前可能要试着去思考如何实现商业化，这不仅有利于自己应用更长远的发展，当更多开发者思考商业模式的时候，整个生态的商业可能性才能被开发出来，这将推动整个生态商业市场的繁荣，进而推动nostr网络的发展和普及。</p>
 <blockquote>
 <p><em><strong>你还可以在这些地方找到我</strong></em>：</p>
+<p>即刻：hoodrh</p>
 <p>Mirror：<a target="_blank" rel="noopener" href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
 <p>Twitter: <a target="_blank" rel="noopener" href="https://twitter.com/hooodrh">Hoodrh</a></p>
 <p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
@@ -334,7 +367,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://hoodrh.top/2021/1EZQA4M/" title="【NO.002-我们从来不能看到世界的本相】">https://hoodrh.top/2021/1EZQA4M/</a>
+    <a href="https://hoodrh.top/2023/X707TR/" title="去中心化协议Nostr系列006">https://hoodrh.top/2023/X707TR/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -345,8 +378,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E8%AE%A4%E7%9F%A5/" rel="tag"># 认知</a>
-              <a href="/tags/%E6%84%8F%E8%AF%86/" rel="tag"># 意识</a>
+              <a href="/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/" rel="tag"># 去中心化</a>
+              <a href="/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/" rel="tag"># 社交协议</a>
           </div>
 
         
@@ -355,13 +388,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/34KJY4X/" rel="prev" title="【NO.001—个人知识库搭建-做时间的朋友】">
-      <i class="fa fa-chevron-left"></i> 【NO.001—个人知识库搭建-做时间的朋友】
+    <a href="/2023/2JMCDRW/" rel="prev" title="ChatGPT热潮中的冷静剂-AI安全性研究">
+      <i class="fa fa-chevron-left"></i> ChatGPT热潮中的冷静剂-AI安全性研究
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/34ENZFD/" rel="next" title="【NO.003-如何与生命共处|长期价值】">
-      【NO.003-如何与生命共处|长期价值】 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -420,7 +450,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BB%E8%A7%82%E5%92%8C%E5%AE%A2%E8%A7%82"><span class="nav-text">主观和客观</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8E%B7%E5%8F%96%E5%A4%96%E7%95%8C%E4%BF%A1%E6%81%AF"><span class="nav-text">获取外界信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E8%84%91%E5%A4%84%E7%90%86%E4%BF%A1%E6%81%AF"><span class="nav-text">大脑处理信息</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%90%86%E6%80%A7%E5%92%8C%E6%84%9F%E6%80%A7"><span class="nav-text">理性和感性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E9%98%B6%E6%84%9F%E6%80%A7"><span class="nav-text">一阶感性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%90%86%E6%80%A7"><span class="nav-text">理性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E9%98%B6%E6%84%9F%E6%80%A7"><span class="nav-text">二阶感性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E6%99%BA%E6%85%A7%E7%94%9F%E6%88%90%E7%9A%84%E7%8E%AF%E5%A2%83%E5%81%9A%E5%93%AA%E4%BA%9B%E5%87%86%E5%A4%87%EF%BC%9F"><span class="nav-text">为智慧生成的环境做哪些准备？</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Nostr%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%9F%BA%E7%A1%80%E5%85%83%E7%B4%A0"><span class="nav-text">Nostr协议的基础元素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Nostr%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BC%98%E7%82%B9%E5%8F%8A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="nav-text">Nostr协议的优点及应用场景</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Nostr%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BC%98%E7%82%B9%EF%BC%9A"><span class="nav-text">Nostr协议的优点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nostr%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%EF%BC%9A"><span class="nav-text">Nostr协议的应用场景：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%AD%E7%BB%A7%E7%9A%84%E5%88%86%E7%B1%BB"><span class="nav-text">中继的分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8ENostr%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83"><span class="nav-text">关于Nostr的一些思考</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%8F%E6%B5%8E%E7%B3%BB%E7%BB%9F"><span class="nav-text">经济系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%80%81%E5%BB%BA%E8%AE%BE"><span class="nav-text">生态建设</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
