@@ -1089,7 +1089,7 @@
 <hr>
 <p>如果你喜欢这里，可以通过闪电网络打赏我 ：）</p>
 <p><lightning-widget name="Hoodrh" accent="#20c997" to="trimharp79@walletofsatoshi.com" image="https://hoodrh.top/images/avatar.png" amounts="50,500,5000"></lightning-widget></p>
-<script src="https://embed.twentyuno.net/js/app.js"> </script>
+<script src="https://embed.twentyuno.net/js/app.js"></script>
 
 ]]></content>
       <categories>
