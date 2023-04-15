@@ -1783,4 +1783,47 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-02》</title>
+    <url>/2023/1Q9SB3/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>大家好，欢迎回到我们30篇短文了解NFT的第二篇。<span id="more"></span></p>
+<p>在上一篇，我们讨论了NFT的核心是什么，并简要提到了它们是运行在区块链上的。在本篇中，我们将更详细的了解什么是区块链，因为如果你想掌握NFT，了解区块链是必不可少的一部分。</p>
+<p>区块链本质上是一个分布式的数据库或者账本，它在很多节点之间共享。典型的数据库和区块链的一个关键区别在于数据结构不同，区块链由一个个连接起来的数据块组成，每个块中可以存储一定的信息。而这些包含数据的块形成的链，就是区块链数据链。</p>
+<p>大多数数据库是由一个中央管理机构控制的，并放置在一个地方。这样的数据库有一个很大的缺点就是会因为故障而让整个数据库奔溃。例如，中央数据库可能被黑客攻击。</p>
+<p>比特币开创了分布式账本的概念，数据被 <strong>同时</strong> 存储在多个位置或多个参与者的数据库中，不需要中央管理机构的参与。</p>
+<p>你可能会问，这和NFT有什么关系？正如前面提到的，重要的是要意识到NFT是基于区块链的，没有区块链就没有NFT。加密货币和NFT都依赖区块链交易来证明其真实性并记录所有权。在大多数情况下，购买NFT需要使用加密货币。Ethereum（以太坊）区块链是最重要和最知名的NFT交易区块链。在以太坊上要用eth来购买NFT，这是以太坊的本地货币（代币）。</p>
+<p>solana和Tezos是另外两个有前途的NFT区块链，并拥有自己的代币。每个区块链都是独特的，拥有自己的特点和优点。在下一篇中，我们将探讨如何在实践中与区块链互动，并让你拥有自己的第一个NFT。</p>
+<p><strong>拓展</strong>：</p>
+<ol>
+<li><p>如果您有5分钟的时间，这是一个由NFT现在解释NFT区块链的优秀文章：<a href="https://nftnow.com/guides/complete-simple-guide-to-top-nft-blockchains/">https://nftnow.com/guides/complete-simple-guide-to-top-nft-blockchains/</a></p>
+</li>
+<li><p>如果您有6分钟的时间，这是一个很好的关于区块链的深入解释：<a href="https://www.youtube.com/watch?v=3xGLc-zz9cA">https://www.youtube.com/watch?v=3xGLc-zz9cA</a></p>
+</li>
+</ol>
+<blockquote>
+<p>重写： Hoodrh<br>原作：ZenAcademy</p>
+</blockquote>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
+<p>如果你喜欢这里，可以通过闪电网络打赏我 ：）</p>
+<p><lightning-widget name="Hoodrh" accent="#20c997" to="trimharp79@walletofsatoshi.com" image="https://hoodrh.top/images/avatar.png" amounts="50,500,5000"></lightning-widget></p>
+<script src="https://embed.twentyuno.net/js/app.js"></script>
+
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>
