@@ -1826,4 +1826,39 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-02》</title>
+    <url>/2023/1Q9SB3/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>本篇是我们的第三篇，在这一篇中我们来了解什么是数字钱包。<span id="more"></span></p>
+<p>在前几篇中我们进行了一些基础工作，例如什么是NFT以及它们如何与区块链相关联。在深入研究区块链的过程中，我们会感到害怕和难受，请不要着急，如果不清楚的话可以多看几遍，知道了解后再进入之后的内容。区块链很复杂，但是对于要了解NFT和Web3基本原理和参与这个生态系统的人来说，必须要有所理解才行。</p>
+<p>我们在之前谈了很多区块链的内容，但是我们实际应用中是如何访问以及与它产生交互的呢？最简单的方法就是使用数字钱包。数字钱包实际上是一个非常私人的东西，它和我们的实体钱包差不多，只不过存储的是数字资产。<br>如果你想购买东西或者与某个区块链建立联系，你必须拥有支持该区块链的数字钱包。在本系列中，我们使用以太坊作为区块链，Metamask作为我们的数字钱包，它是最受欢迎和广泛使用的。<br>Metamask不仅会作为我们进入以太坊生态的数字钱包，同时还作为一个接口供我们访问以太坊上创建的各种dapp（去中心应用）。关于什么是Dapp，我们之后的内容中会介绍。<br>以下是如何下载metamask的逐步指南，我们使用scribehow，这是一个协助创建逐步教程的工具，它非常简洁明了，只需要按照下面链接中的完整说明操作即可。</p>
+<p>这是如何下载MetaMask钱包的逐步操作指南：<br><a href="https://scribehow.com/shared/Metamask_Workflow__vf0zhIo7Sq256dz-GCzySg">https://scribehow.com/shared/Metamask_Workflow__vf0zhIo7Sq256dz-GCzySg</a></p>
+<p>从官方页面下载MetaMask后，请确保按照此视频提供的步骤设置您的钱包（！<strong>注意：一定要找个安全的、不联网的地方将助记词写下来并保存好，它是你找回账户和保护数字资产的根本</strong>）：<br><a href="https://www.youtube.com/watch?v=GNPz-Dv5BjM">https://www.youtube.com/watch?v=GNPz-Dv5BjM</a></p>
+<p>恭喜，您现在已经成功创建了自己的以太坊钱包，这使您可以访问以太坊生态系统，包括NFT和数千个其他dapp。我们尽量在一篇文章不输出太多内容，保持学习的轻快感！在购买第一个NFT之前，了解数字钱包的安全性是首要大事。下一篇中，我们将探讨如何保护您数字钱包安全。</p>
+<blockquote>
+<p>重写： Hoodrh<br>原作：ZenAcademy</p>
+</blockquote>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
+<p>如果你喜欢这里，可以通过闪电网络打赏我 ：）</p>
+<p><lightning-widget name="Hoodrh" accent="#20c997" to="trimharp79@walletofsatoshi.com" image="https://hoodrh.top/images/avatar.png" amounts="50,500,5000"></lightning-widget></p>
+<script src="https://embed.twentyuno.net/js/app.js"></script>
+
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>
