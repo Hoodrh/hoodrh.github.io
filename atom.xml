@@ -6,7 +6,7 @@
   <link href="https://hoodrh.top/atom.xml" rel="self"/>
   
   <link href="https://hoodrh.top/"/>
-  <updated>2023-04-24T11:33:02.420Z</updated>
+  <updated>2023-04-25T12:48:53.215Z</updated>
   <id>https://hoodrh.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《30篇短文掌握NFT-09》</title>
+    <link href="https://hoodrh.top/2023/3A7ARK2/"/>
+    <id>https://hoodrh.top/2023/3A7ARK2/</id>
+    <published>2023-04-25T12:47:34.000Z</published>
+    <updated>2023-04-25T12:48:53.215Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;上一篇我们讨论了在OpenSea上购买NFT的流程，本篇我们就来看一下如何将我们的NFT出售出去。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
+    
+    <category term="NFT" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/"/>
+    
+    
+    <category term="NFT" scheme="https://hoodrh.top/tags/NFT/"/>
+    
+    <category term="crypto" scheme="https://hoodrh.top/tags/crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>《30篇短文掌握NFT-07+08》</title>
@@ -513,29 +541,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>【NO.12-数字领地一年回顾】</title>
-    <link href="https://hoodrh.top/2022/3E6YNN8/"/>
-    <id>https://hoodrh.top/2022/3E6YNN8/</id>
-    <published>2022-06-28T11:56:48.000Z</published>
-    <updated>2023-04-22T12:39:27.879Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;​    距这片土地被创建，已经过去了一年的时间，在这一年中基本上以每月1篇的速度更新一些自己的思考或学习。这一年内也是经历了各种事情，见证了各种社会现象的起灭，这篇文章是我对这一年来写作主题的回顾。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="智识系统" scheme="https://hoodrh.top/categories/%E6%99%BA%E8%AF%86%E7%B3%BB%E7%BB%9F/"/>
-    
-    <category term="复盘" scheme="https://hoodrh.top/categories/%E6%99%BA%E8%AF%86%E7%B3%BB%E7%BB%9F/%E5%A4%8D%E7%9B%98/"/>
-    
-    
-    <category term="复盘" scheme="https://hoodrh.top/tags/%E5%A4%8D%E7%9B%98/"/>
-    
-    <category term="写作" scheme="https://hoodrh.top/tags/%E5%86%99%E4%BD%9C/"/>
     
   </entry>
   

@@ -2072,4 +2072,37 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-09》</title>
+    <url>/2023/3A7ARK2/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>上一篇我们讨论了在OpenSea上购买NFT的流程，本篇我们就来看一下如何将我们的NFT出售出去。<span id="more"></span></p>
+<p>想要将NFT卖出去，你可以转到OpenSea的个人资料页面，在那里你可以查看你当前登录的钱包里拥有的所有NFT。如果你想出售其中一个NFT，你可以选择它并点击“出售”按钮。一般情况下，有两种出售的方式：拍卖或者固定价格，大多数时候我们更想以一个固定的价格将NFT出售。那你就可以填入你想卖出的价格并设置有效期，如果有效期结束时还没有将NFT卖出去，则你发出来的这个“售卖NFT”的单子将失效，你需要重新提交一份。</p>
+<p>要记住的一件事是，每个区块链交易都会涉及gas费用，OpenSea以及所有交易市场都使用两种交易方式：链上交易（区块链上交易）和链下交易（在自己的后端系统上进行），只有在链上交易时才会需要产生费用，因此你不必担心，并不是每次挂单出售NFT都需要gas费用。</p>
+<p>除了挂单被交易时会消耗gas费外，OpenSea还将收取一次性的费用来对初次交易的钱包进行初始化。一旦你挂单出售的NFT被他人购买，出售金额会在减去交易费用后，剩余的直接进入你的数字钱包。在挂单出售NFT之前，你一般可以去搜索该系列的NFT整体的价格情况，了解同系列NFT的float地板价是多少，然后作为你出价的参考，这样有助于你更快的将你的NFT出售出去。</p>
+<p>如果你不想将NFT出售，只是想将其从自己目前的钱包转移到另一个钱包，或者发送给亲人朋友的钱包之中，具体的操作我们下篇展开。</p>
+<p><strong>更多资料</strong>：</p>
+<ol>
+<li><p>如果您有3分钟的时间，这是OpenSea的一篇详细文章，介绍了如何在他们的平台上销售NFT：<a href="https://support.opensea.io/hc/en-us/articles/360063498333-How-do-I-sell-an-NFT-">https://support.opensea.io/hc/en-us/articles/360063498333-How-do-I-sell-an-NFT-</a></p>
+</li>
+<li><p>如果您有4分钟的时间，这是一个很棒的视频，说明了上述过程：<a href="https://www.youtube.com/watch?v=0mfoXe82xE8">https://www.youtube.com/watch?v=0mfoXe82xE8</a></p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>
