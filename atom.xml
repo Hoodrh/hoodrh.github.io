@@ -6,7 +6,7 @@
   <link href="https://hoodrh.top/atom.xml" rel="self"/>
   
   <link href="https://hoodrh.top/"/>
-  <updated>2023-04-25T12:48:53.215Z</updated>
+  <updated>2023-04-26T13:55:45.807Z</updated>
   <id>https://hoodrh.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《30篇短文掌握NFT-10》</title>
+    <link href="https://hoodrh.top/2023/2A1T12R/"/>
+    <id>https://hoodrh.top/2023/2A1T12R/</id>
+    <published>2023-04-26T13:51:02.000Z</published>
+    <updated>2023-04-26T13:55:45.807Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在之前的文章中我们介绍了如何出售自己的NFT，但是有些时候我们想把NFT从当前的钱包转移到其他钱包，我们该怎么办呢？本篇就来展开讲讲 &amp;gt;&amp;gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
+    
+    <category term="NFT" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/"/>
+    
+    
+    <category term="NFT" scheme="https://hoodrh.top/tags/NFT/"/>
+    
+    <category term="crypto" scheme="https://hoodrh.top/tags/crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>《30篇短文掌握NFT-09》</title>
@@ -522,25 +550,6 @@
     <category term="多样性" scheme="https://hoodrh.top/tags/%E5%A4%9A%E6%A0%B7%E6%80%A7/"/>
     
     <category term="复杂" scheme="https://hoodrh.top/tags/%E5%A4%8D%E6%9D%82/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>协议，而不是平台-言论自由的技术方法</title>
-    <link href="https://hoodrh.top/2022/340V3JX/"/>
-    <id>https://hoodrh.top/2022/340V3JX/</id>
-    <published>2022-07-17T16:25:56.000Z</published>
-    <updated>2023-04-22T12:36:49.423Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;改变互联网的经济和数字基础设施以促进言论自由&quot;&gt;&lt;a href=&quot;#改变互联网的经济和数字基础设施以促进言论自由&quot; class=&quot;headerlink&quot; title=&quot;改变互联网的经济和数字基础设施以促进言论自由&quot;&gt;&lt;/a&gt;改变互联网的经济和数字基础设施以促进言论自由&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;著作：&lt;a href=&quot;https://knightcolumbia.org/authors/mike-masnick&quot;&gt;Mike Masnick &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;翻译：Hoodrh&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;在过去十年左右的普遍情绪支持互联网和社交媒体作为实现更多言论和改善思想市场的一种方式之后，在过去几年中，这种观点发生了巨大变化——现在似乎几乎没有人很高兴。一些人认为这些平台已成为拖钓、偏执和仇恨的污水池。与此同时，其他人认为这些平台在监管语言方面变得过于激进，并且正在系统地压制或审查某些观点。这甚至没有涉及隐私问题以及这些平台对他们收集的所有数据正在做什么（或不做什么）。&lt;/p&gt;</summary>
-    
-    
-    
     
   </entry>
   

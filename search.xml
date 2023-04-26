@@ -2105,4 +2105,37 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-10》</title>
+    <url>/2023/2A1T12R/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在之前的文章中我们介绍了如何出售自己的NFT，但是有些时候我们想把NFT从当前的钱包转移到其他钱包，我们该怎么办呢？本篇就来展开讲讲 &gt;&gt;<span id="more"></span></p>
+<p>想要将当下钱包中的NFT转移到其他钱包中，我们可以使用OpenSea来完成。我们可以将OpenSea当做一个与区块链交互的接口（好处在于它提供了普通用户更好操作的图形界面交互），在OpenSea上我们可以实现购买、销售、转移NFT的操作。</p>
+<p>要发送NFT，我们需要在OpenSea的个人资料中找到目标NFT，点击进入NFT详情后会发现，在销售按钮下方有一个选项是转移。单击后，会出现一个需要我们输入钱包地址的文本输入框，在这里我们输入接收NFT的钱包地址即可。如果你不确定接收钱包的地址，可以在数字钱包（如Metamask）中查找。</p>
+<p>在将NFT转移到另一个钱包之前，一定要确保接收地址正确，就像我们前面反复强调过的：“<strong>区块链交易时不可逆的，也不可更改</strong>”，意味着你如果输错地址，那就会把NFT发送到其他人的钱包中，你将没有任何办法可以撤回操作。因此，一定要在交易前反复确认接收地址是目标地址。最后，要说的是，转移NFT就是将NFT从一个地址发送到了另一个地址，这个过程是需要记录在区块链上的，因此需要消耗一笔交易费用（也就是gas）。</p>
+<p>到这里，我们就完成了对NFT进行购买、出售、转移的一些列操作内容的学习，希望对我们日后的NFT交易有所帮助。</p>
+<p><strong>更多资料</strong>：</p>
+<ol>
+<li><p>如果您有1分钟的时间，这是一个说明上述过程的视频：<a href="https://www.youtube.com/watch?v=n1yMVDxZ3zo">https://www.youtube.com/watch?v=n1yMVDxZ3zo</a></p>
+</li>
+<li><p>如果您有2分钟的时间，这是官方OpenSea支持页面，指导您在OpenSea上转移NFT的过程：<a href="https://support.opensea.io/hc/en-us/articles/5183126109715-How-can-I-transfer-an-NFT-using-OpenSea-">https://support.opensea.io/hc/en-us/articles/5183126109715-How-can-I-transfer-an-NFT-using-OpenSea-</a></p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>
