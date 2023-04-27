@@ -2138,4 +2138,47 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-11》</title>
+    <url>/2023/PA2RSX/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在之前的文章中，我们反复强调要注意在加密领域的安全，一不小心就有可能掉入黑暗森林，因此你必须时刻保持警惕。本篇我们来了解一些常见的诈骗手段。<span id="more"></span></p>
+<p>由于助记词是我们掌控数字钱包的关键，因此我们必须要保持它的安全性和私密性，将助记词保存在离网的安全之处，同时记得要备份！</p>
+<p>我们要讨论的第二个可以防范被诈骗的方法就是，<strong>在签署交易前反复确认交易的内容是什么</strong>。有很多人在不知道交易内容是什么的情况下，点击了metamask弹框并完成了交易，结果，他们损失了钱包中所有的资产。我不希望你有这样的遭遇，那一定要在“确认交易”前阅读并理解你签署的交易内容是什么。</p>
+<p>然而，在NFT领域最多发生的诈骗手段可能是你点击了恶意链接，这种情况每天都在发生，已经导致数千万元的资产被盗。一般情况下，诈骗人员会通过各种社交方式给你私信发送有害的链接（Twitter私信、Discord私信等，有时候也会有邮箱信息），他们声称“你通过链接可以领取免费的NFT”，一旦你点击链接，去向的可能是一个诈骗网页，当你在数字钱包上签署该网页的交易请求时，不良分子就会攻击你的钱包，并将你数字钱包中的NFT和资产全部转移到他们的钱包中。</p>
+<p>欺诈性的Discord频道也是恶意链接可能会存在的地方，在频道中除非是官方发布的声明，不然其他人发布的链接（尤其是可以免费领取NFT之类的）一定不要点击。</p>
+<p>因为我们很多人一直在不假思索的点击链接，所以避免所有的恶意诈骗是极具挑战性的，但越是这样我们就越要掌握更多的安全防护手段，来保护我们的数字资产安全。下面是需要谨记的防骗关键点：</p>
+<ol>
+<li>确保发送链接的人是值得信任的，并且确保发送消息的是你认识的那个账户拥有者本人。骗子们经常假扮成其他人，复制他们的名字和头像。</li>
+<li>如果你进入了一些项目的官网，确保是从官方账号的宣传中获得的网址。我所知道的诈骗行为是使用和热门项目方相似的网站来诈骗，唯一的不同是网址的细微差异，如果你不小心就可能有资产损失，例如热门项目”testproduct.xyz” 诈骗网址为”testproduot.xyz”。</li>
+<li>如果点击链接后到达一个项目网站，宣传可以免费mint之类的，听起来太好了以至于像假的的时候，那很大可能是假的，<strong>要保持警惕</strong>。</li>
+<li>如果发链接的人或者项目强制你点击，并在一定程度上引起FOMO（因害怕错过而跟风的现象），那你一定要<strong>警惕</strong>，有极大可能是诈骗。</li>
+</ol>
+<p>加密世界的黑暗一面在于，并不是你不点击链接就意味着你是安全的。骗子和不良分子们不断的开发出新的策略和技术来利用他人。我们唯一能做的就是承认自己所处的地方有不安全的因素存在，要始终保持警惕，谨慎操作。</p>
+<p><strong>更多资料</strong>：</p>
+<ol>
+<li><p>如果您有十分钟，这是一个有关数字钱包安全性的详细Twitter帖子：<a href="https://twitter.com/punk6529/status/1461742366696652809">https://twitter.com/punk6529/status/1461742366696652809</a></p>
+</li>
+<li><p>如果您有13分钟，这是Zeneca的一个视频，解释如何在NFT领域保持安全：<a href="https://www.youtube.com/watch?v=4rP7tHFLX8A">https://www.youtube.com/watch?v=4rP7tHFLX8A</a></p>
+</li>
+<li><p>如果您有5分钟，这是最常见的骗局类型的快速概述：<a href="https://twitter.com/PocketUniverseZ/status/1581787383812345858">https://twitter.com/PocketUniverseZ/status/1581787383812345858</a></p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>
