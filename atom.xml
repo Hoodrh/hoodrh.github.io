@@ -6,7 +6,7 @@
   <link href="https://hoodrh.top/atom.xml" rel="self"/>
   
   <link href="https://hoodrh.top/"/>
-  <updated>2023-04-27T15:18:51.503Z</updated>
+  <updated>2023-05-05T13:12:00.043Z</updated>
   <id>https://hoodrh.top/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>《30篇短文掌握NFT-12》</title>
+    <link href="https://hoodrh.top/2023/Z19K6K/"/>
+    <id>https://hoodrh.top/2023/Z19K6K/</id>
+    <published>2023-05-05T13:10:32.000Z</published>
+    <updated>2023-05-05T13:12:00.043Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt; NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在本篇中，我们来了解更多使用Discord的方法，这是我们探索NFT非常重要的一个空间。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
+    
+    <category term="NFT" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/"/>
+    
+    
+    <category term="NFT" scheme="https://hoodrh.top/tags/NFT/"/>
+    
+    <category term="crypto" scheme="https://hoodrh.top/tags/crypto/"/>
+    
+  </entry>
+  
+  <entry>
     <title>《30篇短文掌握NFT-11》</title>
     <link href="https://hoodrh.top/2023/PA2RSX/"/>
     <id>https://hoodrh.top/2023/PA2RSX/</id>
     <published>2023-04-27T15:17:44.000Z</published>
-    <updated>2023-04-27T15:18:51.503Z</updated>
+    <updated>2023-05-05T13:09:43.196Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -525,34 +553,6 @@
     <category term="去中心化" scheme="https://hoodrh.top/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/"/>
     
     <category term="应用解析" scheme="https://hoodrh.top/tags/%E5%BA%94%E7%94%A8%E8%A7%A3%E6%9E%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>去中心化协议Nostr系列01</title>
-    <link href="https://hoodrh.top/2023/2YJ7NQ7/"/>
-    <id>https://hoodrh.top/2023/2YJ7NQ7/</id>
-    <published>2023-02-14T16:13:32.000Z</published>
-    <updated>2023-04-22T12:37:56.052Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;系列介绍：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最近在看去中心化协议Nostr，在网上搜索后发现没有比较全面的中文文章，所以准备写一个Nostr系列，围绕着Nostr协议讲述一下发展历史、基本原理、相关应用、基础用法等内容，希望让更多对这个协议感兴趣或者对去中心化社交（去中心化文化）感兴趣的人了解到Nostr并使用起来。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
-    
-    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Nostr" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/"/>
-    
-    
-    <category term="去中心化" scheme="https://hoodrh.top/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/"/>
-    
-    <category term="社交协议" scheme="https://hoodrh.top/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/"/>
     
   </entry>
   

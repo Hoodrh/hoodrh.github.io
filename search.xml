@@ -345,25 +345,17 @@
       </tags>
   </entry>
   <entry>
-    <title>《30篇短文掌握NFT-02》</title>
-    <url>/2023/1Q9SB3/</url>
+    <title>《30篇短文掌握NFT-03》</title>
+    <url>/2023/2XWH0G6/</url>
     <content><![CDATA[<blockquote>
 <p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
 </blockquote>
-<p>大家好，欢迎回到我们30篇短文了解NFT的第二篇。<span id="more"></span></p>
-<p>在上一篇，我们讨论了NFT的核心是什么，并简要提到了它们是运行在区块链上的。在本篇中，我们将更详细的了解什么是区块链，因为如果你想掌握NFT，了解区块链是必不可少的一部分。</p>
-<p>区块链本质上是一个分布式的数据库或者账本，它在很多节点之间共享。典型的数据库和区块链的一个关键区别在于数据结构不同，区块链由一个个连接起来的数据块组成，每个块中可以存储一定的信息。而这些包含数据的块形成的链，就是区块链数据链。</p>
-<p>大多数数据库是由一个中央管理机构控制的，并放置在一个地方。这样的数据库有一个很大的缺点就是会因为故障而让整个数据库奔溃。例如，中央数据库可能被黑客攻击。</p>
-<p>比特币开创了分布式账本的概念，数据被 <strong>同时</strong> 存储在多个位置或多个参与者的数据库中，不需要中央管理机构的参与。</p>
-<p>你可能会问，这和NFT有什么关系？正如前面提到的，重要的是要意识到NFT是基于区块链的，没有区块链就没有NFT。加密货币和NFT都依赖区块链交易来证明其真实性并记录所有权。在大多数情况下，购买NFT需要使用加密货币。Ethereum（以太坊）区块链是最重要和最知名的NFT交易区块链。在以太坊上要用eth来购买NFT，这是以太坊的本地货币（代币）。</p>
-<p>solana和Tezos是另外两个有前途的NFT区块链，并拥有自己的代币。每个区块链都是独特的，拥有自己的特点和优点。在下一篇中，我们将探讨如何在实践中与区块链互动，并让你拥有自己的第一个NFT。</p>
-<p><strong>拓展</strong>：</p>
-<ol>
-<li><p>如果您有5分钟的时间，这是一个由NFT现在解释NFT区块链的优秀文章：<a href="https://nftnow.com/guides/complete-simple-guide-to-top-nft-blockchains/">https://nftnow.com/guides/complete-simple-guide-to-top-nft-blockchains/</a></p>
-</li>
-<li><p>如果您有6分钟的时间，这是一个很好的关于区块链的深入解释：<a href="https://www.youtube.com/watch?v=3xGLc-zz9cA">https://www.youtube.com/watch?v=3xGLc-zz9cA</a></p>
-</li>
-</ol>
+<p>本篇是我们的第三篇，在这一篇中我们来了解什么是数字钱包。<span id="more"></span></p>
+<p>在前几篇中我们进行了一些基础工作，例如什么是NFT以及它们如何与区块链相关联。在深入研究区块链的过程中，我们会感到害怕和难受，请不要着急，如果不清楚的话可以多看几遍，知道了解后再进入之后的内容。区块链很复杂，但是对于要了解NFT和Web3基本原理和参与这个生态系统的人来说，必须要有所理解才行。</p>
+<p>我们在之前谈了很多区块链的内容，但是我们实际应用中是如何访问以及与它产生交互的呢？最简单的方法就是使用数字钱包。数字钱包实际上是一个非常私人的东西，它和我们的实体钱包差不多，只不过存储的是数字资产。<br>如果你想购买东西或者与某个区块链建立联系，你必须拥有支持该区块链的数字钱包。在本系列中，我们使用以太坊作为区块链，Metamask作为我们的数字钱包，它是最受欢迎和广泛使用的。<br>Metamask不仅会作为我们进入以太坊生态的数字钱包，同时还作为一个接口供我们访问以太坊上创建的各种dapp（去中心应用）。关于什么是Dapp，我们之后的内容中会介绍。<br>以下是如何下载metamask的逐步指南，我们使用scribehow，这是一个协助创建逐步教程的工具，它非常简洁明了，只需要按照下面链接中的完整说明操作即可。</p>
+<p>这是如何下载MetaMask钱包的逐步操作指南：<br><a href="https://scribehow.com/shared/Metamask_Workflow__vf0zhIo7Sq256dz-GCzySg">https://scribehow.com/shared/Metamask_Workflow__vf0zhIo7Sq256dz-GCzySg</a></p>
+<p>从官方页面下载MetaMask后，请确保按照此视频提供的步骤设置您的钱包（！<strong>注意：一定要找个安全的、不联网的地方将助记词写下来并保存好，它是你找回账户和保护数字资产的根本</strong>）：<br><a href="https://www.youtube.com/watch?v=GNPz-Dv5BjM">https://www.youtube.com/watch?v=GNPz-Dv5BjM</a></p>
+<p>恭喜，您现在已经成功创建了自己的以太坊钱包，这使您可以访问以太坊生态系统，包括NFT和数千个其他dapp。我们尽量在一篇文章不输出太多内容，保持学习的轻快感！在购买第一个NFT之前，了解数字钱包的安全性是首要大事。下一篇中，我们将探讨如何保护您数字钱包安全。</p>
 <blockquote>
 <p>重写： Hoodrh<br>原作：ZenAcademy</p>
 </blockquote>
@@ -383,17 +375,25 @@
       </tags>
   </entry>
   <entry>
-    <title>《30篇短文掌握NFT-03》</title>
-    <url>/2023/2XWH0G6/</url>
+    <title>《30篇短文掌握NFT-02》</title>
+    <url>/2023/1Q9SB3/</url>
     <content><![CDATA[<blockquote>
 <p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
 </blockquote>
-<p>本篇是我们的第三篇，在这一篇中我们来了解什么是数字钱包。<span id="more"></span></p>
-<p>在前几篇中我们进行了一些基础工作，例如什么是NFT以及它们如何与区块链相关联。在深入研究区块链的过程中，我们会感到害怕和难受，请不要着急，如果不清楚的话可以多看几遍，知道了解后再进入之后的内容。区块链很复杂，但是对于要了解NFT和Web3基本原理和参与这个生态系统的人来说，必须要有所理解才行。</p>
-<p>我们在之前谈了很多区块链的内容，但是我们实际应用中是如何访问以及与它产生交互的呢？最简单的方法就是使用数字钱包。数字钱包实际上是一个非常私人的东西，它和我们的实体钱包差不多，只不过存储的是数字资产。<br>如果你想购买东西或者与某个区块链建立联系，你必须拥有支持该区块链的数字钱包。在本系列中，我们使用以太坊作为区块链，Metamask作为我们的数字钱包，它是最受欢迎和广泛使用的。<br>Metamask不仅会作为我们进入以太坊生态的数字钱包，同时还作为一个接口供我们访问以太坊上创建的各种dapp（去中心应用）。关于什么是Dapp，我们之后的内容中会介绍。<br>以下是如何下载metamask的逐步指南，我们使用scribehow，这是一个协助创建逐步教程的工具，它非常简洁明了，只需要按照下面链接中的完整说明操作即可。</p>
-<p>这是如何下载MetaMask钱包的逐步操作指南：<br><a href="https://scribehow.com/shared/Metamask_Workflow__vf0zhIo7Sq256dz-GCzySg">https://scribehow.com/shared/Metamask_Workflow__vf0zhIo7Sq256dz-GCzySg</a></p>
-<p>从官方页面下载MetaMask后，请确保按照此视频提供的步骤设置您的钱包（！<strong>注意：一定要找个安全的、不联网的地方将助记词写下来并保存好，它是你找回账户和保护数字资产的根本</strong>）：<br><a href="https://www.youtube.com/watch?v=GNPz-Dv5BjM">https://www.youtube.com/watch?v=GNPz-Dv5BjM</a></p>
-<p>恭喜，您现在已经成功创建了自己的以太坊钱包，这使您可以访问以太坊生态系统，包括NFT和数千个其他dapp。我们尽量在一篇文章不输出太多内容，保持学习的轻快感！在购买第一个NFT之前，了解数字钱包的安全性是首要大事。下一篇中，我们将探讨如何保护您数字钱包安全。</p>
+<p>大家好，欢迎回到我们30篇短文了解NFT的第二篇。<span id="more"></span></p>
+<p>在上一篇，我们讨论了NFT的核心是什么，并简要提到了它们是运行在区块链上的。在本篇中，我们将更详细的了解什么是区块链，因为如果你想掌握NFT，了解区块链是必不可少的一部分。</p>
+<p>区块链本质上是一个分布式的数据库或者账本，它在很多节点之间共享。典型的数据库和区块链的一个关键区别在于数据结构不同，区块链由一个个连接起来的数据块组成，每个块中可以存储一定的信息。而这些包含数据的块形成的链，就是区块链数据链。</p>
+<p>大多数数据库是由一个中央管理机构控制的，并放置在一个地方。这样的数据库有一个很大的缺点就是会因为故障而让整个数据库奔溃。例如，中央数据库可能被黑客攻击。</p>
+<p>比特币开创了分布式账本的概念，数据被 <strong>同时</strong> 存储在多个位置或多个参与者的数据库中，不需要中央管理机构的参与。</p>
+<p>你可能会问，这和NFT有什么关系？正如前面提到的，重要的是要意识到NFT是基于区块链的，没有区块链就没有NFT。加密货币和NFT都依赖区块链交易来证明其真实性并记录所有权。在大多数情况下，购买NFT需要使用加密货币。Ethereum（以太坊）区块链是最重要和最知名的NFT交易区块链。在以太坊上要用eth来购买NFT，这是以太坊的本地货币（代币）。</p>
+<p>solana和Tezos是另外两个有前途的NFT区块链，并拥有自己的代币。每个区块链都是独特的，拥有自己的特点和优点。在下一篇中，我们将探讨如何在实践中与区块链互动，并让你拥有自己的第一个NFT。</p>
+<p><strong>拓展</strong>：</p>
+<ol>
+<li><p>如果您有5分钟的时间，这是一个由NFT现在解释NFT区块链的优秀文章：<a href="https://nftnow.com/guides/complete-simple-guide-to-top-nft-blockchains/">https://nftnow.com/guides/complete-simple-guide-to-top-nft-blockchains/</a></p>
+</li>
+<li><p>如果您有6分钟的时间，这是一个很好的关于区块链的深入解释：<a href="https://www.youtube.com/watch?v=3xGLc-zz9cA">https://www.youtube.com/watch?v=3xGLc-zz9cA</a></p>
+</li>
+</ol>
 <blockquote>
 <p>重写： Hoodrh<br>原作：ZenAcademy</p>
 </blockquote>
@@ -486,6 +486,218 @@
 <blockquote>
 <p><em><strong>你还可以在这些地方找到我</strong></em>：<br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-06》</title>
+    <url>/2023/261CWHM/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>这是本系列文章的第六篇，之前我们已经介绍了如何购买数字货币，并将数字货币转移到自己的数字钱包中，本篇将了解去哪里购买NFT。<span id="more"></span></p>
+<p>购买NFT一般有两种类型，从项目方手中买或者从交易市场里买，前者我们称之为从一级市场购买，后者成为从二级市场购买。</p>
+<p>如果一个项目或者公司向公众出售首版（未交易过的）NFT，那就是一级市场，通常这是在该项目的官方网站上，通过“铸造”（mint）完成的，铸造NFT意味着用户首次与项目的智能合约交互以生成该NFT。</p>
+<p>从一级市场购买NFT的优点在于：</p>
+<ol>
+<li>你会成为拥有该NFT的第一个人，这对于一些对某种NFT或者对NFT创作者有强烈情感认可的人来说，是很有意义的。</li>
+<li>价格优势：对于一些人气较高的项目来说，发售前会开放白名单或者免费发售，铸造之后随着市场需求的上升，NFT的价格可能会有很大的上涨。但是，并不是所有的NFT在铸造后都会价格上涨，有些项目在铸造后的价格会比铸造时低，这是多方面因素导致的，比如需求不足、持有者大量抛售等。因此在购买NFT之前，还是需要调研一下，避免买到垃圾NFT。</li>
+</ol>
+<p>二级市场是人们可以相互购买或出售NFT的地方，这种市场通常不会在项目方的网站上，而是在一些专门做NFT交易的平台上进行，比如OpenSea。</p>
+<p>下一篇的主题我们将会探索在二级市场购买NFT。</p>
+<p><strong>更多资料</strong>：<br>这是一篇关于一级和二级NFT市场优点的精彩的5分钟阅读：<a href="https://techmoneyculture.com/nfts-101-primary-and-secondary-markets/">https://techmoneyculture.com/nfts-101-primary-and-secondary-markets/</a></p>
+<blockquote>
+<p>重写： Hoodrh<br>原作：ZenAcademy</p>
+</blockquote>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-07+08》</title>
+    <url>/2023/2DQZT70/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在上一篇中我们了解到购买NFT时有一级市场和二级市场的区别，今天我们就了解一下二级市场，以及在二级市场购买NFT。<span id="more"></span></p>
+<p>如果我们想在二级市场上购买自己的第一个NFT，那我们应该去哪里呢？<br>在之前的文章中我们提到过，每个链都有自己的NFT，那也就意味着几乎每个链都有自己的NFT交易市场（比如solana链的<a href="https://magiceden.io/">Magic Eden</a> ），除此之外还有一些支持多个链NFT的市场，最为著名的是<a href="https://opensea.io/">OpenSea</a>以及最近风头正盛的<a href="https://blur.io/">Blur</a>。今天我们以OpenSea为例来说一下.</p>
+<p>当我们进入OpenSea时，可以搜寻到成千上万个不同的NFT项目，当选择“探索”时，我们会看到他们提供的许多NFT领域，例如收藏品、音乐、艺术、摄影等等。通过点击“统计数据”，我们可以看到从最近一小时到发行以来所有NFT的交易量排名情况。</p>
+<p>好了，今天我们了解了NFT购买的二级市场，并以OpenSea为例说明，请多花点时间去使用它从而了解NFT的基本情况。</p>
+<p><strong>额外加分</strong>：</p>
+<p>如果您有一分钟的时间，这是一个介绍OpenSea的好视频：<a href="https://www.youtube.com/watch?v=gfGuPd1CELo">https://www.youtube.com/watch?v=gfGuPd1CELo</a></p>
+<hr>
+<p><strong>书接上文</strong>，</p>
+<p>我们直接进入第八篇，本篇我们直接购买NFT。</p>
+<p>当我们在OpenSea中选中自己想要的NFT之后，我们可以找到“立即购买”的选项，这样我们就可以直接以标示的价格购买NFT；当然，我们也可以使用“提供报价”功能，表示着我们自己想要出多少钱购买该NFT。</p>
+<p>在确定购买时，我们点击确认键之后，如果我们没有事先将数字钱包连接到OPenSea，那我们需要先连接，这里会自动弹出登录提示，我们操作即可。</p>
+<p>然后继续交易，会需要我们签署交易，也就是意味着要花掉我们的数字货币，从而与智能合约交互以获得选中的NFT。在点同意之前你要看清楚交易内容是什么，因为如果是恶意攻击，那可能有资产损失的可能。如果有疑问，请不要签署交易，你可以查询资料了解或者找人了解后再做决定。（区块链有好的地方，但是对于新手来说也是黑暗森林，要时时谨慎，推荐阅读：<a href="https://www.freebuf.com/articles/blockchain-articles/328763.html">漫雾出品-黑暗森林自救手册</a>）</p>
+<p>在NFT交易中，大多数情况下将会有一个创作者版税（个别平台没有），这实际上是支付给该NFT创造者的费用，在该NFT每一次被交易时创作者都会收到版税，这是对创作者的一种激励和价值认可，实体作品卖出之后就和创作者没什么关系了，但是NFT这种版税的存在让创作者和作品总是保持关系，也让创作者可以持续的从优秀的作品中有所收益，从而激励更多创作者产出优质作品。</p>
+<p>关于OpenSea上销售NFT的更多信息，我们将在下一篇中介绍。</p>
+<p><strong>额外加分：</strong></p>
+<p>如果您有3分钟的时间，OpenSea的这篇文章详细解释了如何购买NFT的工作原理：<a href="https://opensea.io/learn/how-to-buy-nft#toc-3">https://opensea.io/learn/how-to-buy-nft#toc-3</a></p>
+<p>如果您有5分钟的时间，这个逐步视频说明了上述过程：<a href="https://www.youtube.com/watch?v=pSMbt-2ls98">https://www.youtube.com/watch?v=pSMbt-2ls98</a></p>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-09》</title>
+    <url>/2023/3A7ARK2/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>上一篇我们讨论了在OpenSea上购买NFT的流程，本篇我们就来看一下如何将我们的NFT出售出去。<span id="more"></span></p>
+<p>想要将NFT卖出去，你可以转到OpenSea的个人资料页面，在那里你可以查看你当前登录的钱包里拥有的所有NFT。如果你想出售其中一个NFT，你可以选择它并点击“出售”按钮。一般情况下，有两种出售的方式：拍卖或者固定价格，大多数时候我们更想以一个固定的价格将NFT出售。那你就可以填入你想卖出的价格并设置有效期，如果有效期结束时还没有将NFT卖出去，则你发出来的这个“售卖NFT”的单子将失效，你需要重新提交一份。</p>
+<p>要记住的一件事是，每个区块链交易都会涉及gas费用，OpenSea以及所有交易市场都使用两种交易方式：链上交易（区块链上交易）和链下交易（在自己的后端系统上进行），只有在链上交易时才会需要产生费用，因此你不必担心，并不是每次挂单出售NFT都需要gas费用。</p>
+<p>除了挂单被交易时会消耗gas费外，OpenSea还将收取一次性的费用来对初次交易的钱包进行初始化。一旦你挂单出售的NFT被他人购买，出售金额会在减去交易费用后，剩余的直接进入你的数字钱包。在挂单出售NFT之前，你一般可以去搜索该系列的NFT整体的价格情况，了解同系列NFT的float地板价是多少，然后作为你出价的参考，这样有助于你更快的将你的NFT出售出去。</p>
+<p>如果你不想将NFT出售，只是想将其从自己目前的钱包转移到另一个钱包，或者发送给亲人朋友的钱包之中，具体的操作我们下篇展开。</p>
+<p><strong>更多资料</strong>：</p>
+<ol>
+<li><p>如果您有3分钟的时间，这是OpenSea的一篇详细文章，介绍了如何在他们的平台上销售NFT：<a href="https://support.opensea.io/hc/en-us/articles/360063498333-How-do-I-sell-an-NFT-">https://support.opensea.io/hc/en-us/articles/360063498333-How-do-I-sell-an-NFT-</a></p>
+</li>
+<li><p>如果您有4分钟的时间，这是一个很棒的视频，说明了上述过程：<a href="https://www.youtube.com/watch?v=0mfoXe82xE8">https://www.youtube.com/watch?v=0mfoXe82xE8</a></p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-10》</title>
+    <url>/2023/2A1T12R/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在之前的文章中我们介绍了如何出售自己的NFT，但是有些时候我们想把NFT从当前的钱包转移到其他钱包，我们该怎么办呢？本篇就来展开讲讲 &gt;&gt;<span id="more"></span></p>
+<p>想要将当下钱包中的NFT转移到其他钱包中，我们可以使用OpenSea来完成。我们可以将OpenSea当做一个与区块链交互的接口（好处在于它提供了普通用户更好操作的图形界面交互），在OpenSea上我们可以实现购买、销售、转移NFT的操作。</p>
+<p>要发送NFT，我们需要在OpenSea的个人资料中找到目标NFT，点击进入NFT详情后会发现，在销售按钮下方有一个选项是转移。单击后，会出现一个需要我们输入钱包地址的文本输入框，在这里我们输入接收NFT的钱包地址即可。如果你不确定接收钱包的地址，可以在数字钱包（如Metamask）中查找。</p>
+<p>在将NFT转移到另一个钱包之前，一定要确保接收地址正确，就像我们前面反复强调过的：“<strong>区块链交易时不可逆的，也不可更改</strong>”，意味着你如果输错地址，那就会把NFT发送到其他人的钱包中，你将没有任何办法可以撤回操作。因此，一定要在交易前反复确认接收地址是目标地址。最后，要说的是，转移NFT就是将NFT从一个地址发送到了另一个地址，这个过程是需要记录在区块链上的，因此需要消耗一笔交易费用（也就是gas）。</p>
+<p>到这里，我们就完成了对NFT进行购买、出售、转移的一些列操作内容的学习，希望对我们日后的NFT交易有所帮助。</p>
+<p><strong>更多资料</strong>：</p>
+<ol>
+<li><p>如果您有1分钟的时间，这是一个说明上述过程的视频：<a href="https://www.youtube.com/watch?v=n1yMVDxZ3zo">https://www.youtube.com/watch?v=n1yMVDxZ3zo</a></p>
+</li>
+<li><p>如果您有2分钟的时间，这是官方OpenSea支持页面，指导您在OpenSea上转移NFT的过程：<a href="https://support.opensea.io/hc/en-us/articles/5183126109715-How-can-I-transfer-an-NFT-using-OpenSea-">https://support.opensea.io/hc/en-us/articles/5183126109715-How-can-I-transfer-an-NFT-using-OpenSea-</a></p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-11》</title>
+    <url>/2023/PA2RSX/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在之前的文章中，我们反复强调要注意在加密领域的安全，一不小心就有可能掉入黑暗森林，因此你必须时刻保持警惕。本篇我们来了解一些常见的诈骗手段。<span id="more"></span></p>
+<p>由于助记词是我们掌控数字钱包的关键，因此我们必须要保持它的安全性和私密性，将助记词保存在离网的安全之处，同时记得要备份！</p>
+<p>我们要讨论的第二个可以防范被诈骗的方法就是，<strong>在签署交易前反复确认交易的内容是什么</strong>。有很多人在不知道交易内容是什么的情况下，点击了metamask弹框并完成了交易，结果，他们损失了钱包中所有的资产。我不希望你有这样的遭遇，那一定要在“确认交易”前阅读并理解你签署的交易内容是什么。</p>
+<p>然而，在NFT领域最多发生的诈骗手段可能是你点击了恶意链接，这种情况每天都在发生，已经导致数千万元的资产被盗。一般情况下，诈骗人员会通过各种社交方式给你私信发送有害的链接（Twitter私信、Discord私信等，有时候也会有邮箱信息），他们声称“你通过链接可以领取免费的NFT”，一旦你点击链接，去向的可能是一个诈骗网页，当你在数字钱包上签署该网页的交易请求时，不良分子就会攻击你的钱包，并将你数字钱包中的NFT和资产全部转移到他们的钱包中。</p>
+<p>欺诈性的Discord频道也是恶意链接可能会存在的地方，在频道中除非是官方发布的声明，不然其他人发布的链接（尤其是可以免费领取NFT之类的）一定不要点击。</p>
+<p>因为我们很多人一直在不假思索的点击链接，所以避免所有的恶意诈骗是极具挑战性的，但越是这样我们就越要掌握更多的安全防护手段，来保护我们的数字资产安全。下面是需要谨记的防骗关键点：</p>
+<ol>
+<li>确保发送链接的人是值得信任的，并且确保发送消息的是你认识的那个账户拥有者本人。骗子们经常假扮成其他人，复制他们的名字和头像。</li>
+<li>如果你进入了一些项目的官网，确保是从官方账号的宣传中获得的网址。我所知道的诈骗行为是使用和热门项目方相似的网站来诈骗，唯一的不同是网址的细微差异，如果你不小心就可能有资产损失，例如热门项目”testproduct.xyz” 诈骗网址为”testproduot.xyz”。</li>
+<li>如果点击链接后到达一个项目网站，宣传可以免费mint之类的，听起来太好了以至于像假的的时候，那很大可能是假的，<strong>要保持警惕</strong>。</li>
+<li>如果发链接的人或者项目强制你点击，并在一定程度上引起FOMO（因害怕错过而跟风的现象），那你一定要<strong>警惕</strong>，有极大可能是诈骗。</li>
+</ol>
+<p>加密世界的黑暗一面在于，并不是你不点击链接就意味着你是安全的。骗子和不良分子们不断的开发出新的策略和技术来利用他人。我们唯一能做的就是承认自己所处的地方有不安全的因素存在，要始终保持警惕，谨慎操作。</p>
+<p><strong>更多资料</strong>：</p>
+<ol>
+<li><p>如果您有十分钟，这是一个有关数字钱包安全性的详细Twitter帖子：<a href="https://twitter.com/punk6529/status/1461742366696652809">https://twitter.com/punk6529/status/1461742366696652809</a></p>
+</li>
+<li><p>如果您有13分钟，这是Zeneca的一个视频，解释如何在NFT领域保持安全：<a href="https://www.youtube.com/watch?v=4rP7tHFLX8A">https://www.youtube.com/watch?v=4rP7tHFLX8A</a></p>
+</li>
+<li><p>如果您有5分钟，这是最常见的骗局类型的快速概述：<a href="https://twitter.com/PocketUniverseZ/status/1581787383812345858">https://twitter.com/PocketUniverseZ/status/1581787383812345858</a></p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-12》</title>
+    <url>/2023/Z19K6K/</url>
+    <content><![CDATA[<blockquote>
+<p> NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在本篇中，我们来了解更多使用Discord的方法，这是我们探索NFT非常重要的一个空间。<span id="more"></span></p>
+<p>在上一篇中我们讲了一些最常见的恶意诈骗的方法，但是由于Discord是NFT领域信息和交流发生的绝佳空间，我们不得不了解更多使用Discord的方法。但这里也是坏人骗人的地方，在使用Discord时我们也要意识到这一点。</p>
+<p>Discord是一个聊天空间，经常被NFT项目当做社区使用。在项目对应的Discord服务器中，我们可以寻找有关NFT项目的更多信息、了解该团队的状况、了解社区发展情况以及和社区成员交流等。在Discord上，我们可以与成千上万人发送消息、进行电话或视频通话。通常情况下，一个NFT项目会把一个Discord服务器当做社区的主要基地。</p>
+<p>如果你想了解更多关于NFT和它们工作方式的信息，你应该注册Discord并加入感兴趣项目的服务器，因为一个项目的大多数信息和交流都是在这里发生的。当你初次使用Discord时会有所不适应，不过你可以先找几个项目的服务器加入进去，多和里面的人聊天、多参加一些他们的会议，相信很快你就可以适应软件的使用。</p>
+<p>关于使用Discord的安全问题，和我们上一篇中说过的一样，你要注意链接，对于别人通过私信发送给你的消息，一定不要相信，因为任何项目方都不会通过私信发送内容给你（一般私信告诉你把你列为白名单、让你免费mint NFT、让你抽奖之类，都是诈骗）；而对于服务器中的链接，一般情况下项目方的链接比个人发送的更可信，但是你也要注意“项目方也有可能是诈骗”，所以在任何时候都要保持警惕和独立判断，同时对任何免费可以得到的东西保持谨慎态度。</p>
+<p>如果你不知道要加入哪个服务器，你可以找到自己感兴趣的NFT项目，然后就可以在它的Twitter账户介绍或官网中找到Discord服务器的链接了，点击之后即可加入。</p>
+<p>好了，这一篇的内容就先到这里，你不妨先去找一两个自己感兴趣的项目的服务器，加入进去和社区成员交流、查看以往的信息等，通过多操作以掌握软件用法同时逐步了解项目。</p>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
 ]]></content>
       <categories>
         <category>商业</category>
@@ -927,41 +1139,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【NO.11-向上汇报需要学习】</title>
-    <url>/2022/30W95WS/</url>
-    <content><![CDATA[<p>在工作过程中，并不是你能干就可以有好的待遇以及工作成就感，我们生活在人群之中，如何与人沟通决定了我们获得什么样的最终成就，如何与上司沟通是我们必须要学习的一部分内容，这次直接上知识点。<span id="more"></span></p>
-<h3 id="1-向上汇报的关键："><a href="#1-向上汇报的关键：" class="headerlink" title="1.向上汇报的关键："></a>1.向上汇报的关键：</h3><p>​    （1）了解上级：上级都时间紧迫而且繁忙，要讲他们正真关心的东西<br>​    （2）直奔主题：向上级汇报时直接说结论和数据，向下演讲时讲故事和观点；<br>​    （3）要随机应变</p>
-<h3 id="2-作为一名高层管理者"><a href="#2-作为一名高层管理者" class="headerlink" title="2.作为一名高层管理者"></a>2.作为一名高层管理者</h3><p>能力是最基础的要求，更为重要的是要有力量坚决地面对各种状况；</p>
-<h3 id="3-在向高层管理者汇报时"><a href="#3-在向高层管理者汇报时" class="headerlink" title="3.在向高层管理者汇报时"></a>3.在向高层管理者汇报时</h3><p>不要想着让他们认可自己，而是向他们说清楚自己负责的工作的内容，帮助高层了解业务的进展和情况以便他们做决定即可；</p>
-<h3 id="4-向上汇报时需要防范的部分："><a href="#4-向上汇报时需要防范的部分：" class="headerlink" title="4.向上汇报时需要防范的部分："></a>4.向上汇报时需要防范的部分：</h3><p>​    4.1 上层管理者时间宝贵，要有强烈的时间观念，在有限时间内汇报关键信息，说明自己的需求和目标；<br>​        (1)如果有30分钟会议时间，要要求自己在10分钟内完成汇报<br>​        (2)如果只能将3页PPT，会是哪三页?精简汇报的关键信息<br>​        (3)每次汇报都要有一个“电梯游说”版本，足够精炼地说清问题。PREP结构包括：观点position（用一句话说清楚需要对方做什么以及能让对方获得什么）、理由reason（说明为什么这个事情如此重要）、证据evidence（能够支撑观点的数据或证据）、观点（重申请求）。![[电梯游说.png]]<br>​        (4)考虑极端情况：不用PPT、一分钟讲清楚</p>
-<p>​    4.2 不要只关注自己的汇报，还要随时关注会议室所有情况，即时做出反应。<br>​        (1)汇报时的一个小技巧是刚开始时感谢一下出席你汇报的人物；<br>​        (2)在发生讨论时倾听他人发言，通过引用别人的发言表示对他人的认可同时将话题拉回自己的议题；</p>
-<p>​    4.3 要提前了解汇报对象，掌握什么是他们关注和需要的。在汇报时要想着主要目的是推动决策，和其他人的沟通是合作，而不能为了维护自己的立场和他人发生抵抗。</p>
-<p>​    4.4 开始汇报时就要直接说明目的。上来就说明我的目的是什么（或者为什么我在这里，类似的话），问题或者议题是什么，可行性解决方案是什么，然后再阐述原因展示辅助文档。<br>​        (1)如果有坏消息，要先说出来，而不能放在后面说！方法：说出坏消息-解释为什么出现问题-==提出至少三种解决方法==供上级选择。</p>
-<h3 id="5-汇报结束时"><a href="#5-汇报结束时" class="headerlink" title="5.汇报结束时"></a>5.汇报结束时</h3><p>要和与会者再次确定达成的意见或决策，告知与会者你将在会后发邮件找他确认。会议结束后，发送邮件确认会议达成的内容，然后去执行。一定要有书面的确认文件，不然很危险！！！</p>
-<h3 id="6-关于汇报的风格："><a href="#6-关于汇报的风格：" class="headerlink" title="6.关于汇报的风格："></a>6.关于汇报的风格：</h3><p>​    （1）盯着对方的眼睛，可以看对方的瞳孔颜色<br>​    （2）语速要有轻重缓急，语调要有高低起伏<br>​    （3）用一个手做手势，适时走动<br>​    （4）会议进行前将PPT发给与会的人员。</p>
-<h3 id="7-在公司中的一些小细节："><a href="#7-在公司中的一些小细节：" class="headerlink" title="7.在公司中的一些小细节："></a>7.在公司中的一些小细节：</h3><p>​    （1）记住相关人员的名字<br>​    （2）即使面对压力，也要幽默和理性； 很难很难！<br>​    （3）保持微笑<br>​    （4）成就他人就是在成就自己</p>
-<p>向上汇报是一门技艺，需要不断的练习，保持谦卑和自信，这很重要。我们每个人都在不断成长和学习，每一次的错误和失误都会是我们成长的契机，祝好！</p>
-<blockquote>
-<p><strong>已读清单</strong></p>
-<p>￼ <em>书</em>：<br>《主权个人》<br>《 DAO人类协作的新疆域 》<br>《漫画风水》<br>《从0到1精通NFT》<br>《NFTGO.io 2022NFT年度报告》<br>《为什么你总是半途而废》<br>《数据产品经理30问》<br>《产品经理的20堂必修课》<br>《网易一千零一夜》<br>《十分钟冥想》</p>
-<p><em>课程</em>：<br>《大师课-马友友》</p>
-</blockquote>
-<blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：</p>
-<p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
-<p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
-<p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>商业</category>
-        <category>职场</category>
-      </categories>
-      <tags>
-        <tag>职场</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【NO.12-数字领地一年回顾】</title>
     <url>/2022/3E6YNN8/</url>
     <content><![CDATA[<p>​    距这片土地被创建，已经过去了一年的时间，在这一年中基本上以每月1篇的速度更新一些自己的思考或学习。这一年内也是经历了各种事情，见证了各种社会现象的起灭，这篇文章是我对这一年来写作主题的回顾。<span id="more"></span></p>
@@ -1005,6 +1182,41 @@
       <tags>
         <tag>复盘</tag>
         <tag>写作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【NO.11-向上汇报需要学习】</title>
+    <url>/2022/30W95WS/</url>
+    <content><![CDATA[<p>在工作过程中，并不是你能干就可以有好的待遇以及工作成就感，我们生活在人群之中，如何与人沟通决定了我们获得什么样的最终成就，如何与上司沟通是我们必须要学习的一部分内容，这次直接上知识点。<span id="more"></span></p>
+<h3 id="1-向上汇报的关键："><a href="#1-向上汇报的关键：" class="headerlink" title="1.向上汇报的关键："></a>1.向上汇报的关键：</h3><p>​    （1）了解上级：上级都时间紧迫而且繁忙，要讲他们正真关心的东西<br>​    （2）直奔主题：向上级汇报时直接说结论和数据，向下演讲时讲故事和观点；<br>​    （3）要随机应变</p>
+<h3 id="2-作为一名高层管理者"><a href="#2-作为一名高层管理者" class="headerlink" title="2.作为一名高层管理者"></a>2.作为一名高层管理者</h3><p>能力是最基础的要求，更为重要的是要有力量坚决地面对各种状况；</p>
+<h3 id="3-在向高层管理者汇报时"><a href="#3-在向高层管理者汇报时" class="headerlink" title="3.在向高层管理者汇报时"></a>3.在向高层管理者汇报时</h3><p>不要想着让他们认可自己，而是向他们说清楚自己负责的工作的内容，帮助高层了解业务的进展和情况以便他们做决定即可；</p>
+<h3 id="4-向上汇报时需要防范的部分："><a href="#4-向上汇报时需要防范的部分：" class="headerlink" title="4.向上汇报时需要防范的部分："></a>4.向上汇报时需要防范的部分：</h3><p>​    4.1 上层管理者时间宝贵，要有强烈的时间观念，在有限时间内汇报关键信息，说明自己的需求和目标；<br>​        (1)如果有30分钟会议时间，要要求自己在10分钟内完成汇报<br>​        (2)如果只能将3页PPT，会是哪三页?精简汇报的关键信息<br>​        (3)每次汇报都要有一个“电梯游说”版本，足够精炼地说清问题。PREP结构包括：观点position（用一句话说清楚需要对方做什么以及能让对方获得什么）、理由reason（说明为什么这个事情如此重要）、证据evidence（能够支撑观点的数据或证据）、观点（重申请求）。![[电梯游说.png]]<br>​        (4)考虑极端情况：不用PPT、一分钟讲清楚</p>
+<p>​    4.2 不要只关注自己的汇报，还要随时关注会议室所有情况，即时做出反应。<br>​        (1)汇报时的一个小技巧是刚开始时感谢一下出席你汇报的人物；<br>​        (2)在发生讨论时倾听他人发言，通过引用别人的发言表示对他人的认可同时将话题拉回自己的议题；</p>
+<p>​    4.3 要提前了解汇报对象，掌握什么是他们关注和需要的。在汇报时要想着主要目的是推动决策，和其他人的沟通是合作，而不能为了维护自己的立场和他人发生抵抗。</p>
+<p>​    4.4 开始汇报时就要直接说明目的。上来就说明我的目的是什么（或者为什么我在这里，类似的话），问题或者议题是什么，可行性解决方案是什么，然后再阐述原因展示辅助文档。<br>​        (1)如果有坏消息，要先说出来，而不能放在后面说！方法：说出坏消息-解释为什么出现问题-==提出至少三种解决方法==供上级选择。</p>
+<h3 id="5-汇报结束时"><a href="#5-汇报结束时" class="headerlink" title="5.汇报结束时"></a>5.汇报结束时</h3><p>要和与会者再次确定达成的意见或决策，告知与会者你将在会后发邮件找他确认。会议结束后，发送邮件确认会议达成的内容，然后去执行。一定要有书面的确认文件，不然很危险！！！</p>
+<h3 id="6-关于汇报的风格："><a href="#6-关于汇报的风格：" class="headerlink" title="6.关于汇报的风格："></a>6.关于汇报的风格：</h3><p>​    （1）盯着对方的眼睛，可以看对方的瞳孔颜色<br>​    （2）语速要有轻重缓急，语调要有高低起伏<br>​    （3）用一个手做手势，适时走动<br>​    （4）会议进行前将PPT发给与会的人员。</p>
+<h3 id="7-在公司中的一些小细节："><a href="#7-在公司中的一些小细节：" class="headerlink" title="7.在公司中的一些小细节："></a>7.在公司中的一些小细节：</h3><p>​    （1）记住相关人员的名字<br>​    （2）即使面对压力，也要幽默和理性； 很难很难！<br>​    （3）保持微笑<br>​    （4）成就他人就是在成就自己</p>
+<p>向上汇报是一门技艺，需要不断的练习，保持谦卑和自信，这很重要。我们每个人都在不断成长和学习，每一次的错误和失误都会是我们成长的契机，祝好！</p>
+<blockquote>
+<p><strong>已读清单</strong></p>
+<p>￼ <em>书</em>：<br>《主权个人》<br>《 DAO人类协作的新疆域 》<br>《漫画风水》<br>《从0到1精通NFT》<br>《NFTGO.io 2022NFT年度报告》<br>《为什么你总是半途而废》<br>《数据产品经理30问》<br>《产品经理的20堂必修课》<br>《网易一千零一夜》<br>《十分钟冥想》</p>
+<p><em>课程</em>：<br>《大师课-马友友》</p>
+</blockquote>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：</p>
+<p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
+<p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
+<p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>职场</category>
+      </categories>
+      <tags>
+        <tag>职场</tag>
       </tags>
   </entry>
   <entry>
@@ -1270,6 +1482,80 @@
       </tags>
   </entry>
   <entry>
+    <title>去中心化协议Nostr-系列004</title>
+    <url>/2023/2K2RBT1/</url>
+    <content><![CDATA[<blockquote>
+<p>因为在中文区没有搜到较为详细的对于Nostr协议网络的文章，所以准备自己写一个系列。这是本系列文章的第四篇，讲一下Nostr网络中域名Nip-05的配置方法及NIP标准。<span id="more"></span></p>
+</blockquote>
+<p>在<a href="https://mirror.xyz/hoodrh.eth/To9zIrUwS7Je29ZrCJJ4WE3g25GnPXkPW3N6EFRgsDs">第二篇</a>中我们讲了一下新手入门Nostr网络时如何使用社交应用，为了让大家先用起来，在实际的操作中去感受nostr网络上的气氛，同时也降低大家的准入门槛，所以对NIP-05只是提了一下（个人主页信息设置那里），今天就专门来讲一下NIP-05是什么以及如何设置，在此基础上也会对NIP标准进行简单的介绍。</p>
+<h2 id="NIP-05"><a href="#NIP-05" class="headerlink" title="NIP-05"></a>NIP-05</h2><h3 id="NIP-05是什么？"><a href="#NIP-05是什么？" class="headerlink" title="NIP-05是什么？"></a>NIP-05是什么？</h3><p><strong>简单点来说</strong>，NIP-05就是给每个用户设置的相比于公钥更容易识别的ID名。</p>
+<p>我们知道在Nostr网络中每个用户的ID是一长串不规则的文字，也就是公钥。如果我要在Nostr网络中寻找用户A，必须搜索A的公钥才能找到Ta。但是公钥太长了，不方便保存和传播，同时也不便于人类对其进行辨识，于是便出现了解决方案-用一个更为人类可读的名字绑定在公钥上。</p>
+<p><strong>专业点说</strong>，NIP-05 使 Nostr 用户能够将自己的公钥映射到基于 DNS 的互联网标识符。验证机制类似于 Google 要求您使用 DNS 记录验证您对域的所有权的方式。 验证的主要好处是它允许通过人类可读的名称来识别 Nostr 用户，而不是通过长而难以记住的公钥。这使经过验证的 Nostr 用户能够轻松地与他人分享他们的身份。</p>
+<h3 id="NIP-05设置方法"><a href="#NIP-05设置方法" class="headerlink" title="NIP-05设置方法"></a>NIP-05设置方法</h3><p>为了拥有一个NIP-05的域名，我们可以通过两种方式来获得它。</p>
+<ol>
+<li>在应用端，找到NIP-05的设置框（一般位于个人主页的编辑页面），然后购买官方提供的域名（没买过）。</li>
+<li>如果你有自己的域名，那你可以把它验证后绑定到Nostr网络。下面主要是对这种方式的介绍。</li>
+</ol>
+<p>比如我的域名是<a href="https://www.hoodrh.top/">www.hoodrh.top</a>，我的个人站点是用hexo建立的，所以我会在hexo 的</p>
+<p>_config.yml文件中的***include***下添加“well-known/**”，然后在source文件下建立文件夹“well-known”（官方说建立“.well-known”但是Mac系统的点文件是留给系统的），然后在“well-known”文件夹下建立一个“nostr.json”文件即可。JS文件的内容为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;names&quot;: &#123;</span><br><span class="line">    &quot;hoodrh&quot;: //你自己的nostr网络username</span><br><span class="line">&quot;npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c&quot; //你的公钥ID</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后将文件保存并上传hexo即可。然后我就得到了NIP-05的地址：<a href="mailto:&#x68;&#111;&#111;&#100;&#114;&#104;&#64;&#119;&#119;&#x77;&#46;&#104;&#111;&#111;&#100;&#x72;&#104;&#46;&#x74;&#x6f;&#112;">&#x68;&#111;&#111;&#100;&#114;&#104;&#64;&#119;&#119;&#x77;&#46;&#104;&#111;&#111;&#100;&#x72;&#104;&#46;&#x74;&#x6f;&#112;</a>，也就是“usernam@自己的域名”。</p>
+<p><img src="https://images.mirror-media.xyz/publication-images/0rZ9zT6bu7hPH2_lxXhtc.png?height=190&width=928" alt="img"></p>
+<h3 id="可以不设置NIP-05吗？"><a href="#可以不设置NIP-05吗？" class="headerlink" title="可以不设置NIP-05吗？"></a>可以不设置NIP-05吗？</h3><p>当然可以，如果你没有自己的域名，又不想买，那就完全没必要去设置它。目前来看设置NIP-05的作用就是显示一个认证的标识而已。基本上日常关注好友之类的操作，完全可以通过复制公钥来实现。相信随着各种应用端搜索技术的增强，也可以支持搜索username来查找用户了。（我就要紫标认证✅！</p>
+<h2 id="NIP标准"><a href="#NIP标准" class="headerlink" title="NIP标准"></a>NIP标准</h2><h3 id="什么是NIP标准"><a href="#什么是NIP标准" class="headerlink" title="什么是NIP标准"></a>什么是NIP标准</h3><p>NIP是一系列的协议接口标准，统一规定了各种常用功能使用时的接口元素和细节，这样有利于整个网络上不同应用之间建立通道，从而让一个用户发送的内容可以在nostr网络上的所有应用之间都被识别和传播。</p>
+<h3 id="NIP详细分类介绍"><a href="#NIP详细分类介绍" class="headerlink" title="NIP详细分类介绍"></a>NIP详细分类介绍</h3><p>这里大概讲一下不同NIP标准所支持的 nostr 功能，更技术性的说明在<a href="https://github.com/nostr-protocol/nips">这里查看</a> </p>
+<ol>
+<li>NIP-01 - 基本协议流程描述，是用于客户端和中继之间通信的协议。它涉及事件的交换，事件是包含各种信息的对象，例如唯一 ID、时间戳和标签。</li>
+<li>NIP-02 - 联系人列表和昵称 </li>
+<li>NIP-03 - 事件的 OpenTimestamps 证明 [未计划] </li>
+<li>NIP-04 - 加密私信 </li>
+<li>NIP-05 - 将 Nostr 密钥映射到基于 DNS 的互联网标识符 </li>
+<li>NIP-06 - 从助记种子短语推导基本密钥 </li>
+<li>NIP-07 - 网络浏览器的 window.nostr 功能 [不适用] </li>
+<li>NIP-08 - 处理提及 </li>
+<li>NIP-09 - 事件删除 [部分] </li>
+<li>NIP-10 - 客户端在文本事件中使用 e 和 p 标签的约定 </li>
+<li>NIP-11 - 中继信息文件 </li>
+<li>NIP-12 - 通用标签查询 </li>
+<li>NIP-13 - 工作量证明 </li>
+<li>NIP-14 - 文本事件中的主题标签 </li>
+<li>NIP-15 - 存储事件结束通知 </li>
+<li>NIP-16 - 事件处理 </li>
+<li>NIP-19 - bech32 编码的实体 </li>
+<li>NIP-20 - 命令结果 </li>
+<li>NIP-21 - nostr：URL 方案 </li>
+<li>NIP-22 - 事件 created_at 限制 </li>
+<li>NIP-25 - 反应 </li>
+<li>NIP-26 - 委托事件签名 </li>
+<li>NIP-28 - 公开聊天 </li>
+<li>NIP-33 - 参数化可替换事件 </li>
+<li>NIP-36 - 敏感内容 </li>
+<li>NIP-40 - 过期时间戳 </li>
+<li>NIP-42 - 客户端到中继的身份验证 </li>
+<li>NIP-50 - 关键字过滤器 </li>
+<li>NIP-56 - 报告 </li>
+<li>NIP-65 - 中继列表元数据</li>
+</ol>
+<p>好了，今天就到这里，明天再见。祝你在Nostr网络中玩得愉快。</p>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：</p>
+<p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
+<p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
+<p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>Nostr</category>
+      </categories>
+      <tags>
+        <tag>去中心化</tag>
+        <tag>社交协议</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>协议，而不是平台-言论自由的技术方法</title>
     <url>/2022/340V3JX/</url>
     <content><![CDATA[<h3 id="改变互联网的经济和数字基础设施以促进言论自由"><a href="#改变互联网的经济和数字基础设施以促进言论自由" class="headerlink" title="改变互联网的经济和数字基础设施以促进言论自由"></a>改变互联网的经济和数字基础设施以促进言论自由</h3><blockquote>
@@ -1387,80 +1673,6 @@
 <p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
 </blockquote>
 ]]></content>
-  </entry>
-  <entry>
-    <title>去中心化协议Nostr-系列004</title>
-    <url>/2023/2K2RBT1/</url>
-    <content><![CDATA[<blockquote>
-<p>因为在中文区没有搜到较为详细的对于Nostr协议网络的文章，所以准备自己写一个系列。这是本系列文章的第四篇，讲一下Nostr网络中域名Nip-05的配置方法及NIP标准。<span id="more"></span></p>
-</blockquote>
-<p>在<a href="https://mirror.xyz/hoodrh.eth/To9zIrUwS7Je29ZrCJJ4WE3g25GnPXkPW3N6EFRgsDs">第二篇</a>中我们讲了一下新手入门Nostr网络时如何使用社交应用，为了让大家先用起来，在实际的操作中去感受nostr网络上的气氛，同时也降低大家的准入门槛，所以对NIP-05只是提了一下（个人主页信息设置那里），今天就专门来讲一下NIP-05是什么以及如何设置，在此基础上也会对NIP标准进行简单的介绍。</p>
-<h2 id="NIP-05"><a href="#NIP-05" class="headerlink" title="NIP-05"></a>NIP-05</h2><h3 id="NIP-05是什么？"><a href="#NIP-05是什么？" class="headerlink" title="NIP-05是什么？"></a>NIP-05是什么？</h3><p><strong>简单点来说</strong>，NIP-05就是给每个用户设置的相比于公钥更容易识别的ID名。</p>
-<p>我们知道在Nostr网络中每个用户的ID是一长串不规则的文字，也就是公钥。如果我要在Nostr网络中寻找用户A，必须搜索A的公钥才能找到Ta。但是公钥太长了，不方便保存和传播，同时也不便于人类对其进行辨识，于是便出现了解决方案-用一个更为人类可读的名字绑定在公钥上。</p>
-<p><strong>专业点说</strong>，NIP-05 使 Nostr 用户能够将自己的公钥映射到基于 DNS 的互联网标识符。验证机制类似于 Google 要求您使用 DNS 记录验证您对域的所有权的方式。 验证的主要好处是它允许通过人类可读的名称来识别 Nostr 用户，而不是通过长而难以记住的公钥。这使经过验证的 Nostr 用户能够轻松地与他人分享他们的身份。</p>
-<h3 id="NIP-05设置方法"><a href="#NIP-05设置方法" class="headerlink" title="NIP-05设置方法"></a>NIP-05设置方法</h3><p>为了拥有一个NIP-05的域名，我们可以通过两种方式来获得它。</p>
-<ol>
-<li>在应用端，找到NIP-05的设置框（一般位于个人主页的编辑页面），然后购买官方提供的域名（没买过）。</li>
-<li>如果你有自己的域名，那你可以把它验证后绑定到Nostr网络。下面主要是对这种方式的介绍。</li>
-</ol>
-<p>比如我的域名是<a href="https://www.hoodrh.top/">www.hoodrh.top</a>，我的个人站点是用hexo建立的，所以我会在hexo 的</p>
-<p>_config.yml文件中的***include***下添加“well-known/**”，然后在source文件下建立文件夹“well-known”（官方说建立“.well-known”但是Mac系统的点文件是留给系统的），然后在“well-known”文件夹下建立一个“nostr.json”文件即可。JS文件的内容为：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;names&quot;: &#123;</span><br><span class="line">    &quot;hoodrh&quot;: //你自己的nostr网络username</span><br><span class="line">&quot;npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c&quot; //你的公钥ID</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>然后将文件保存并上传hexo即可。然后我就得到了NIP-05的地址：<a href="mailto:&#x68;&#111;&#111;&#100;&#x72;&#x68;&#x40;&#119;&#119;&#x77;&#x2e;&#x68;&#x6f;&#x6f;&#100;&#x72;&#104;&#x2e;&#116;&#x6f;&#112;">&#x68;&#111;&#111;&#100;&#x72;&#x68;&#x40;&#119;&#119;&#x77;&#x2e;&#x68;&#x6f;&#x6f;&#100;&#x72;&#104;&#x2e;&#116;&#x6f;&#112;</a>，也就是“usernam@自己的域名”。</p>
-<p><img src="https://images.mirror-media.xyz/publication-images/0rZ9zT6bu7hPH2_lxXhtc.png?height=190&width=928" alt="img"></p>
-<h3 id="可以不设置NIP-05吗？"><a href="#可以不设置NIP-05吗？" class="headerlink" title="可以不设置NIP-05吗？"></a>可以不设置NIP-05吗？</h3><p>当然可以，如果你没有自己的域名，又不想买，那就完全没必要去设置它。目前来看设置NIP-05的作用就是显示一个认证的标识而已。基本上日常关注好友之类的操作，完全可以通过复制公钥来实现。相信随着各种应用端搜索技术的增强，也可以支持搜索username来查找用户了。（我就要紫标认证✅！</p>
-<h2 id="NIP标准"><a href="#NIP标准" class="headerlink" title="NIP标准"></a>NIP标准</h2><h3 id="什么是NIP标准"><a href="#什么是NIP标准" class="headerlink" title="什么是NIP标准"></a>什么是NIP标准</h3><p>NIP是一系列的协议接口标准，统一规定了各种常用功能使用时的接口元素和细节，这样有利于整个网络上不同应用之间建立通道，从而让一个用户发送的内容可以在nostr网络上的所有应用之间都被识别和传播。</p>
-<h3 id="NIP详细分类介绍"><a href="#NIP详细分类介绍" class="headerlink" title="NIP详细分类介绍"></a>NIP详细分类介绍</h3><p>这里大概讲一下不同NIP标准所支持的 nostr 功能，更技术性的说明在<a href="https://github.com/nostr-protocol/nips">这里查看</a> </p>
-<ol>
-<li>NIP-01 - 基本协议流程描述，是用于客户端和中继之间通信的协议。它涉及事件的交换，事件是包含各种信息的对象，例如唯一 ID、时间戳和标签。</li>
-<li>NIP-02 - 联系人列表和昵称 </li>
-<li>NIP-03 - 事件的 OpenTimestamps 证明 [未计划] </li>
-<li>NIP-04 - 加密私信 </li>
-<li>NIP-05 - 将 Nostr 密钥映射到基于 DNS 的互联网标识符 </li>
-<li>NIP-06 - 从助记种子短语推导基本密钥 </li>
-<li>NIP-07 - 网络浏览器的 window.nostr 功能 [不适用] </li>
-<li>NIP-08 - 处理提及 </li>
-<li>NIP-09 - 事件删除 [部分] </li>
-<li>NIP-10 - 客户端在文本事件中使用 e 和 p 标签的约定 </li>
-<li>NIP-11 - 中继信息文件 </li>
-<li>NIP-12 - 通用标签查询 </li>
-<li>NIP-13 - 工作量证明 </li>
-<li>NIP-14 - 文本事件中的主题标签 </li>
-<li>NIP-15 - 存储事件结束通知 </li>
-<li>NIP-16 - 事件处理 </li>
-<li>NIP-19 - bech32 编码的实体 </li>
-<li>NIP-20 - 命令结果 </li>
-<li>NIP-21 - nostr：URL 方案 </li>
-<li>NIP-22 - 事件 created_at 限制 </li>
-<li>NIP-25 - 反应 </li>
-<li>NIP-26 - 委托事件签名 </li>
-<li>NIP-28 - 公开聊天 </li>
-<li>NIP-33 - 参数化可替换事件 </li>
-<li>NIP-36 - 敏感内容 </li>
-<li>NIP-40 - 过期时间戳 </li>
-<li>NIP-42 - 客户端到中继的身份验证 </li>
-<li>NIP-50 - 关键字过滤器 </li>
-<li>NIP-56 - 报告 </li>
-<li>NIP-65 - 中继列表元数据</li>
-</ol>
-<p>好了，今天就到这里，明天再见。祝你在Nostr网络中玩得愉快。</p>
-<blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：</p>
-<p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
-<p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
-<p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>商业</category>
-        <category>产品</category>
-        <category>Nostr</category>
-      </categories>
-      <tags>
-        <tag>去中心化</tag>
-        <tag>社交协议</tag>
-      </tags>
   </entry>
   <entry>
     <title>去中心化协议Nostr-系列05</title>
@@ -1998,187 +2210,5 @@
 <p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
 </blockquote>
 ]]></content>
-  </entry>
-  <entry>
-    <title>《30篇短文掌握NFT-06》</title>
-    <url>/2023/261CWHM/</url>
-    <content><![CDATA[<blockquote>
-<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
-</blockquote>
-<p>这是本系列文章的第六篇，之前我们已经介绍了如何购买数字货币，并将数字货币转移到自己的数字钱包中，本篇将了解去哪里购买NFT。<span id="more"></span></p>
-<p>购买NFT一般有两种类型，从项目方手中买或者从交易市场里买，前者我们称之为从一级市场购买，后者成为从二级市场购买。</p>
-<p>如果一个项目或者公司向公众出售首版（未交易过的）NFT，那就是一级市场，通常这是在该项目的官方网站上，通过“铸造”（mint）完成的，铸造NFT意味着用户首次与项目的智能合约交互以生成该NFT。</p>
-<p>从一级市场购买NFT的优点在于：</p>
-<ol>
-<li>你会成为拥有该NFT的第一个人，这对于一些对某种NFT或者对NFT创作者有强烈情感认可的人来说，是很有意义的。</li>
-<li>价格优势：对于一些人气较高的项目来说，发售前会开放白名单或者免费发售，铸造之后随着市场需求的上升，NFT的价格可能会有很大的上涨。但是，并不是所有的NFT在铸造后都会价格上涨，有些项目在铸造后的价格会比铸造时低，这是多方面因素导致的，比如需求不足、持有者大量抛售等。因此在购买NFT之前，还是需要调研一下，避免买到垃圾NFT。</li>
-</ol>
-<p>二级市场是人们可以相互购买或出售NFT的地方，这种市场通常不会在项目方的网站上，而是在一些专门做NFT交易的平台上进行，比如OpenSea。</p>
-<p>下一篇的主题我们将会探索在二级市场购买NFT。</p>
-<p><strong>更多资料</strong>：<br>这是一篇关于一级和二级NFT市场优点的精彩的5分钟阅读：<a href="https://techmoneyculture.com/nfts-101-primary-and-secondary-markets/">https://techmoneyculture.com/nfts-101-primary-and-secondary-markets/</a></p>
-<blockquote>
-<p>重写： Hoodrh<br>原作：ZenAcademy</p>
-</blockquote>
-<hr>
-<blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>商业</category>
-        <category>产品</category>
-        <category>NFT</category>
-      </categories>
-      <tags>
-        <tag>NFT</tag>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《30篇短文掌握NFT-07+08》</title>
-    <url>/2023/2DQZT70/</url>
-    <content><![CDATA[<blockquote>
-<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
-</blockquote>
-<p>在上一篇中我们了解到购买NFT时有一级市场和二级市场的区别，今天我们就了解一下二级市场，以及在二级市场购买NFT。<span id="more"></span></p>
-<p>如果我们想在二级市场上购买自己的第一个NFT，那我们应该去哪里呢？<br>在之前的文章中我们提到过，每个链都有自己的NFT，那也就意味着几乎每个链都有自己的NFT交易市场（比如solana链的<a href="https://magiceden.io/">Magic Eden</a> ），除此之外还有一些支持多个链NFT的市场，最为著名的是<a href="https://opensea.io/">OpenSea</a>以及最近风头正盛的<a href="https://blur.io/">Blur</a>。今天我们以OpenSea为例来说一下.</p>
-<p>当我们进入OpenSea时，可以搜寻到成千上万个不同的NFT项目，当选择“探索”时，我们会看到他们提供的许多NFT领域，例如收藏品、音乐、艺术、摄影等等。通过点击“统计数据”，我们可以看到从最近一小时到发行以来所有NFT的交易量排名情况。</p>
-<p>好了，今天我们了解了NFT购买的二级市场，并以OpenSea为例说明，请多花点时间去使用它从而了解NFT的基本情况。</p>
-<p><strong>额外加分</strong>：</p>
-<p>如果您有一分钟的时间，这是一个介绍OpenSea的好视频：<a href="https://www.youtube.com/watch?v=gfGuPd1CELo">https://www.youtube.com/watch?v=gfGuPd1CELo</a></p>
-<hr>
-<p><strong>书接上文</strong>，</p>
-<p>我们直接进入第八篇，本篇我们直接购买NFT。</p>
-<p>当我们在OpenSea中选中自己想要的NFT之后，我们可以找到“立即购买”的选项，这样我们就可以直接以标示的价格购买NFT；当然，我们也可以使用“提供报价”功能，表示着我们自己想要出多少钱购买该NFT。</p>
-<p>在确定购买时，我们点击确认键之后，如果我们没有事先将数字钱包连接到OPenSea，那我们需要先连接，这里会自动弹出登录提示，我们操作即可。</p>
-<p>然后继续交易，会需要我们签署交易，也就是意味着要花掉我们的数字货币，从而与智能合约交互以获得选中的NFT。在点同意之前你要看清楚交易内容是什么，因为如果是恶意攻击，那可能有资产损失的可能。如果有疑问，请不要签署交易，你可以查询资料了解或者找人了解后再做决定。（区块链有好的地方，但是对于新手来说也是黑暗森林，要时时谨慎，推荐阅读：<a href="https://www.freebuf.com/articles/blockchain-articles/328763.html">漫雾出品-黑暗森林自救手册</a>）</p>
-<p>在NFT交易中，大多数情况下将会有一个创作者版税（个别平台没有），这实际上是支付给该NFT创造者的费用，在该NFT每一次被交易时创作者都会收到版税，这是对创作者的一种激励和价值认可，实体作品卖出之后就和创作者没什么关系了，但是NFT这种版税的存在让创作者和作品总是保持关系，也让创作者可以持续的从优秀的作品中有所收益，从而激励更多创作者产出优质作品。</p>
-<p>关于OpenSea上销售NFT的更多信息，我们将在下一篇中介绍。</p>
-<p><strong>额外加分：</strong></p>
-<p>如果您有3分钟的时间，OpenSea的这篇文章详细解释了如何购买NFT的工作原理：<a href="https://opensea.io/learn/how-to-buy-nft#toc-3">https://opensea.io/learn/how-to-buy-nft#toc-3</a></p>
-<p>如果您有5分钟的时间，这个逐步视频说明了上述过程：<a href="https://www.youtube.com/watch?v=pSMbt-2ls98">https://www.youtube.com/watch?v=pSMbt-2ls98</a></p>
-<hr>
-<blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>商业</category>
-        <category>产品</category>
-        <category>NFT</category>
-      </categories>
-      <tags>
-        <tag>NFT</tag>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《30篇短文掌握NFT-09》</title>
-    <url>/2023/3A7ARK2/</url>
-    <content><![CDATA[<blockquote>
-<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
-</blockquote>
-<p>上一篇我们讨论了在OpenSea上购买NFT的流程，本篇我们就来看一下如何将我们的NFT出售出去。<span id="more"></span></p>
-<p>想要将NFT卖出去，你可以转到OpenSea的个人资料页面，在那里你可以查看你当前登录的钱包里拥有的所有NFT。如果你想出售其中一个NFT，你可以选择它并点击“出售”按钮。一般情况下，有两种出售的方式：拍卖或者固定价格，大多数时候我们更想以一个固定的价格将NFT出售。那你就可以填入你想卖出的价格并设置有效期，如果有效期结束时还没有将NFT卖出去，则你发出来的这个“售卖NFT”的单子将失效，你需要重新提交一份。</p>
-<p>要记住的一件事是，每个区块链交易都会涉及gas费用，OpenSea以及所有交易市场都使用两种交易方式：链上交易（区块链上交易）和链下交易（在自己的后端系统上进行），只有在链上交易时才会需要产生费用，因此你不必担心，并不是每次挂单出售NFT都需要gas费用。</p>
-<p>除了挂单被交易时会消耗gas费外，OpenSea还将收取一次性的费用来对初次交易的钱包进行初始化。一旦你挂单出售的NFT被他人购买，出售金额会在减去交易费用后，剩余的直接进入你的数字钱包。在挂单出售NFT之前，你一般可以去搜索该系列的NFT整体的价格情况，了解同系列NFT的float地板价是多少，然后作为你出价的参考，这样有助于你更快的将你的NFT出售出去。</p>
-<p>如果你不想将NFT出售，只是想将其从自己目前的钱包转移到另一个钱包，或者发送给亲人朋友的钱包之中，具体的操作我们下篇展开。</p>
-<p><strong>更多资料</strong>：</p>
-<ol>
-<li><p>如果您有3分钟的时间，这是OpenSea的一篇详细文章，介绍了如何在他们的平台上销售NFT：<a href="https://support.opensea.io/hc/en-us/articles/360063498333-How-do-I-sell-an-NFT-">https://support.opensea.io/hc/en-us/articles/360063498333-How-do-I-sell-an-NFT-</a></p>
-</li>
-<li><p>如果您有4分钟的时间，这是一个很棒的视频，说明了上述过程：<a href="https://www.youtube.com/watch?v=0mfoXe82xE8">https://www.youtube.com/watch?v=0mfoXe82xE8</a></p>
-</li>
-</ol>
-<hr>
-<blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>商业</category>
-        <category>产品</category>
-        <category>NFT</category>
-      </categories>
-      <tags>
-        <tag>NFT</tag>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《30篇短文掌握NFT-10》</title>
-    <url>/2023/2A1T12R/</url>
-    <content><![CDATA[<blockquote>
-<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
-</blockquote>
-<p>在之前的文章中我们介绍了如何出售自己的NFT，但是有些时候我们想把NFT从当前的钱包转移到其他钱包，我们该怎么办呢？本篇就来展开讲讲 &gt;&gt;<span id="more"></span></p>
-<p>想要将当下钱包中的NFT转移到其他钱包中，我们可以使用OpenSea来完成。我们可以将OpenSea当做一个与区块链交互的接口（好处在于它提供了普通用户更好操作的图形界面交互），在OpenSea上我们可以实现购买、销售、转移NFT的操作。</p>
-<p>要发送NFT，我们需要在OpenSea的个人资料中找到目标NFT，点击进入NFT详情后会发现，在销售按钮下方有一个选项是转移。单击后，会出现一个需要我们输入钱包地址的文本输入框，在这里我们输入接收NFT的钱包地址即可。如果你不确定接收钱包的地址，可以在数字钱包（如Metamask）中查找。</p>
-<p>在将NFT转移到另一个钱包之前，一定要确保接收地址正确，就像我们前面反复强调过的：“<strong>区块链交易时不可逆的，也不可更改</strong>”，意味着你如果输错地址，那就会把NFT发送到其他人的钱包中，你将没有任何办法可以撤回操作。因此，一定要在交易前反复确认接收地址是目标地址。最后，要说的是，转移NFT就是将NFT从一个地址发送到了另一个地址，这个过程是需要记录在区块链上的，因此需要消耗一笔交易费用（也就是gas）。</p>
-<p>到这里，我们就完成了对NFT进行购买、出售、转移的一些列操作内容的学习，希望对我们日后的NFT交易有所帮助。</p>
-<p><strong>更多资料</strong>：</p>
-<ol>
-<li><p>如果您有1分钟的时间，这是一个说明上述过程的视频：<a href="https://www.youtube.com/watch?v=n1yMVDxZ3zo">https://www.youtube.com/watch?v=n1yMVDxZ3zo</a></p>
-</li>
-<li><p>如果您有2分钟的时间，这是官方OpenSea支持页面，指导您在OpenSea上转移NFT的过程：<a href="https://support.opensea.io/hc/en-us/articles/5183126109715-How-can-I-transfer-an-NFT-using-OpenSea-">https://support.opensea.io/hc/en-us/articles/5183126109715-How-can-I-transfer-an-NFT-using-OpenSea-</a></p>
-</li>
-</ol>
-<hr>
-<blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>商业</category>
-        <category>产品</category>
-        <category>NFT</category>
-      </categories>
-      <tags>
-        <tag>NFT</tag>
-        <tag>crypto</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《30篇短文掌握NFT-11》</title>
-    <url>/2023/PA2RSX/</url>
-    <content><![CDATA[<blockquote>
-<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
-</blockquote>
-<p>在之前的文章中，我们反复强调要注意在加密领域的安全，一不小心就有可能掉入黑暗森林，因此你必须时刻保持警惕。本篇我们来了解一些常见的诈骗手段。<span id="more"></span></p>
-<p>由于助记词是我们掌控数字钱包的关键，因此我们必须要保持它的安全性和私密性，将助记词保存在离网的安全之处，同时记得要备份！</p>
-<p>我们要讨论的第二个可以防范被诈骗的方法就是，<strong>在签署交易前反复确认交易的内容是什么</strong>。有很多人在不知道交易内容是什么的情况下，点击了metamask弹框并完成了交易，结果，他们损失了钱包中所有的资产。我不希望你有这样的遭遇，那一定要在“确认交易”前阅读并理解你签署的交易内容是什么。</p>
-<p>然而，在NFT领域最多发生的诈骗手段可能是你点击了恶意链接，这种情况每天都在发生，已经导致数千万元的资产被盗。一般情况下，诈骗人员会通过各种社交方式给你私信发送有害的链接（Twitter私信、Discord私信等，有时候也会有邮箱信息），他们声称“你通过链接可以领取免费的NFT”，一旦你点击链接，去向的可能是一个诈骗网页，当你在数字钱包上签署该网页的交易请求时，不良分子就会攻击你的钱包，并将你数字钱包中的NFT和资产全部转移到他们的钱包中。</p>
-<p>欺诈性的Discord频道也是恶意链接可能会存在的地方，在频道中除非是官方发布的声明，不然其他人发布的链接（尤其是可以免费领取NFT之类的）一定不要点击。</p>
-<p>因为我们很多人一直在不假思索的点击链接，所以避免所有的恶意诈骗是极具挑战性的，但越是这样我们就越要掌握更多的安全防护手段，来保护我们的数字资产安全。下面是需要谨记的防骗关键点：</p>
-<ol>
-<li>确保发送链接的人是值得信任的，并且确保发送消息的是你认识的那个账户拥有者本人。骗子们经常假扮成其他人，复制他们的名字和头像。</li>
-<li>如果你进入了一些项目的官网，确保是从官方账号的宣传中获得的网址。我所知道的诈骗行为是使用和热门项目方相似的网站来诈骗，唯一的不同是网址的细微差异，如果你不小心就可能有资产损失，例如热门项目”testproduct.xyz” 诈骗网址为”testproduot.xyz”。</li>
-<li>如果点击链接后到达一个项目网站，宣传可以免费mint之类的，听起来太好了以至于像假的的时候，那很大可能是假的，<strong>要保持警惕</strong>。</li>
-<li>如果发链接的人或者项目强制你点击，并在一定程度上引起FOMO（因害怕错过而跟风的现象），那你一定要<strong>警惕</strong>，有极大可能是诈骗。</li>
-</ol>
-<p>加密世界的黑暗一面在于，并不是你不点击链接就意味着你是安全的。骗子和不良分子们不断的开发出新的策略和技术来利用他人。我们唯一能做的就是承认自己所处的地方有不安全的因素存在，要始终保持警惕，谨慎操作。</p>
-<p><strong>更多资料</strong>：</p>
-<ol>
-<li><p>如果您有十分钟，这是一个有关数字钱包安全性的详细Twitter帖子：<a href="https://twitter.com/punk6529/status/1461742366696652809">https://twitter.com/punk6529/status/1461742366696652809</a></p>
-</li>
-<li><p>如果您有13分钟，这是Zeneca的一个视频，解释如何在NFT领域保持安全：<a href="https://www.youtube.com/watch?v=4rP7tHFLX8A">https://www.youtube.com/watch?v=4rP7tHFLX8A</a></p>
-</li>
-<li><p>如果您有5分钟，这是最常见的骗局类型的快速概述：<a href="https://twitter.com/PocketUniverseZ/status/1581787383812345858">https://twitter.com/PocketUniverseZ/status/1581787383812345858</a></p>
-</li>
-</ol>
-<hr>
-<blockquote>
-<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>即刻：<a href="https://jike.city/hoodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>商业</category>
-        <category>产品</category>
-        <category>NFT</category>
-      </categories>
-      <tags>
-        <tag>NFT</tag>
-        <tag>crypto</tag>
-      </tags>
   </entry>
 </search>
