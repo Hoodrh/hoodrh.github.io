@@ -6,7 +6,7 @@
   <link href="https://hoodrh.top/atom.xml" rel="self"/>
   
   <link href="https://hoodrh.top/"/>
-  <updated>2023-05-05T13:12:00.043Z</updated>
+  <updated>2023-05-08T10:03:40.548Z</updated>
   <id>https://hoodrh.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《30篇短文掌握NFT-13》</title>
+    <link href="https://hoodrh.top/2023/23AHAXP/"/>
+    <id>https://hoodrh.top/2023/23AHAXP/</id>
+    <published>2023-05-08T09:47:47.000Z</published>
+    <updated>2023-05-08T10:03:40.548Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;上一篇中我们讨论了获取NFT方面信息的渠道之一-Discord，本篇将讨论如何使用Twitter获取NFT信息。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
+    
+    <category term="NFT" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/"/>
+    
+    
+    <category term="NFT" scheme="https://hoodrh.top/tags/NFT/"/>
+    
+    <category term="crypto" scheme="https://hoodrh.top/tags/crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>《30篇短文掌握NFT-12》</title>
@@ -525,34 +553,6 @@
     <category term="社交协议" scheme="https://hoodrh.top/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/"/>
     
     <category term="资源推介" scheme="https://hoodrh.top/tags/%E8%B5%84%E6%BA%90%E6%8E%A8%E4%BB%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>去中心化协议Nostr系列02</title>
-    <link href="https://hoodrh.top/2023/J2N1TX/"/>
-    <id>https://hoodrh.top/2023/J2N1TX/</id>
-    <published>2023-02-15T12:44:51.000Z</published>
-    <updated>2023-04-22T12:37:44.806Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;由于对Nostr协议感兴趣，搜索全网后发现相关中文文章很少，所以萌生了写一个系列的想法，在上一篇讲了一下去中心化协议Nostr的来历，这一篇直接上手，让大家可以用起来。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Nostr作为一种协议，是一种比应用程序更加底层的存在，我们选择使用它的优势就在于：只需要一个账户，就可以使用该协议有关的所有应用，账户数据在所有应用上都是同步的。这样的账号系统在很大程度上保护了个人言论自由和个人财产权。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
-    
-    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Nostr" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/"/>
-    
-    
-    <category term="去中心化" scheme="https://hoodrh.top/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/"/>
-    
-    <category term="应用解析" scheme="https://hoodrh.top/tags/%E5%BA%94%E7%94%A8%E8%A7%A3%E6%9E%90/"/>
     
   </entry>
   
