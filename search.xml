@@ -2268,4 +2268,67 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-14》</title>
+    <url>/2023/DQZ4RF/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在前面的两篇（12&amp;13）中，我们了解了获取NFT相关信息的最主要渠道。本篇我们将探索一下OpenSea之外的NFT市场。<span id="more"></span></p>
+<p>根据NFT类型的区别，会有不同的NFT市场。下面列几个NFT交易平台作为示例，</p>
+<h2 id="艺术和创意内容，Foundation"><a href="#艺术和创意内容，Foundation" class="headerlink" title="艺术和创意内容，Foundation"></a>艺术和创意内容，Foundation</h2><p> <a href="https://foundation.app/">Foundation</a> 是一个基于以太坊区块链的NFT交易市场，专注于数字艺术和创意内容。它采用了社群主导和自动限时拍卖的机制，让艺术家和收藏家之间建立直接的联系和价值。Foundation的特点有：</p>
+<ol>
+<li>它是一个邀请制的平台，只有通过已入驻的艺术家或社群成员的推荐才能加入。</li>
+<li>支持一键铸造NFT，无需编写代码或支付高昂的gas费。</li>
+<li>为每个NFT设定了10%的版税，每当作品在二级市场出售时，艺术家都能获得收益。</li>
+<li>与OpenSea有合作协议，所有在Foundation上发行的NFT都可以在OpenSea上交易，并保留版税。</li>
+<li>有一个活跃的社群，定期举办活动和展览，展示不同主题和风格的NFT作品。</li>
+</ol>
+<h2 id="艺术品-SuperRare"><a href="#艺术品-SuperRare" class="headerlink" title="艺术品 SuperRare"></a>艺术品 SuperRare</h2><p>  <a href="https://superrare.com/">Superrare</a> 是一个基于以太坊区块链的NFT交易市场，专注于高端的数字艺术。它有以下特点：</p>
+<ol>
+<li>它是一个策展式的平台，只有经过审核的艺术家才能在上面铸造和出售NFT。</li>
+<li>是一个单一版的平台，每件作品都是独一无二的，不会有多个副本。</li>
+<li>为每个NFT设定了10%的版税，每当作品在二级市场出售时，艺术家都能获得收益。它还有一个给收藏家的版税系统。</li>
+<li>与传统艺术界有合作关系，参与了一些实体展览和活动，例如迈阿密艺术周。</li>
+</ol>
+<blockquote>
+<p><em>除了OpenSea之外还有其他综合NFT的交易平台，请看接下来的几个。</em></p>
+</blockquote>
+<h2 id="综合交易-LooksRare"><a href="#综合交易-LooksRare" class="headerlink" title="综合交易 LooksRare"></a>综合交易 LooksRare</h2><p>  <a href="https://looksrare.org/">LooksRare</a> 是一个基于以太坊区块链的NFT交易市场，主打社群和奖励机制。它有以下特点：</p>
+<ol>
+<li>它是一个全面的平台，可以交易所有以太坊上的NFT，包括一些OpenSea上没有的。</li>
+<li>是一个低费用的平台，每笔交易只收取2%的手续费，比其他平台低很多。</li>
+<li>是一个奖励的平台，每次买卖NFT都可以获得LOOKS代币作为奖励，而且持有LOOKS的用户还可以分红交易费用。</li>
+<li>是一个创新的平台，引入了一些新功能，例如集合报价，可以一次性对整个系列的NFT出价。</li>
+</ol>
+<h2 id="综合交易-X2Y2"><a href="#综合交易-X2Y2" class="headerlink" title="综合交易 X2Y2"></a>综合交易 X2Y2</h2><p>  <a href="https://x2y2.io/zh-Hans">X2Y2</a> 是一个基于以太坊区块链的NFT交易市场，主打分红和创新功能。它有以下特点：</p>
+<ol>
+<li>它是一个分红的平台，每次买卖NFT都可以获得X2Y2代币作为奖励，而且持有X2Y2的用户还可以分红交易费用。</li>
+<li>是一个创新的平台，引入了一些新功能，例如批量上架和批量购买，可以一次性对多个NFT进行操作。</li>
+<li>是一个全面的平台，可以交易所有以太坊上的NFT，包括一些OpenSea上没有的。</li>
+<li>允许在零版税的情况下交易某些NFT，这种情况下创作者就无法收到持续的版税激励。关于这是否是一件好事，需要把是否收取二次交易版税的决定权交给NFT创作者。</li>
+</ol>
+<h2 id="专业交易者使用-Blur"><a href="#专业交易者使用-Blur" class="headerlink" title="专业交易者使用 Blur"></a>专业交易者使用 Blur</h2><p>  <a href="https://blur.io/">Blur</a> 是一个基于以太坊区块链的NFT交易市场，主打聚合和激励机制，它在很短时间内崛起成为NFT交易领域的强大存在。它有以下特点：</p>
+<ol>
+<li>它是一个聚合的平台，可以扫描多个NFT市场的流动性，让用户可以以最优的价格买卖NFT。</li>
+<li>是一个激励的平台，每次买卖NFT都可以获得BLUR代币作为奖励，而且持有BLUR的用户还可以分红交易费用。</li>
+<li>是一个专业的平台，针对高频和大额的NFT交易者，提供了一些高级功能，例如批量购买和出价等</li>
+</ol>
+<p>好了，本篇中我们了解了OpenSea之外的其他5个NFT交易市场，并对主要特点进行了分析，希望对你有所帮助。</p>
+<hr>
+<blockquote>
+<p><em><strong>你还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a><br>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a><br>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a><br>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a><br>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a><br>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>
