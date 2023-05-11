@@ -6,7 +6,7 @@
   <link href="https://hoodrh.top/atom.xml" rel="self"/>
   
   <link href="https://hoodrh.top/"/>
-  <updated>2023-05-10T14:59:54.275Z</updated>
+  <updated>2023-05-11T13:42:16.128Z</updated>
   <id>https://hoodrh.top/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>《30篇短文掌握NFT-15》</title>
+    <link href="https://hoodrh.top/2023/2HW7X3A/"/>
+    <id>https://hoodrh.top/2023/2HW7X3A/</id>
+    <published>2023-05-11T13:17:00.000Z</published>
+    <updated>2023-05-11T13:42:16.128Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在上一篇中我们了解了几个主要的NFT市场，本篇我们就来看NFT的主要类型。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
+    
+    <category term="NFT" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/"/>
+    
+    
+    <category term="NFT" scheme="https://hoodrh.top/tags/NFT/"/>
+    
+    <category term="crypto" scheme="https://hoodrh.top/tags/crypto/"/>
+    
+  </entry>
+  
+  <entry>
     <title>《30篇短文掌握NFT-14》</title>
     <link href="https://hoodrh.top/2023/DQZ4RF/"/>
     <id>https://hoodrh.top/2023/DQZ4RF/</id>
     <published>2023-05-10T14:51:30.000Z</published>
-    <updated>2023-05-10T14:59:54.275Z</updated>
+    <updated>2023-05-11T13:11:52.770Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -49,7 +77,7 @@
     <link href="https://hoodrh.top/2023/23AHAXP/"/>
     <id>https://hoodrh.top/2023/23AHAXP/</id>
     <published>2023-05-08T09:47:47.000Z</published>
-    <updated>2023-05-08T10:03:40.548Z</updated>
+    <updated>2023-05-11T13:11:16.274Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -529,31 +557,6 @@
     <category term="去中心化" scheme="https://hoodrh.top/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/"/>
     
     <category term="社交协议" scheme="https://hoodrh.top/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nostr协议的未来发展规划</title>
-    <link href="https://hoodrh.top/2023/XVKY9F/"/>
-    <id>https://hoodrh.top/2023/XVKY9F/</id>
-    <published>2023-02-17T13:48:16.000Z</published>
-    <updated>2023-04-22T12:35:55.036Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;在这篇文章中jar本人对Nostr网络的未来进行了规划并给出了解决方法，也希望更多对Nostr协议感兴趣的人加入到建设者的行列。&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
-    
-    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Nostr" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/"/>
-    
-    
-    <category term="去中心化" scheme="https://hoodrh.top/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/"/>
     
   </entry>
   
