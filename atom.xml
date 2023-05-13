@@ -6,7 +6,7 @@
   <link href="https://hoodrh.top/atom.xml" rel="self"/>
   
   <link href="https://hoodrh.top/"/>
-  <updated>2023-05-11T13:42:16.128Z</updated>
+  <updated>2023-05-13T10:21:00.259Z</updated>
   <id>https://hoodrh.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《30篇短文掌握NFT-16》</title>
+    <link href="https://hoodrh.top/2023/2RQCPW4/"/>
+    <id>https://hoodrh.top/2023/2RQCPW4/</id>
+    <published>2023-05-13T10:14:22.000Z</published>
+    <updated>2023-05-13T10:21:00.259Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;好了，在前面我们了解了各种NFT市场以及NFT的分类。现在呢，该想想要买哪个NFT了？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
+    
+    <category term="NFT" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/"/>
+    
+    
+    <category term="NFT" scheme="https://hoodrh.top/tags/NFT/"/>
+    
+    <category term="crypto" scheme="https://hoodrh.top/tags/crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>《30篇短文掌握NFT-15》</title>
@@ -531,32 +559,6 @@
     <category term="社交协议" scheme="https://hoodrh.top/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/"/>
     
     <category term="资源推介" scheme="https://hoodrh.top/tags/%E8%B5%84%E6%BA%90%E6%8E%A8%E4%BB%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>去中心化协议Nostr-系列004</title>
-    <link href="https://hoodrh.top/2023/2K2RBT1/"/>
-    <id>https://hoodrh.top/2023/2K2RBT1/</id>
-    <published>2023-02-21T16:01:18.000Z</published>
-    <updated>2023-04-22T12:38:48.774Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;因为在中文区没有搜到较为详细的对于Nostr协议网络的文章，所以准备自己写一个系列。这是本系列文章的第四篇，讲一下Nostr网络中域名Nip-05的配置方法及NIP标准。&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
-    
-    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Nostr" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/"/>
-    
-    
-    <category term="去中心化" scheme="https://hoodrh.top/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/"/>
-    
-    <category term="社交协议" scheme="https://hoodrh.top/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/"/>
     
   </entry>
   
