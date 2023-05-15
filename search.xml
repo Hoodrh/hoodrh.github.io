@@ -2431,4 +2431,47 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-17》</title>
+    <url>/2023/4WMF71/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>上一篇我们了解了如何选择NFT，当我们购买NFT等数字资产后，为了确保资产安全，我们要了解一下钱包的种类，本篇展开讲讲。<span id="more"></span></p>
+<p>加密钱包的访问需要权限认证，我们可以通过助记词、私钥等形式认证后登录账户。在线的加密钱包存在被黑客攻击的风险，因此，一个离线的钱包对于大额资产的保存来说是有需求的，硬件钱包就应运而生。</p>
+<p>我们将在线钱包和硬件钱包分别习惯性的称呼为“热钱包”和“冷钱包”。所谓的热钱包，就是在线上进行频繁交易的数字钱包，而冷钱包就是存储大额资产，使用率较低的物理钱包。</p>
+<p>在我们使用热钱包时，要注意安全防范。比如，为MetaMask钱包设置登录密码，防止其他人操作；在离开电脑时关闭电脑屏幕或锁屏，以防在我们离开时有人使用钱包进行操作。<br>而冷钱包则是一个像移动硬盘一样的东西，我们把它通过USB接口插在电脑上，输入密码之后，才作为一个钱包发挥作用。所以，冷钱包会比热钱包安全很多，他人如果想获取我们的数字资产需要同时持有硬件+密码，这显然更难实现。</p>
+<p>在持有NFT后，我们要把资产安全放在第一位，不管是将它们放在热钱包还是冷钱包中，都要将密码、助记词以及硬件（冷钱包的话）放在安全的地方。</p>
+<p>剩下的就是我们之前的文章中说过的一些细节的防范了，比如</p>
+<ol>
+<li>在使用NFT项目的链接时，只使用从Twitter和DIscord的官方账号发布的地址；</li>
+<li>在将钱包链接到新的网站前，先反复检查网站地址，有些骗子会使用和项目方差不多的地址来欺骗我们，比如将“KIss”换做“KLss”等。总之，在涉及交易时我们一定要反复确认。</li>
+<li>将助记词离线保存，并在备份后放置在多个地方，不要将它们发送给任何人。</li>
+<li>在交易前，反复检查该签名意味着什么，有些签名时“登录”，有些是“交易”，因为遇到恶意欺骗就会将我们钱包中的所有资产都损失掉。</li>
+</ol>
+<p>所有这些在刚开始可能会让你感到厌烦，但是请耐心的使用，操作的多了你就会自然对这些细节熟练掌握。如果有问题，你也可以随时来我的Discord频道聊天，地址在文末。</p>
+<p>希望你可以在数字世界自由的行动，但是一定不要忘记：<strong>防范安全，保护好资产！</strong></p>
+<p>更多资料：<br>如果您有 10 分钟时间，想在签署交易时保持安全，请看一下 Pocket Universe，这是一个免费工具，可以保护您免受网络钓鱼的交易欺诈：<a href="https://pocketuniverse.app/">https://pocketuniverse.app/</a></p>
+<hr>
+<blockquote>
+<p><em><strong>如果想了解更多，您还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a></p>
+<p>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a></p>
+<p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
+<p>Discord闲聊群：<a href="https://discord.gg/AFWAeFdGvu">Hoodrh</a></p>
+<p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
+<p>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a></p>
+<p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>

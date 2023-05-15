@@ -6,7 +6,7 @@
   <link href="https://hoodrh.top/atom.xml" rel="self"/>
   
   <link href="https://hoodrh.top/"/>
-  <updated>2023-05-13T10:21:00.259Z</updated>
+  <updated>2023-05-15T12:10:29.802Z</updated>
   <id>https://hoodrh.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《30篇短文掌握NFT-17》</title>
+    <link href="https://hoodrh.top/2023/4WMF71/"/>
+    <id>https://hoodrh.top/2023/4WMF71/</id>
+    <published>2023-05-15T12:08:33.000Z</published>
+    <updated>2023-05-15T12:10:29.802Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;上一篇我们了解了如何选择NFT，当我们购买NFT等数字资产后，为了确保资产安全，我们要了解一下钱包的种类，本篇展开讲讲。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
+    
+    <category term="NFT" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/"/>
+    
+    
+    <category term="NFT" scheme="https://hoodrh.top/tags/NFT/"/>
+    
+    <category term="crypto" scheme="https://hoodrh.top/tags/crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>《30篇短文掌握NFT-16》</title>
@@ -534,31 +562,6 @@
     <category term="去中心化" scheme="https://hoodrh.top/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/"/>
     
     <category term="社交协议" scheme="https://hoodrh.top/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>去中心化协议Nostr发家史考古</title>
-    <link href="https://hoodrh.top/2023/32DAG0V/"/>
-    <id>https://hoodrh.top/2023/32DAG0V/</id>
-    <published>2023-02-22T14:41:35.000Z</published>
-    <updated>2023-04-22T12:38:08.149Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;Nostr概述&quot;&gt;&lt;a href=&quot;#Nostr概述&quot; class=&quot;headerlink&quot; title=&quot;Nostr概述&quot;&gt;&lt;/a&gt;Nostr概述&lt;/h2&gt;&lt;p&gt;Nostr 协议旨在创建一个抗审查的全球“社交”网络。我们已经在前面的文章中详细介绍了它。但总而言之，它不依赖任何中央服务器，从而保证了网络具有弹性，并使用加密密钥和签名来确保防篡改通信；它不依赖点对点技术，使其能够有效地工作；它旨在成为创建全球社交网络的一种简单可靠的方式。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
-    
-    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Nostr" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/"/>
-    
-    
-    <category term="社交协议" scheme="https://hoodrh.top/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/"/>
-    
-    <category term="资源推介" scheme="https://hoodrh.top/tags/%E8%B5%84%E6%BA%90%E6%8E%A8%E4%BB%8B/"/>
     
   </entry>
   
