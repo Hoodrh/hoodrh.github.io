@@ -2474,4 +2474,43 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-18》</title>
+    <url>/2023/18TJB5Q/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在加密领域，没有人会永远安全，本篇继续强调资产安全的一些细节。<span id="more"></span></p>
+<p>中国有句古话，用来说加密领域的安全是非常合适的：“常在河边走，哪有不湿鞋”，我们在加密领域的交易越多，就会有越大的概率做出有损资产安全的行为。我们有可能会点击了不正确的网站、签署了有疑问的交易等，没有人敢说自己是绝对安全的。之前还听说加密领域专业做安全的某大神被黑客恶意攻击导致钱包被盗，可想而知对于其他人，更应该对资产安全有足够的重视才行。</p>
+<p>我们都知道，加密还是一个正在野蛮生长的行业，这里还有很多不规范的东西存在，我们会有面临风险的可能。同时，很多团队正在解决这方面的问题，基础设施在变得越来越好，我们可以相信这些风险会随着行业的成熟不断降低。目前阶段，我们仍然需要做好基本的安全防范，保护自己的资产，这也正是我们一再强调要进行安全防范的原因。</p>
+<p>在资产损失方面，最糟糕的情况就是助记词泄露。如果我们将助记词放在在线软件里被他人获取，那我们基本上就失去了对钱包的掌控权，这种错误造成的损失是无法挽回的。钱包中所有的东西都会损失，并且我们找不到任何情况可以追回受损资产。如果事情没有发展到这么糟，我是说助记词泄露的情况下，如果钱包中的资产还在，那我们第一时间要做的就是新建一个钱包，并将已泄露钱包中所有资产都发送到新钱包中。不要忘记，将新钱包的助记词<strong>离线保存，并备份</strong>。</p>
+<p>除了助记词泄露，另一个常见的造成资产损失的行为就是“签署了恶意交易”，在这种情况下我们通常是在签署交易时，授权别人可以转移部分资产，这种交易的类型称为“setApprovalForAll”，看这个交易的类型（相当于获得钱包操作权）就会发现这是很危险的。当我们出售NFT的时候需要签署这个交易类型，然而，如果我们购买NFT或者自己铸造NFT是不需要签署这个类型交易的，这一点需要注意一下。</p>
+<p>如果我们在交易时，一不小心签署了“setApprovalForAll”类型的交易，在交易完成之前发现的话，我们是有补救的机会的。通常这个时候我们签署的交易正在链上排队等待矿工确认交易，我们可以通过“撤销交易”来挽回损失。关于如何撤销已签署交易的操作，可以看一下下面这两个文档。</p>
+<ol>
+<li><a href="https://support.metamask.io/hc/zh-cn/articles/360015489251-%E5%A6%82%E4%BD%95%E5%8A%A0%E5%BF%AB%E6%88%96%E5%8F%96%E6%B6%88%E5%BE%85%E5%A4%84%E7%90%86%E7%9A%84%E4%BA%A4%E6%98%93">如何加快或取消待处理的交易-MetamaskSupport</a></li>
+<li>这个Twitter 线程详细解释了在签署恶意 setApprovalForAll 交易后该怎么做：<a href="https://twitter.com/PocketUniverseZ/status/1601089513412997121">https://twitter.com/PocketUniverseZ/status/1601089513412997121</a></li>
+</ol>
+<p>好了，本篇内容就到这里，在交易前一定要反复查看交易类型，日常做好助记词离线多份保存。</p>
+<hr>
+<blockquote>
+<p><em><strong>如果想了解更多，您还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a></p>
+<p>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a></p>
+<p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
+<p>Discord闲聊群：<a href="https://discord.gg/AFWAeFdGvu">Hoodrh</a></p>
+<p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
+<p>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a></p>
+<p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>

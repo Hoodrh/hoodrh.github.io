@@ -6,7 +6,7 @@
   <link href="https://hoodrh.top/atom.xml" rel="self"/>
   
   <link href="https://hoodrh.top/"/>
-  <updated>2023-05-15T12:10:29.802Z</updated>
+  <updated>2023-05-16T14:18:28.477Z</updated>
   <id>https://hoodrh.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《30篇短文掌握NFT-18》</title>
+    <link href="https://hoodrh.top/2023/18TJB5Q/"/>
+    <id>https://hoodrh.top/2023/18TJB5Q/</id>
+    <published>2023-05-16T13:57:21.000Z</published>
+    <updated>2023-05-16T14:18:28.477Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在加密领域，没有人会永远安全，本篇继续强调资产安全的一些细节。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
+    
+    <category term="NFT" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/"/>
+    
+    
+    <category term="NFT" scheme="https://hoodrh.top/tags/NFT/"/>
+    
+    <category term="crypto" scheme="https://hoodrh.top/tags/crypto/"/>
+    
+  </entry>
   
   <entry>
     <title>《30篇短文掌握NFT-17》</title>
@@ -536,32 +564,6 @@
     
     
     <category term="AI安全性" scheme="https://hoodrh.top/tags/AI%E5%AE%89%E5%85%A8%E6%80%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>去中心化协议Nostr-系列05</title>
-    <link href="https://hoodrh.top/2023/3QQH8HR/"/>
-    <id>https://hoodrh.top/2023/3QQH8HR/</id>
-    <published>2023-02-24T16:28:44.000Z</published>
-    <updated>2023-04-22T12:38:32.921Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;这是一个围绕Nostr协议展开的系列文章，旨在通过这个系列介绍Nostr协议并让更多人进入去中心化的世界。在这一篇中将介绍Nostr网络中非常重要的功能：ZAP&lt;/p&gt;&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="商业" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/"/>
-    
-    <category term="产品" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Nostr" scheme="https://hoodrh.top/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/"/>
-    
-    
-    <category term="去中心化" scheme="https://hoodrh.top/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/"/>
-    
-    <category term="社交协议" scheme="https://hoodrh.top/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/"/>
     
   </entry>
   
