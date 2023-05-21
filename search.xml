@@ -2594,4 +2594,40 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-21》</title>
+    <url>/2023/1NG26FD/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>之前的文章中，我们讲过NFT首次生成时需要mint，即“铸造”，本文就详细了解一下其背后的原理。<span id="more"></span></p>
+<p>min-铸造，就是与NFT智能合约交互从而生成NFT的行为，对一个NFT来mint说这个动作只有在第一次被生成时发生。<br>接下来我们就详细的了解一下在mint的时候，究竟发生了什么。</p>
+<p>我们先来了解一下什么是智能合约，简单来说就是一段存储在区块链上的可执行代码，一般情况下每个智能合约都可以实现一定的功能。</p>
+<p>而mint，就是用户与NFT的智能合约交互，从而由合约生成一个全新的NFT的过程。</p>
+<p>为了让以太坊上的产品可以互相兼容，官方有一套标准，其中生成NFT方面的标准有两个：ERC-721和ERC-1155，用这两个标准就可以创建NFT。（关于ERC可以<a href="https://eips.ethereum.org/erc">看这里</a>，我们主要了解一下这两个标准。）</p>
+<p>ERC-721生成的NFT是唯一的，而ERC-1155生成的NFT可以是唯一的也可以不是唯一的。换句话说，ERC-721生成的NFT是非同质化的，而ERC-1155生成的NFT可以是同质化的，也可以不是同质化的，具体有开发者决定。<br>虽然ERC-1155有更大的选择性，但是目前的数据来看，采用率更高的反而是ERC-721，究其原因可能是早期知名的NFT都是在721的标准上建立的，721标准有更大的用户接受度、更多的项目，相对来说使用更为成熟的标准可以减少项目做用户教育的成本，以及避免使用新标准可能遇到的风险。</p>
+<p>当NFT项目的代码完成并部署在链上时，什么时候、如何、由谁铸造这些问题就是人来控制的了。而mint这个过程，可以由项目方自己mint部分的NFT或者mint全部的NFT，也可以让用户自己去mint；还要说一下的是，如果让用户自己mint，可以提前在代码中设置好mint价格-每个NFT的费用是多少。</p>
+<p>总结一下，我们知道了mint就是人和智能合约交互从而生成NFT的过程，对于一个NFT来说它的生命周期中只有第一次被智能合约生成为NFT时是被“mint”的，我们在交易市场购买NFT或者他人发送给我们NFT都不会进行“mint”操作。和一幅印刷作品类比，mint就是白纸被印上图案的动作，完成后作品就会流入市场。</p>
+<hr>
+<blockquote>
+<p><em><strong>如果想了解更多，您还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a></p>
+<p>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a></p>
+<p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
+<p>Discord闲聊群：<a href="https://discord.gg/AFWAeFdGvu">Hoodrh</a></p>
+<p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
+<p>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a></p>
+<p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>
