@@ -2782,4 +2782,44 @@
         <tag>crypto</tag>
       </tags>
   </entry>
+  <entry>
+    <title>《30篇短文掌握NFT-26》</title>
+    <url>/2023/3VDC8AM/</url>
+    <content><![CDATA[<blockquote>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
+</blockquote>
+<p>在之前的文章(23/24/25)中，我们了解了应用最广泛的NFT类型：艺术、PFP、游戏和元宇宙物品，本文来了解他们之外的NFT类型。<span id="more"></span></p>
+<p>如果你还记得的话，我们在本系列最开始的文章中就讲过-NFT是数字资产，那就意味着NFT是完全数字化的资产或者资产的数字化形式。每个NFT都是非同质化的，意味着它不可被替代，同时我们也可以将任何东西铸造为NFT。</p>
+<p>在艺术、PFP、游戏和元宇宙物品之外，还存在其他类型的NFT，在前面的文章中我们也有简要提及，包括但不限于：会员NFT、域名NFT、POAP、XNFT等。</p>
+<p>接下来分别介绍一下。</p>
+<h4 id="会员NFT"><a href="#会员NFT" class="headerlink" title="会员NFT"></a>会员NFT</h4><p>会员NFT，从名字上就可以理解它的作用，类似于一个购物会员卡或者社团/俱乐部的会员卡。作为购物会员卡，持有人可以在持有NFT的情况下购买物品从而积累积分，获得折扣以及获得礼品等。作为社区会员卡，持有人可以获得某些活动的参与权以及服务折扣等。<br>传统的会员卡，数据都保存在服务商各自的系统中，比如我的亚马逊会员卡并不会对我的乐高会员卡产生影响；每个会员卡之间的数据隔离的同时，单个会员卡的数据也难以被用户掌控，比如亚马逊完全可以删除我长期积累的会员卡记录及积分。但是NFT完全记录在链上，不同的商家可以根据用户数据提供更精准的服务于产品，同时，更重要的是-用户的所有记录和数据是掌握在用户手中的，任何商家和组织无法删除用户以及积累的数据。这保障了用户的数据权益，是非常重要的一部分，在一个数字时代，数据即权益。（最后会带个例子）</p>
+<h4 id="NFT域名"><a href="#NFT域名" class="headerlink" title="NFT域名"></a>NFT域名</h4><p>每个用户的链上地址是一串hash值，不方便记忆和传播，为此可以将它们通过重定向的方式绑定到更加适合人类识别的地址，这个地址就是域名，比如我的个人网站域名为<a href="https://hoodrh.top/">www.hoodrh.top</a> 。<br>在以太坊中，用户地址为一长串数字和字母的组合，比如我的地址为：0xA6097a4adf23553623A7917bbBb28c7bb2a7775c ，为了更方便记忆我可以用 hoodrh.eth 来表示。而这个“.eth”的域名就是一种NFT，可以<a href="https://ens.domains/">通过</a>购买获得。</p>
+<h4 id="POAP"><a href="#POAP" class="headerlink" title="POAP"></a>POAP</h4><p>POAP是一种出席证明协议，用来证明某个人参与了某个活动。通过POAP，活动举办方可以将参与者标记出来，即使过了很久时间也可以通过查询事件找到当时有哪些人参与了活动，对于活动的后续跟进有非常便利的作用。作为活动参与者，POAP可以激励更多人参与活动，像集邮一样收集POAP，通过POAP可以证明自己的活动记录，逐渐形成链上画像。<br>有些POAP具有很高的价值和身份标识意义，比如你参加了一个规格非常高的邀请制加密会议获得的POAP，那这个POAP可以给你带来很多社交和经济方面的好处。</p>
+<h4 id="XNFT"><a href="#XNFT" class="headerlink" title="XNFT"></a>XNFT</h4><p>XNFT是将NFT作为一种程序来使用，也就是说比如我拥有一个加密猿，那我通过给它编写一个智能合约，就可以运行该NFT实现一定的功能。</p>
+<p>当然还有很多NFT类型，比如将每个NFT作为一个钱包，不同NFT可以按层级保存、又或者将NFT作为一种质押物来提供借贷等金融性操作等。如果你对这些NFT类型感兴趣，可以去用一下相关类型的产品或服务，通过亲身体验了解。</p>
+<blockquote>
+<p>数据即权益的例子：<br>美团外卖员是没有五险一金的，因为外卖平台将这个比较大的开支外包出去了，最后一层层外包的结果是：外卖员被注册为个体户了。那外卖员发生伤病或劳务纠纷时就无处寻求权益保护，这种情况下多次发生外卖员跑单数据被平台方删除的现象。通过将跑单数据打包铸造为NFT保存在链上，可以有效保护数据不被删除，保障外卖员的权益。</p>
+</blockquote>
+<hr>
+<blockquote>
+<p><em><strong>如果想了解更多，您还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a></p>
+<p>XLog：<a href="https://hoodrh.xlog.app/">Hoodrh</a></p>
+<p>Twitter: <a href="https://twitter.com/hooodrh">Hoodrh</a></p>
+<p>Discord闲聊群：<a href="https://discord.gg/AFWAeFdGvu">Hoodrh</a></p>
+<p>Mirror：<a href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
+<p>SubStack：<a href="https://hoodrh.substack.com/">Hoodrh</a></p>
+<p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>商业</category>
+        <category>产品</category>
+        <category>NFT</category>
+      </categories>
+      <tags>
+        <tag>NFT</tag>
+        <tag>crypto</tag>
+      </tags>
+  </entry>
 </search>
