@@ -20,23 +20,21 @@
     var CONFIG = {"hostname":"hoodrh.top","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。  💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。">
+  <meta name="description" content="NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。  经过了前面28篇文章，我们已经对NFT以及加密有了一定的了解，也通过一些操作建立了与加密之间的链接。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="去中心化协议Nostr系列06">
-<meta property="og:url" content="https://hoodrh.top/2023/HMEGT4/index.html">
+<meta property="og:title" content="《30篇短文掌握NFT-29》">
+<meta property="og:url" content="https://hoodrh.top/2023/2QBAC82/index.html">
 <meta property="og:site_name" content="胡达尔汗">
-<meta property="og:description" content="这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。  💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。">
+<meta property="og:description" content="NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。  经过了前面28篇文章，我们已经对NFT以及加密有了一定的了解，也通过一些操作建立了与加密之间的链接。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://images.mirror-media.xyz/publication-images/xpPgOicCONCEQY2GKWOEC.png?height=1042&width=968">
-<meta property="article:published_time" content="2023-03-29T14:31:16.000Z">
-<meta property="article:modified_time" content="2023-04-22T12:37:24.880Z">
+<meta property="article:published_time" content="2023-07-03T04:51:01.000Z">
+<meta property="article:modified_time" content="2023-07-03T05:02:21.674Z">
 <meta property="article:author" content="胡达尔汗">
-<meta property="article:tag" content="去中心化">
-<meta property="article:tag" content="社交协议">
+<meta property="article:tag" content="NFT">
+<meta property="article:tag" content="crypto">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://images.mirror-media.xyz/publication-images/xpPgOicCONCEQY2GKWOEC.png?height=1042&width=968">
 
-<link rel="canonical" href="https://hoodrh.top/2023/HMEGT4/">
+<link rel="canonical" href="https://hoodrh.top/2023/2QBAC82/">
 
 
 <script id="page-configurations">
@@ -49,7 +47,7 @@
   };
 </script>
 <script src="/lib/fireworks.js"></script>
-  <title>去中心化协议Nostr系列06 | 胡达尔汗</title>
+  <title>《30篇短文掌握NFT-29》 | 胡达尔汗</title>
   
 
 
@@ -208,7 +206,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2023/HMEGT4/">
+    <link itemprop="mainEntityOfPage" href="https://hoodrh.top/2023/2QBAC82/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
@@ -221,7 +219,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          去中心化协议Nostr系列06
+          《30篇短文掌握NFT-29》
         </h1>
 
         <div class="post-meta">
@@ -230,16 +228,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2023-03-29 22:31:16" itemprop="dateCreated datePublished" datetime="2023-03-29T22:31:16+08:00">2023-03-29</time>
+              <time title="创建时间：2023-07-03 12:51:01 / 修改时间：13:02:21" itemprop="dateCreated datePublished" datetime="2023-07-03T12:51:01+08:00">2023-07-03</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-04-22 20:37:24" itemprop="dateModified" datetime="2023-04-22T20:37:24+08:00">2023-04-22</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -254,7 +246,7 @@
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/Nostr/" itemprop="url" rel="index"><span itemprop="name">Nostr</span></a>
+                  <a href="/categories/%E5%95%86%E4%B8%9A/%E4%BA%A7%E5%93%81/NFT/" itemprop="url" rel="index"><span itemprop="name">NFT</span></a>
                 </span>
             </span>
 
@@ -277,83 +269,32 @@
 
       
         <blockquote>
-<p>这是一个介绍Nostr协议的系列文章，在之前的文章中我们介绍了它的来历、它的基本用法，在这一篇我们将讲述它的工作原理，以及对nostr网络的一些思考。</p>
+<p>NFTs是web3的基础之一，这个系列将通过30篇短小的文章来介绍NFT，让大家从零深入了解并掌握关于NFT的相关知识。</p>
 </blockquote>
-<p><em>💡 奇怪而有趣的是，加泰罗尼亚语中的“ nostre ”和拉丁语中的“noster”意思是“我们的”。</em><span id="more"></span></p>
-<p>Nostr 协议不指定编程语言、平台、数据库等，这允许开发人员在设计和实现中继时完全自由。这吸引了各行各业的开发者和爱好者。目前有 C#、Rust、Go、Java、Python、Kotlin、JavaScript、TypeScript 和 Clojure 的实现。这些中继实现使用 SQLite 或 PostgreSQL 作为它们的数据库。</p>
-<h2 id="Nostr协议的基础元素"><a href="#Nostr协议的基础元素" class="headerlink" title="Nostr协议的基础元素"></a>Nostr协议的基础元素</h2><p>在Nostr协议组成的网络中，我们可以简化出一个最小元素的模型，基本元素包括：用户、客户端client、中继器Relay。三个元素之间的关系可以表示为：</p>
+<p>经过了前面28篇文章，我们已经对NFT以及加密有了一定的了解，也通过一些操作建立了与加密之间的链接。<span id="more"></span></p>
+<p>NFT领域的变化非常快，每时每刻都有新的项目在建立、宣传和没落。身处其中，很多人会被这种氛围影响，到处都是错过恐惧症（FOMO，害怕错过而跟风）。但是我们真的没必要那么担心会错过一个好的项目之类的，针对性的去调研一个项目过程中获得的认知和分析能力会带领我们走向更远的地方，与其焦虑和恐惧，不如去踏踏实实了解、使用、分析具体的项目。</p>
+<p>NFT以及web3为主的加密世界是正在发展的领域，这里存在很多机遇和挑战，同时也满布荆棘和泥沼，产品质量参差、用户体验UX差、功能理解难度大、用户界面UI存在很大改进空间等，对一个专业从事加密工作的人而言都是很难避免出错的，更不用说一个普通用户了。</p>
+<p>经过前面28篇文章的学习，我们已经对NFT领域有了较为深刻的理解和体验，这是一个好的开始。在整个系列中我们没有去讲“要投资哪个项目”，更多的是让我们去看一个项目、分析一个项目。正如上面所说，这个行业是一个快速变化的行业，我们掌握这些分析能力之后，就可以出发了，为之后的远行打下基础。从这里开始，最重要的是：<strong>耐心</strong>，这是一场漫长的旅行，我们要一步步前行。必要的时候，可以回过头去重读这个系列的文章，或许会有新的体会和理解。</p>
+<p>以下是一些建议，希望我们可以一起前进，在这个领域走的更久：</p>
 <ol>
-<li><p>用户使用client，发布和查看内容（event形式传输），需要签名时在客户端完成签名。</p>
-</li>
-<li><p>client将内容发送给Relay传输出去，同时接受Relay传输过来的内容，Relay仅完成对消息的转发。</p>
-<p>我们会发现，client不与client直接发生交流，Relay也不与Relay发生交流。</p>
-</li>
+<li>锻炼身体，我们是一种动物，而不是机械。每天抽出一定的时间去散步、锻炼、走到自然中去，让我们的身体得以放松，在放松的过程中我们才能得以积累继续出发的动力。放心，这个领域不会突然消失，没必要在时间上太过惶恐。</li>
+<li>设定投资限制，在NFT领域投入的资金和精力要有一个限制，不要让你的人生全部都是NFT，留出一些资金和精力给其他东西。</li>
+<li>寻找组织，这个领域在快速变幻，同时也吸引了无数有能力的人进入，加密领域有众多的社区，选择加入一个社区，与志同道合的人共同前进。</li>
+<li>寻找帮助，在NFT领域有太多不确定的东西，我们并不能理解或把握所有内容，在不知所措的时候可以向比你在某方面更专业的人士寻求帮助。</li>
 </ol>
-<p><img src="https://images.mirror-media.xyz/publication-images/xpPgOicCONCEQY2GKWOEC.png?height=1042&width=968" alt="img"></p>
-<p>如上图所示，用户1使用client1 、client2发送消息，用户1使用client1订阅了Relay1和Relay2，所以client1发送出去的消息会被Relay1和Relay2同时往外广播；用户2如果作为消息接收者，TA可以通过client1和client2来接收消息，因为用户2用client1订阅了Relay1和Relay2，所以TA可以通过client1查看来自Relay1和Relay2广播的消息，而用户2在client2只订阅了Relay2所以client2只能接收到Relay2广播的消息。</p>
-<p>到这里我们可以发现一个现象，那就是中继Relay只负责将client发送的消息传输出去，并不会对消息做任何改动，消息（编辑、处理、显示）、用户操作（关注、拉黑、取关、zap）都是在client上完成的，这也就是Nostr协议非常重要的一个发展原则：“<strong>笨中继，智能客户端</strong>”。</p>
-<p>你客户端运行的速度取决于你连接的中继器，因此你可以连接更多中继器以保证使用Nostr网络时有流畅的体验，当更多中继转发我们客户端发送的内容时，客户端使用体验更好。 当你连接的所有中继都断开时，你将找不到你账户发布的所有内容，除非你再次连接这些中继。如果你想确保自己的数据一直保存，你也可以运营自己的中继器，这是指南 <a target="_blank" rel="noopener" href="https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under">https://andreneves.xyz/p/set-up-a-nostr-relay-server-in-under</a></p>
-<h2 id="Nostr协议的优点及应用场景"><a href="#Nostr协议的优点及应用场景" class="headerlink" title="Nostr协议的优点及应用场景"></a>Nostr协议的优点及应用场景</h2><h3 id="Nostr协议的优点："><a href="#Nostr协议的优点：" class="headerlink" title="Nostr协议的优点："></a>Nostr协议的优点：</h3><p>在这样的发展原则下，就会带来以下几点的优点：</p>
-<ol>
-<li><p>实现言论自由</p>
-<p>中继可以阻止用户在那里发布任何内容，但这对他们没有影响，因为他们仍然可以发布到其他中继。由于用户是通过公钥识别的，因此当他们被禁止时，他们不会失去他们的身份和他们的追随者基础。 不需要用户手动输入新的中继地址（虽然这也应该被支持），每当你关注的人发布服务器推荐时，客户端应该自动将其添加到它将查询的中继列表中。 如果有人正在使用一个中继发布他们的数据但想迁移到另一个中继，他们可以发布一个服务器推荐到之前的中继中去； </p>
-<p>如果某人被多次中继禁止，以至于他们无法广播他们的服务器推荐，他们仍然可以通过其他方式让一些亲密的朋友知道他们现在正在哪个中继发布。然后，这些密友可以连接该新服务器查看好友发布的内容，慢慢地，被禁用户的老粉丝群将开始从新中继重新找到他们的帖子。 当继电器停止操作时，上述所有内容也有效。</p>
-<p>在这样的系统中，我们只要保存好自己的私钥和公钥，就不用担心会被内容平台封锁账号，我们的发言权将重新回归到自己手中。</p>
-</li>
-<li><p>抗审查</p>
-<p>每个用户都可以将他们的更新发布到任意数量的中继。 中继可以向用户收取费用（目前该费用的协商不在协议范围内）以在那里发布，这确保了审查抵抗.</p>
-</li>
-<li><p>防止垃圾邮件</p>
-<p>如果垃圾邮件是中继的一个问题，它可能需要支付发布费用或一些其他形式的身份验证，例如电子邮件地址或电话，并将这些在内部与公钥相关联，然后发布到该中继——或其他反垃圾邮件技术，如 hashcash 或验证码。如果中继被用作垃圾邮件载体，它很容易被客户端取消列出，客户端可以继续从其他中继获取内容更新。</p>
-</li>
-<li><p>更优雅的数据存储</p>
-<p>为了让网络保持健康，不需要数百个活跃的中继。事实上，考虑到在现有中继开始出现异常时可以轻松创建新中继并通过网络传播这一事实，它只需少数几个就可以正常工作。因此，所需的数据存储量通常比 Mastodon 或类似软件要少。 或者考虑一个不同的结果：其中存在数百个由业余爱好者运行的利基中继，每个中继都有一小群用户更新的内容。该体系结构也可以扩展：数据从用户发送到单个服务器，然后从该服务器直接发送到将使用该数据的用户。它不必由其他任何人存储。在这种情况下，任何一台服务器处理来自其他服务器的更新都不是很大的负担，拥有业余服务器也不是问题。</p>
-</li>
-<li><p>传输视频等内容</p>
-<p>中继很容易拒绝大型内容，或者在接受和托管大型内容时收费。当信息和激励措施明确时，市场会产生专门的视频服务商来实现视频等文件的传输中继，这将促进新的商业服务的形成。</p>
-</li>
-<li><p>用户掌握自己的信息流</p>
-<p>每个客户端都可以决定如何最好地向用户显示帖子，因此用户始终可以选择以自己想要的方式查看内容——从使用 AI 来决定看到的更新顺序 或者 按时间顺序排序内容。</p>
-</li>
-</ol>
-<h3 id="Nostr协议的应用场景："><a href="#Nostr协议的应用场景：" class="headerlink" title="Nostr协议的应用场景："></a>Nostr协议的应用场景：</h3><p>Nostr 的设计理念是有一天它可以取代 Twitter 作为一个平台，但除此之外，它还可以用于以下应用场景：</p>
-<ol>
-<li>直接和即时消息 </li>
-<li>公共聊天室 </li>
-<li>新闻频道 </li>
-<li>论坛 </li>
-<li>网站 </li>
-<li>代码库 </li>
-<li>虚拟社区 </li>
-<li>游戏（西洋跳棋、国际象棋） </li>
-<li>实时协作 </li>
-<li>优步克隆 </li>
-<li>RSS阅读器 </li>
-<li>投币 </li>
-<li>自动化和家庭自动化 </li>
-<li>表决 </li>
-<li>从其他社交网络到 Nostr 的桥梁（电子邮件、Twitter、Mastodon 等）</li>
-<li>更多功能，期待大家一起去探索</li>
-</ol>
-<h2 id="中继的分类"><a href="#中继的分类" class="headerlink" title="中继的分类"></a>中继的分类</h2><p>任何人都可以开发并运营一个自己的中继，目前已经有人运营中继来实现盈利。对于中继的分类，并没有官方的说明，市面上的中继大致上可以分为三类：</p>
-<ol>
-<li>普通中继：任何人都可以在上面发布内容，相当于一个公共广场，没有对发布的内容进行任何过滤，所以整体信息质量低，内容参差不齐；</li>
-<li>付费中继：有一定的进入门槛，需要付费或者一定的注册流程，会实现一定的内容过滤，但是并不意味着没有垃圾内容。</li>
-<li>封闭中继：只有指定的用户才可以加入其中，是一个内部小圈子专用。比如组织、公司、俱乐部自用中继</li>
-</ol>
-<p>当然，对于更多人来说第一种和第二种中继足以满足我们的需要，你可以在这里查看现有的中继器 <a target="_blank" rel="noopener" href="https://nostr.watch/relays/find">https://nostr.watch/relays/find</a></p>
-<h2 id="关于Nostr的一些思考"><a href="#关于Nostr的一些思考" class="headerlink" title="关于Nostr的一些思考"></a>关于Nostr的一些思考</h2><h3 id="经济系统"><a href="#经济系统" class="headerlink" title="经济系统"></a>经济系统</h3><p>Nostr协议网络从一开始就引入了lightning闪电网络，让整个nostr网络原生就带有一种经济“基因”，那么接下来的工作就是探索可以实现经济交流的业务场景，然后对应该场景开发相应的功能。</p>
-<p>就目前client普遍有的功能来说，一个可以发展出经济系统的功能就是zap，当任何人表达自己的喜欢时，不是用“like”而是用“ZAP”，发送一定数额的sat来支持你喜欢的内容时，创作者经济将会获得成长的可能，当更多人自然的打赏自己欣赏的内容时，打赏文化将在nostr网络中传播，创作者受到激励将输出更高质量的内容，商业飞轮将转动起来。</p>
-<h3 id="生态建设"><a href="#生态建设" class="headerlink" title="生态建设"></a>生态建设</h3><p>Nostr并不是一个应用，它是一个通信协议，就像是地下河一样，我们可以在它之上种各种各样的植物（搭建属于自己的应用来实现各种各样的功能）从而发展一片森林。我们可以想象基于nostr协议将发展出丰富的应用生态。据我在nostr开发者群组的观察以及对GitHub上nostr相关项目的调研发现，开发者的热情还是很高的，他们在快速的开发和迭代新的应用及功能，如果这些开发持续下去的话，nostr生态必然在不久的将来迎来一波爆发。</p>
-<p>当然，也有一些问题需要我们留意，比如很多项目功能相似度高，浪费了生态发展的更多可能性。</p>
-<p>总得来说，开发者是nostr网络发展的根本，有好的应用才能支撑更丰富的功能的实现，而目前的开发者激励是缺失的，开发者都在用爱发点。每一个开发者在开发之前可能要试着去思考如何实现商业化，这不仅有利于自己应用更长远的发展，当更多开发者思考商业模式的时候，整个生态的商业可能性才能被开发出来，这将推动整个生态商业市场的繁荣，进而推动nostr网络的发展和普及。</p>
+<h4 id="出发"><a href="#出发" class="headerlink" title="出发"></a>出发</h4><p>这是一个30篇文章组成的系列，不过，并没有“第30篇”文章的存在，或者说这个“第30篇”并不是我在这里写出来，而是我们每一个人自己去书写，如果你读到了这里，说明你对NFT是真的感兴趣并已经进行了尝试，如果你希望对这个行业的发展有持续的跟进，那我们就一起出发，共同谱写自己在这个行业的美妙旅行。</p>
+<p>本系列文字内容到此终结，感谢朋友们的阅读和陪伴。</p>
+<hr>
 <blockquote>
-<p>***你还可以在这些地方找到我***：</p>
-<p>即刻：hoodrh</p>
-<p>Mirror：<a target="_blank" rel="noopener" href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
+<p><em><strong>如果想了解更多，您还可以在这些地方找到我</strong></em>：<br>数字领地：<a href="https://hoodrh.top/">Hoodrh</a></p>
+<p>XLog：<a target="_blank" rel="noopener" href="https://hoodrh.xlog.app/">Hoodrh</a></p>
 <p>Twitter: <a target="_blank" rel="noopener" href="https://twitter.com/hooodrh">Hoodrh</a></p>
+<p>Discord闲聊群：<a target="_blank" rel="noopener" href="https://discord.gg/AFWAeFdGvu">Hoodrh</a></p>
+<p>Mirror：<a target="_blank" rel="noopener" href="https://mirror.xyz/0xA6097a4adf23553623A7917bbBb28c7bb2a7775c">Hoodrh</a></p>
+<p>SubStack：<a target="_blank" rel="noopener" href="https://hoodrh.substack.com/">Hoodrh</a></p>
 <p>Nostr: npub1e9euzeaeyten7926t2ecmuxkv3l55vefz48jdlsqgcjzwnvykfusmj820c</p>
 </blockquote>
+<hr>
 
     </div>
 
@@ -387,7 +328,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://hoodrh.top/2023/HMEGT4/" title="去中心化协议Nostr系列06">https://hoodrh.top/2023/HMEGT4/</a>
+    <a href="https://hoodrh.top/2023/2QBAC82/" title="《30篇短文掌握NFT-29》">https://hoodrh.top/2023/2QBAC82/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -398,8 +339,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/" rel="tag"># 去中心化</a>
-              <a href="/tags/%E7%A4%BE%E4%BA%A4%E5%8D%8F%E8%AE%AE/" rel="tag"># 社交协议</a>
+              <a href="/tags/NFT/" rel="tag"># NFT</a>
+              <a href="/tags/crypto/" rel="tag"># crypto</a>
           </div>
 
         
@@ -408,13 +349,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/2JMCDRW/" rel="prev" title="ChatGPT热潮中的冷静剂-AI安全性研究">
-      <i class="fa fa-chevron-left"></i> ChatGPT热潮中的冷静剂-AI安全性研究
+    <a href="/2023/B0JNK7/" rel="prev" title="《30篇短文掌握NFT-28》">
+      <i class="fa fa-chevron-left"></i> 《30篇短文掌握NFT-28》
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2023/2M03MB2/" rel="next" title="【NO.14-关于写作的思考】">
-      【NO.14-关于写作的思考】 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -473,7 +411,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Nostr%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%9F%BA%E7%A1%80%E5%85%83%E7%B4%A0"><span class="nav-text">Nostr协议的基础元素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Nostr%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BC%98%E7%82%B9%E5%8F%8A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="nav-text">Nostr协议的优点及应用场景</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Nostr%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BC%98%E7%82%B9%EF%BC%9A"><span class="nav-text">Nostr协议的优点：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nostr%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%EF%BC%9A"><span class="nav-text">Nostr协议的应用场景：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%AD%E7%BB%A7%E7%9A%84%E5%88%86%E7%B1%BB"><span class="nav-text">中继的分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8ENostr%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83"><span class="nav-text">关于Nostr的一些思考</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%8F%E6%B5%8E%E7%B3%BB%E7%BB%9F"><span class="nav-text">经济系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9F%E6%80%81%E5%BB%BA%E8%AE%BE"><span class="nav-text">生态建设</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%87%BA%E5%8F%91"><span class="nav-text">出发</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
